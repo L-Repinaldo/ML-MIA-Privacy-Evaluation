@@ -1,0 +1,19 @@
+{
+  "dataset_version": "v-2026-03-02_18-10-54",
+  "timestamp": "2026-05-31T21:22:58.279776",
+  "modelos": [
+    "XGBoost",
+    "Random Forest",
+    "Gradient Boosting",
+    "Extra Trees"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "test_sizes": [
+    0.2,
+    0.3
+  ]
+}
