@@ -1,0 +1,21 @@
+model,dataset,test_mae,train_mae,generalization_gap_%
+XGBoost,baseline,580.514,107.341,81.503
+XGBoost,eps_0.1,6475.128,1138.435,82.397
+XGBoost,eps_0.5,2310.265,277.049,87.998
+XGBoost,eps_1.0,1356.471,174.577,87.1
+XGBoost,eps_2.0,854.816,111.65,86.921
+Random Forest,baseline,533.822,328.691,38.279
+Random Forest,eps_0.1,6061.387,3555.863,41.328
+Random Forest,eps_0.5,2078.111,1100.336,47.044
+Random Forest,eps_1.0,1247.228,672.67,45.91
+Random Forest,eps_2.0,786.402,415.154,47.104
+Gradient Boosting,baseline,580.962,106.062,81.721
+Gradient Boosting,eps_0.1,6270.34,1700.097,72.868
+Gradient Boosting,eps_0.5,2223.626,471.412,78.808
+Gradient Boosting,eps_1.0,1342.251,284.305,78.8
+Gradient Boosting,eps_2.0,838.774,176.816,78.855
+Extra Trees,baseline,520.254,464.815,10.491
+Extra Trees,eps_0.1,5835.613,5385.502,7.706
+Extra Trees,eps_0.5,2006.232,1757.789,12.345
+Extra Trees,eps_1.0,1218.356,1094.825,9.932
+Extra Trees,eps_2.0,764.053,687.447,9.834

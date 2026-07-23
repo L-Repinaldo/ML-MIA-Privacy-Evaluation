@@ -1,0 +1,21 @@
+model,dataset,attack_acc,member_acc,non_member_acc,advantage
+XGBoost,baseline,0.505,0.507,0.504,0.011
+XGBoost,eps_0.1,0.523,0.528,0.518,0.045
+XGBoost,eps_0.5,0.51,0.537,0.483,0.02
+XGBoost,eps_1.0,0.519,0.499,0.54,0.039
+XGBoost,eps_2.0,0.509,0.501,0.517,0.018
+Random Forest,baseline,0.512,0.517,0.507,0.024
+Random Forest,eps_0.1,0.505,0.516,0.494,0.01
+Random Forest,eps_0.5,0.505,0.514,0.497,0.011
+Random Forest,eps_1.0,0.5,0.49,0.51,0.0
+Random Forest,eps_2.0,0.505,0.51,0.5,0.009
+Gradient Boosting,baseline,0.504,0.511,0.498,0.009
+Gradient Boosting,eps_0.1,0.507,0.488,0.527,0.014
+Gradient Boosting,eps_0.5,0.511,0.532,0.491,0.023
+Gradient Boosting,eps_1.0,0.507,0.503,0.511,0.015
+Gradient Boosting,eps_2.0,0.501,0.518,0.484,0.002
+Extra Trees,baseline,0.509,0.511,0.506,0.017
+Extra Trees,eps_0.1,0.508,0.516,0.5,0.016
+Extra Trees,eps_0.5,0.493,0.477,0.51,-0.014
+Extra Trees,eps_1.0,0.497,0.479,0.515,-0.005
+Extra Trees,eps_2.0,0.522,0.529,0.516,0.045

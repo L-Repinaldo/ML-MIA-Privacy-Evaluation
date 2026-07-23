@@ -1,0 +1,3607 @@
+salario,idade,tempo_na_empresa,nota_media,qtd_beneficios,cargo,setor
+4500.0,35,4,0.0,5,Administrador do Sistema,Administração
+7407.48,36,3,3.0,6,Analista de RH,Tecnologia
+4034.0,43,3,3.5,6,Analista de RH,Operações
+6474.0,50,10,5.444444444444445,6,Analista de RH,Recursos Humanos
+4048.0,57,7,4.166666666666667,6,Analista de RH,Administração
+7691.63,53,2,9.0,6,Analista de RH,Tecnologia
+8046.97,47,10,5.375,6,Analista de RH,Operações
+8577.11,59,9,6.0,6,Analista de RH,Tecnologia
+10103.91,45,6,8.2,6,Analista de RH,Recursos Humanos
+3870.63,44,2,5.0,3,Funcionário,Administração
+4452.66,58,5,3.25,3,Funcionário,Administração
+5067.66,55,5,7.5,3,Funcionário,Administração
+8856.68,48,8,3.857142857142857,6,Analista de RH,Operações
+8973.47,29,9,4.25,6,Analista de RH,Administração
+5438.09,48,7,6.0,3,Funcionário,Operações
+8035.54,63,8,3.142857142857143,6,Analista de RH,Tecnologia
+9368.91,54,6,6.4,6,Analista de RH,Administração
+4703.47,52,9,4.25,3,Funcionário,Operações
+3890.74,33,0,0.0,3,Funcionário,Tecnologia
+3153.63,47,2,1.0,3,Funcionário,Tecnologia
+8982.63,60,2,8.0,6,Analista de RH,Administração
+4921.75,47,7,5.666666666666667,3,Funcionário,Operações
+6857.63,53,2,3.0,6,Analista de RH,Recursos Humanos
+4712.26,20,10,5.0,3,Funcionário,Tecnologia
+3660.48,47,3,3.5,3,Funcionário,Administração
+4495.68,36,8,4.857142857142857,3,Funcionário,Tecnologia
+3784.63,36,2,5.0,3,Funcionário,Operações
+4523.97,31,8,5.285714285714286,3,Funcionário,Recursos Humanos
+9047.66,55,5,5.25,6,Analista de RH,Administração
+9792.04,19,10,5.444444444444445,6,Analista de RH,Tecnologia
+7835.48,65,3,4.5,6,Analista de RH,Operações
+7254.74,63,0,0.0,6,Analista de RH,Tecnologia
+7915.66,20,6,4.25,6,Analista de RH,Administração
+6822.47,64,9,4.0,6,Analista de RH,Operações
+8116.42,27,7,4.333333333333333,6,Analista de RH,Operações
+7913.47,49,9,5.25,6,Analista de RH,Administração
+8613.91,26,6,2.2,6,Analista de RH,Operações
+7804.63,29,1,0.0,6,Analista de RH,Administração
+5865.63,35,1,0.0,6,Analista de RH,Administração
+7544.42,55,7,5.333333333333333,6,Analista de RH,Tecnologia
+4698.09,55,7,4.5,3,Funcionário,Recursos Humanos
+7279.11,61,8,7.0,6,Analista de RH,Operações
+9089.88,48,4,6.0,6,Analista de RH,Operações
+7212.47,50,9,4.0,6,Analista de RH,Operações
+4475.48,58,3,7.5,3,Funcionário,Operações
+6999.48,51,4,6.0,6,Analista de RH,Tecnologia
+7509.49,39,10,4.555555555555555,6,Analista de RH,Operações
+8235.63,38,1,0.0,6,Analista de RH,Recursos Humanos
+4325.91,32,6,4.4,3,Funcionário,Recursos Humanos
+5065.09,49,7,5.0,3,Funcionário,Operações
+9600.22,25,4,6.333333333333333,6,Analista de RH,Recursos Humanos
+4720.66,63,5,5.5,3,Funcionário,Tecnologia
+6957.63,31,2,1.0,6,Analista de RH,Tecnologia
+4503.66,26,5,4.0,3,Funcionário,Operações
+3896.63,56,2,4.0,3,Funcionário,Recursos Humanos
+6644.63,44,2,1.0,6,Analista de RH,Tecnologia
+8413.48,63,3,6.0,6,Analista de RH,Recursos Humanos
+6127.48,21,3,3.5,6,Analista de RH,Tecnologia
+4416.63,27,2,7.0,3,Funcionário,Operações
+7785.97,43,8,4.285714285714286,6,Analista de RH,Administração
+4840.47,42,10,4.0,3,Funcionário,Tecnologia
+4295.97,23,9,3.625,3,Funcionário,Recursos Humanos
+4632.97,32,9,4.125,3,Funcionário,Recursos Humanos
+5556.47,28,9,6.25,3,Funcionário,Operações
+2307.0,62,7,4.0,3,Funcionário,Recursos Humanos
+1747.0,55,2,7.0,3,Funcionário,Administração
+6759.0,38,5,6.5,6,Analista de RH,Tecnologia
+14000.0,29,0,0.0,6,Gerente,Administração
+14500.0,26,3,0.0,6,Gerente,Operações
+15000.0,31,11,0.0,6,Gerente,Tecnologia
+10000.0,24,1,0.0,6,Gerente,Recursos Humanos
+5422.63,65,3,1.0,6,Analista de RH,Tecnologia
+3140.74,40,1,0.0,3,Funcionário,Operações
+4342.48,41,4,5.5,3,Funcionário,Tecnologia
+4393.47,65,9,4.25,3,Funcionário,Recursos Humanos
+5086.91,25,7,5.6,3,Funcionário,Recursos Humanos
+4729.49,59,11,5.555555555555555,3,Funcionário,Operações
+3630.74,50,0,0.0,3,Funcionário,Operações
+4379.48,58,3,7.0,3,Funcionário,Operações
+8980.54,62,8,5.142857142857143,6,Analista de RH,Administração
+4624.63,47,2,10.0,3,Funcionário,Administração
+6023.48,48,3,3.5,6,Analista de RH,Administração
+9782.47,27,9,7.5,6,Analista de RH,Operações
+9467.91,37,7,5.2,6,Analista de RH,Tecnologia
+7745.63,22,1,0.0,6,Analista de RH,Tecnologia
+4691.15,48,10,5.222222222222222,3,Funcionário,Tecnologia
+7673.48,45,3,2.5,6,Analista de RH,Operações
+9107.09,55,8,5.5,6,Analista de RH,Recursos Humanos
+6482.66,26,5,4.0,6,Analista de RH,Administração
+3532.63,43,1,0.0,3,Funcionário,Administração
+5164.15,22,11,6.222222222222222,3,Funcionário,Recursos Humanos
+8933.6,34,10,6.333333333333333,6,Analista de RH,Recursos Humanos
+5536.47,28,10,6.25,3,Funcionário,Operações
+9410.09,36,7,4.5,6,Analista de RH,Recursos Humanos
+6145.74,46,0,0.0,6,Analista de RH,Tecnologia
+4514.63,50,2,7.0,3,Funcionário,Recursos Humanos
+3841.74,22,0,0.0,3,Funcionário,Recursos Humanos
+7828.04,62,10,4.444444444444445,6,Analista de RH,Administração
+8788.47,24,9,5.0,6,Analista de RH,Administração
+7872.47,54,10,5.0,6,Analista de RH,Tecnologia
+8508.48,49,4,6.5,6,Analista de RH,Administração
+8048.47,31,9,3.5,6,Analista de RH,Recursos Humanos
+4546.66,22,5,6.25,3,Funcionário,Operações
+7919.88,22,4,6.0,6,Analista de RH,Recursos Humanos
+7641.68,62,8,3.857142857142857,6,Analista de RH,Tecnologia
+8257.09,49,7,3.5,6,Analista de RH,Administração
+3090.74,43,0,0.0,3,Funcionário,Tecnologia
+4714.48,27,4,5.5,3,Funcionário,Recursos Humanos
+9760.47,31,9,7.0,6,Analista de RH,Tecnologia
+7131.71,39,10,5.111111111111111,6,Analista de RH,Recursos Humanos
+4594.48,41,3,8.0,3,Funcionário,Recursos Humanos
+4638.66,46,6,6.0,3,Funcionário,Operações
+9102.63,32,2,8.0,6,Analista de RH,Recursos Humanos
+7504.48,24,3,7.0,6,Analista de RH,Tecnologia
+3875.63,38,1,0.0,3,Funcionário,Operações
+4810.66,44,5,7.0,3,Funcionário,Tecnologia
+8086.04,34,10,5.444444444444445,6,Analista de RH,Operações
+4048.4,25,8,3.4285714285714284,3,Funcionário,Recursos Humanos
+6547.22,61,5,5.333333333333333,6,Analista de RH,Administração
+3882.63,23,1,0.0,3,Funcionário,Operações
+4258.48,29,3,6.5,3,Funcionário,Tecnologia
+8675.91,28,7,6.0,6,Analista de RH,Operações
+4863.91,33,6,6.2,3,Funcionário,Tecnologia
+8168.42,35,7,7.333333333333333,6,Analista de RH,Operações
+7822.91,62,7,5.8,6,Analista de RH,Tecnologia
+7598.48,42,3,4.0,6,Analista de RH,Administração
+4087.91,64,6,4.8,3,Funcionário,Recursos Humanos
+4653.42,53,7,5.333333333333333,3,Funcionário,Operações
+4675.49,55,10,3.5555555555555554,3,Funcionário,Recursos Humanos
+3629.91,50,6,1.8,3,Funcionário,Administração
+7289.47,37,9,5.25,6,Analista de RH,Administração
+4531.22,30,4,4.333333333333333,3,Funcionário,Recursos Humanos
+4062.66,60,6,4.5,3,Funcionário,Administração
+7884.97,59,9,3.625,6,Analista de RH,Recursos Humanos
+5518.63,56,3,2.0,6,Analista de RH,Tecnologia
+8610.66,57,5,2.75,6,Analista de RH,Recursos Humanos
+8158.68,22,8,3.857142857142857,6,Analista de RH,Tecnologia
+4874.71,24,10,5.111111111111111,3,Funcionário,Operações
+7591.97,43,9,5.625,6,Analista de RH,Tecnologia
+7706.09,24,7,3.5,6,Analista de RH,Operações
+5129.55,66,4,6.666666666666667,3,Funcionário,Operações
+4891.97,46,10,5.375,3,Funcionário,Administração
+4738.63,63,2,7.0,3,Funcionário,Tecnologia
+8382.09,26,7,7.0,6,Analista de RH,Tecnologia
+8626.63,47,2,0.0,6,Analista de RH,Operações
+7968.63,24,1,0.0,6,Analista de RH,Administração
+5101.09,40,8,5.0,3,Funcionário,Tecnologia
+10096.71,26,10,6.111111111111111,6,Analista de RH,Recursos Humanos
+7000.63,20,2,6.0,6,Analista de RH,Tecnologia
+9437.47,40,9,5.0,6,Analista de RH,Recursos Humanos
+6470.63,38,2,2.0,6,Analista de RH,Recursos Humanos
+4504.09,19,7,4.0,3,Funcionário,Recursos Humanos
+5089.71,45,10,6.111111111111111,3,Funcionário,Tecnologia
+9691.15,24,10,5.222222222222222,6,Analista de RH,Administração
+9975.97,31,9,6.125,6,Analista de RH,Tecnologia
+4002.22,45,5,2.3333333333333335,3,Funcionário,Tecnologia
+4676.97,56,10,4.375,3,Funcionário,Administração
+8951.97,44,9,6.625,6,Analista de RH,Administração
+4502.22,23,4,4.333333333333333,3,Funcionário,Administração
+5529.91,38,6,7.8,3,Funcionário,Tecnologia
+5295.09,60,8,7.5,3,Funcionário,Tecnologia
+4314.66,51,5,6.25,3,Funcionário,Recursos Humanos
+3860.74,40,0,0.0,3,Funcionário,Recursos Humanos
+4494.09,41,8,4.5,3,Funcionário,Administração
+8361.49,41,10,4.555555555555555,6,Analista de RH,Recursos Humanos
+4558.88,43,4,7.0,3,Funcionário,Operações
+8573.63,57,3,6.0,6,Analista de RH,Recursos Humanos
+3507.74,22,0,0.0,3,Funcionário,Tecnologia
+4306.04,29,10,3.4444444444444446,3,Funcionário,Operações
+7663.91,22,7,5.0,6,Analista de RH,Operações
+4313.66,33,5,4.75,3,Funcionário,Recursos Humanos
+3437.63,36,2,4.0,3,Funcionário,Tecnologia
+8953.55,60,4,6.666666666666667,6,Analista de RH,Recursos Humanos
+3979.63,48,1,0.0,3,Funcionário,Administração
+7284.91,22,7,6.8,6,Analista de RH,Recursos Humanos
+3684.63,43,1,0.0,3,Funcionário,Operações
+7409.91,25,6,6.0,6,Analista de RH,Tecnologia
+3356.63,35,1,0.0,3,Funcionário,Administração
+8456.63,30,2,6.0,6,Analista de RH,Operações
+4924.42,31,7,4.833333333333333,3,Funcionário,Recursos Humanos
+6305.74,45,0,0.0,6,Analista de RH,Operações
+9215.09,42,7,6.0,6,Analista de RH,Recursos Humanos
+7380.91,31,6,3.8,6,Analista de RH,Recursos Humanos
+4565.63,64,2,9.0,3,Funcionário,Recursos Humanos
+9019.91,47,6,6.2,6,Analista de RH,Administração
+5105.97,62,9,6.125,3,Funcionário,Administração
+8843.47,53,9,5.75,6,Analista de RH,Operações
+8348.91,30,6,3.2,6,Analista de RH,Recursos Humanos
+4780.26,37,8,3.7142857142857144,3,Funcionário,Administração
+4659.91,52,6,4.6,3,Funcionário,Tecnologia
+6460.74,62,0,0.0,6,Analista de RH,Operações
+4254.66,26,5,3.75,3,Funcionário,Recursos Humanos
+3837.63,48,1,0.0,3,Funcionário,Operações
+5077.42,21,7,5.833333333333333,3,Funcionário,Tecnologia
+3071.74,34,0,0.0,3,Funcionário,Recursos Humanos
+4160.63,20,2,7.0,3,Funcionário,Operações
+4755.42,30,8,5.333333333333333,3,Funcionário,Operações
+8939.48,35,3,5.0,6,Analista de RH,Operações
+4514.82,24,10,4.888888888888889,3,Funcionário,Operações
+6523.55,59,4,3.6666666666666665,6,Analista de RH,Operações
+7124.63,30,2,0.0,6,Analista de RH,Operações
+4865.75,58,7,5.666666666666667,3,Funcionário,Administração
+4043.63,48,2,5.0,3,Funcionário,Tecnologia
+5978.63,42,1,0.0,6,Analista de RH,Recursos Humanos
+4920.91,58,6,5.8,3,Funcionário,Operações
+7192.26,34,9,5.714285714285714,6,Analista de RH,Tecnologia
+3978.48,49,3,4.5,3,Funcionário,Administração
+9686.91,26,6,5.8,6,Analista de RH,Operações
+3967.91,28,6,2.4,3,Funcionário,Recursos Humanos
+7276.11,40,8,7.0,6,Analista de RH,Tecnologia
+7481.91,35,6,3.6,6,Analista de RH,Recursos Humanos
+5282.97,63,9,5.125,3,Funcionário,Operações
+6043.22,31,5,3.3333333333333335,6,Analista de RH,Administração
+3375.74,23,0,0.0,3,Funcionário,Recursos Humanos
+3604.63,37,2,4.0,3,Funcionário,Recursos Humanos
+8466.11,56,8,5.0,6,Analista de RH,Tecnologia
+7480.97,19,10,5.375,6,Analista de RH,Tecnologia
+4768.71,27,10,3.111111111111111,3,Funcionário,Administração
+6884.47,20,10,3.75,6,Analista de RH,Recursos Humanos
+6252.74,30,0,0.0,6,Analista de RH,Tecnologia
+3913.63,51,2,0.0,3,Funcionário,Administração
+5363.75,21,7,7.666666666666667,3,Funcionário,Recursos Humanos
+8685.15,30,10,5.222222222222222,6,Analista de RH,Tecnologia
+3810.48,21,3,5.5,3,Funcionário,Recursos Humanos
+7325.55,19,5,6.666666666666667,6,Analista de RH,Tecnologia
+5236.97,50,9,6.125,3,Funcionário,Administração
+6805.74,47,0,0.0,6,Analista de RH,Recursos Humanos
+3267.74,54,0,0.0,3,Funcionário,Recursos Humanos
+8199.55,29,4,3.6666666666666665,6,Analista de RH,Administração
+5175.09,58,7,6.0,3,Funcionário,Recursos Humanos
+8479.91,36,6,6.0,6,Analista de RH,Tecnologia
+3941.22,65,4,3.3333333333333335,3,Funcionário,Tecnologia
+4035.63,62,1,0.0,3,Funcionário,Operações
+8661.48,49,3,3.5,6,Analista de RH,Operações
+8877.48,65,4,7.5,6,Analista de RH,Tecnologia
+4106.6,54,10,3.3333333333333335,3,Funcionário,Administração
+5799.74,23,0,0.0,6,Analista de RH,Tecnologia
+7179.68,32,8,3.857142857142857,6,Analista de RH,Operações
+7799.63,31,2,8.0,6,Analista de RH,Recursos Humanos
+9020.66,50,5,3.5,6,Analista de RH,Recursos Humanos
+3420.63,53,1,0.0,3,Funcionário,Administração
+4583.09,54,8,6.0,3,Funcionário,Tecnologia
+5656.47,42,9,6.25,3,Funcionário,Tecnologia
+6992.42,22,8,5.833333333333333,6,Analista de RH,Operações
+7545.97,23,10,4.875,6,Analista de RH,Operações
+3010.74,63,0,0.0,3,Funcionário,Administração
+4728.91,56,6,5.4,3,Funcionário,Tecnologia
+8471.47,48,9,4.75,6,Analista de RH,Recursos Humanos
+3589.74,47,0,0.0,3,Funcionário,Recursos Humanos
+7906.47,20,9,2.5,6,Analista de RH,Tecnologia
+7784.22,33,4,6.333333333333333,6,Analista de RH,Operações
+3505.63,42,1,0.0,3,Funcionário,Recursos Humanos
+4764.97,26,9,5.125,3,Funcionário,Administração
+3577.74,21,0,0.0,3,Funcionário,Administração
+7515.91,52,6,4.4,6,Analista de RH,Administração
+4289.66,19,5,4.75,3,Funcionário,Tecnologia
+8907.26,64,10,5.0,6,Analista de RH,Operações
+7492.47,29,9,6.5,6,Analista de RH,Tecnologia
+4401.88,47,4,5.0,3,Funcionário,Administração
+4925.48,31,3,6.5,3,Funcionário,Tecnologia
+8343.22,51,5,3.3333333333333335,6,Analista de RH,Tecnologia
+8493.55,55,4,8.666666666666666,6,Analista de RH,Recursos Humanos
+3787.74,56,0,0.0,3,Funcionário,Administração
+7688.97,21,9,5.875,6,Analista de RH,Administração
+5313.47,29,9,6.25,3,Funcionário,Recursos Humanos
+4839.26,41,9,3.7142857142857144,3,Funcionário,Operações
+8624.63,26,1,0.0,6,Analista de RH,Administração
+3552.74,57,0,0.0,3,Funcionário,Administração
+4246.09,50,7,4.5,3,Funcionário,Administração
+3548.74,53,1,0.0,3,Funcionário,Tecnologia
+8461.63,41,2,3.0,6,Analista de RH,Tecnologia
+4929.63,30,2,8.0,3,Funcionário,Tecnologia
+5315.26,50,10,6.0,3,Funcionário,Recursos Humanos
+4594.66,48,5,4.5,3,Funcionário,Tecnologia
+8051.74,21,0,0.0,6,Analista de RH,Administração
+3435.63,64,2,0.0,3,Funcionário,Operações
+4575.66,36,6,4.75,3,Funcionário,Administração
+8938.68,48,8,5.857142857142857,6,Analista de RH,Operações
+3593.74,30,0,0.0,3,Funcionário,Recursos Humanos
+8381.75,22,7,2.6666666666666665,6,Analista de RH,Recursos Humanos
+4229.66,60,6,3.25,3,Funcionário,Operações
+8960.91,40,6,4.0,6,Analista de RH,Administração
+8624.91,64,6,4.4,6,Analista de RH,Administração
+5038.26,50,11,5.0,3,Funcionário,Tecnologia
+8567.63,42,1,0.0,6,Analista de RH,Recursos Humanos
+8497.49,28,10,6.555555555555555,6,Analista de RH,Operações
+3242.63,26,1,0.0,3,Funcionário,Recursos Humanos
+8626.55,38,4,4.666666666666667,6,Analista de RH,Tecnologia
+3601.63,61,1,0.0,3,Funcionário,Operações
+7834.91,20,6,4.6,6,Analista de RH,Recursos Humanos
+7428.63,37,3,5.0,6,Analista de RH,Tecnologia
+7560.91,45,6,5.8,6,Analista de RH,Administração
+4627.09,55,7,6.5,3,Funcionário,Recursos Humanos
+4378.75,28,7,4.166666666666667,3,Funcionário,Recursos Humanos
+5169.88,26,4,8.0,3,Funcionário,Operações
+5060.4,59,8,6.428571428571429,3,Funcionário,Administração
+7728.75,44,7,5.666666666666667,6,Analista de RH,Operações
+4279.48,42,4,7.0,3,Funcionário,Tecnologia
+7237.04,40,10,5.444444444444445,6,Analista de RH,Operações
+3712.74,51,0,0.0,3,Funcionário,Administração
+9135.91,48,6,5.4,6,Analista de RH,Recursos Humanos
+8397.22,22,4,5.333333333333333,6,Analista de RH,Tecnologia
+6813.09,40,7,3.0,6,Analista de RH,Operações
+3800.74,61,0,0.0,3,Funcionário,Operações
+4437.22,45,4,5.333333333333333,3,Funcionário,Tecnologia
+5279.97,23,9,5.125,3,Funcionário,Tecnologia
+4833.91,29,6,5.4,3,Funcionário,Administração
+7461.04,47,11,6.444444444444445,6,Analista de RH,Recursos Humanos
+4720.71,45,11,4.111111111111111,3,Funcionário,Operações
+4557.48,28,3,6.5,3,Funcionário,Operações
+8296.63,46,2,4.0,6,Analista de RH,Recursos Humanos
+4849.42,64,7,4.333333333333333,3,Funcionário,Tecnologia
+4652.91,57,6,3.8,3,Funcionário,Administração
+6559.63,65,1,0.0,6,Analista de RH,Tecnologia
+8342.91,54,6,6.0,6,Analista de RH,Recursos Humanos
+3994.63,23,2,0.0,3,Funcionário,Administração
+4320.97,24,9,4.125,3,Funcionário,Recursos Humanos
+8411.74,41,0,0.0,6,Analista de RH,Administração
+6991.91,36,6,6.6,6,Analista de RH,Tecnologia
+8337.74,38,0,0.0,6,Analista de RH,Tecnologia
+7545.42,52,7,4.833333333333333,6,Analista de RH,Recursos Humanos
+3988.48,48,3,6.0,3,Funcionário,Tecnologia
+5304.38,63,10,5.777777777777778,3,Funcionário,Tecnologia
+8004.66,21,5,6.75,6,Analista de RH,Recursos Humanos
+4817.91,32,6,6.0,3,Funcionário,Operações
+3796.48,58,3,4.0,3,Funcionário,Recursos Humanos
+4815.66,25,5,4.25,3,Funcionário,Recursos Humanos
+7472.91,37,7,4.4,6,Analista de RH,Operações
+9637.63,63,2,9.0,6,Analista de RH,Recursos Humanos
+6907.63,26,2,5.0,6,Analista de RH,Recursos Humanos
+3524.74,51,0,0.0,3,Funcionário,Tecnologia
+6483.63,26,3,1.0,6,Analista de RH,Tecnologia
+8390.91,44,6,5.8,6,Analista de RH,Recursos Humanos
+8454.47,26,10,4.75,6,Analista de RH,Recursos Humanos
+3440.74,27,1,0.0,3,Funcionário,Tecnologia
+4692.42,54,7,5.333333333333333,3,Funcionário,Recursos Humanos
+4737.75,56,7,5.166666666666667,3,Funcionário,Recursos Humanos
+7612.22,23,4,2.3333333333333335,6,Analista de RH,Operações
+5739.63,32,1,0.0,6,Analista de RH,Operações
+4153.91,58,6,3.0,3,Funcionário,Operações
+3249.74,47,0,0.0,3,Funcionário,Recursos Humanos
+4819.04,33,10,6.444444444444445,3,Funcionário,Administração
+3348.48,23,3,2.5,3,Funcionário,Recursos Humanos
+8517.63,64,2,4.0,6,Analista de RH,Operações
+8780.75,43,7,5.666666666666667,6,Analista de RH,Recursos Humanos
+5026.66,65,5,6.5,3,Funcionário,Tecnologia
+5047.97,53,9,5.625,3,Funcionário,Operações
+4945.75,47,7,5.166666666666667,3,Funcionário,Recursos Humanos
+4032.63,52,2,7.0,3,Funcionário,Recursos Humanos
+6368.91,26,6,3.6,6,Analista de RH,Recursos Humanos
+5235.75,55,7,7.666666666666667,3,Funcionário,Tecnologia
+8669.83,27,9,4.571428571428571,6,Analista de RH,Tecnologia
+5069.71,36,10,5.111111111111111,3,Funcionário,Operações
+4669.26,23,8,5.714285714285714,3,Funcionário,Administração
+4324.22,34,4,4.333333333333333,3,Funcionário,Tecnologia
+4565.66,62,5,6.5,3,Funcionário,Tecnologia
+6086.22,23,5,2.3333333333333335,6,Analista de RH,Operações
+7305.97,51,8,5.285714285714286,6,Analista de RH,Recursos Humanos
+6740.66,28,5,5.25,6,Analista de RH,Recursos Humanos
+7863.63,43,1,0.0,6,Analista de RH,Operações
+7723.22,30,4,5.333333333333333,6,Analista de RH,Tecnologia
+3818.55,43,4,3.6666666666666665,3,Funcionário,Administração
+8886.42,32,7,4.833333333333333,6,Analista de RH,Operações
+5017.71,60,10,6.111111111111111,3,Funcionário,Tecnologia
+4190.09,59,7,4.5,3,Funcionário,Recursos Humanos
+3885.63,55,2,0.0,3,Funcionário,Tecnologia
+7973.63,59,1,0.0,6,Analista de RH,Recursos Humanos
+7641.49,22,10,5.555555555555555,6,Analista de RH,Recursos Humanos
+6885.63,46,2,4.0,6,Analista de RH,Administração
+9040.15,58,11,6.222222222222222,6,Analista de RH,Tecnologia
+7296.75,49,7,3.1666666666666665,6,Analista de RH,Operações
+7558.83,63,8,4.571428571428571,6,Analista de RH,Administração
+4943.47,57,9,3.75,3,Funcionário,Tecnologia
+4604.63,53,2,9.0,3,Funcionário,Operações
+7313.09,63,7,5.5,6,Analista de RH,Administração
+5638.74,43,1,0.0,6,Analista de RH,Tecnologia
+7823.66,44,5,6.75,6,Analista de RH,Administração
+4474.48,27,3,5.0,3,Funcionário,Operações
+8348.66,21,5,6.5,6,Analista de RH,Recursos Humanos
+8159.63,54,1,0.0,6,Analista de RH,Administração
+5030.42,34,8,5.333333333333333,3,Funcionário,Administração
+8657.63,61,1,0.0,6,Analista de RH,Tecnologia
+8169.63,46,3,5.0,6,Analista de RH,Administração
+4233.63,51,2,5.0,3,Funcionário,Recursos Humanos
+4114.91,19,6,3.2,3,Funcionário,Administração
+9888.91,34,6,7.0,6,Analista de RH,Recursos Humanos
+8408.48,62,3,8.5,6,Analista de RH,Tecnologia
+9270.54,39,8,6.142857142857143,6,Analista de RH,Recursos Humanos
+4204.66,54,5,4.25,3,Funcionário,Administração
+6425.55,42,4,4.666666666666667,6,Analista de RH,Administração
+6406.88,60,5,3.0,6,Analista de RH,Operações
+5073.75,44,7,6.166666666666667,3,Funcionário,Administração
+8518.48,50,3,6.0,6,Analista de RH,Recursos Humanos
+8133.75,41,8,6.666666666666667,6,Analista de RH,Operações
+5925.63,47,2,1.0,6,Analista de RH,Operações
+4951.75,62,7,5.666666666666667,3,Funcionário,Recursos Humanos
+3880.63,46,1,0.0,3,Funcionário,Tecnologia
+3548.74,32,0,0.0,3,Funcionário,Tecnologia
+5201.68,31,8,5.857142857142857,3,Funcionário,Operações
+5020.91,54,6,7.2,3,Funcionário,Operações
+7268.63,21,2,2.0,6,Analista de RH,Tecnologia
+4482.63,44,2,9.0,3,Funcionário,Recursos Humanos
+6186.63,43,1,0.0,6,Analista de RH,Recursos Humanos
+3479.63,51,2,1.0,3,Funcionário,Administração
+4619.71,47,10,5.111111111111111,3,Funcionário,Tecnologia
+4145.66,60,5,4.5,3,Funcionário,Recursos Humanos
+4958.48,32,3,6.5,3,Funcionário,Tecnologia
+4247.66,19,5,5.25,3,Funcionário,Administração
+4220.48,60,4,7.5,3,Funcionário,Tecnologia
+4836.63,51,3,7.0,3,Funcionário,Recursos Humanos
+3127.74,26,0,0.0,3,Funcionário,Tecnologia
+10153.75,30,7,7.666666666666667,6,Analista de RH,Recursos Humanos
+8804.55,33,4,2.6666666666666665,6,Analista de RH,Operações
+7338.63,64,2,10.0,6,Analista de RH,Recursos Humanos
+7289.48,36,3,4.5,6,Analista de RH,Operações
+4369.66,65,5,6.0,3,Funcionário,Recursos Humanos
+4828.66,59,5,5.25,3,Funcionário,Operações
+5571.82,43,11,6.888888888888889,3,Funcionário,Recursos Humanos
+7930.66,50,5,4.25,6,Analista de RH,Recursos Humanos
+7193.63,39,2,4.0,6,Analista de RH,Operações
+4587.91,50,7,5.0,3,Funcionário,Tecnologia
+8067.74,50,0,0.0,6,Analista de RH,Administração
+4042.88,32,4,3.0,3,Funcionário,Tecnologia
+4721.48,31,3,5.5,3,Funcionário,Administração
+9397.97,47,8,5.285714285714286,6,Analista de RH,Recursos Humanos
+6015.63,37,1,0.0,6,Analista de RH,Operações
+8819.09,37,7,4.0,6,Analista de RH,Tecnologia
+6224.63,47,2,3.0,6,Analista de RH,Tecnologia
+4821.88,60,4,5.0,3,Funcionário,Operações
+4774.47,45,10,4.75,3,Funcionário,Operações
+3807.74,21,0,0.0,3,Funcionário,Administração
+4904.47,20,9,7.25,3,Funcionário,Administração
+7411.63,33,2,5.0,6,Analista de RH,Operações
+7877.55,23,4,5.666666666666667,6,Analista de RH,Operações
+7616.47,32,9,6.75,6,Analista de RH,Operações
+4278.48,29,3,7.0,3,Funcionário,Operações
+9658.97,56,9,4.875,6,Analista de RH,Tecnologia
+8060.55,19,4,4.666666666666667,6,Analista de RH,Tecnologia
+5141.42,46,7,6.333333333333333,3,Funcionário,Tecnologia
+3368.48,65,3,1.0,3,Funcionário,Administração
+4337.63,34,2,8.0,3,Funcionário,Administração
+4116.48,56,3,3.0,3,Funcionário,Tecnologia
+9816.47,64,9,5.75,6,Analista de RH,Administração
+3418.74,45,0,0.0,3,Funcionário,Operações
+3838.63,50,1,0.0,3,Funcionário,Recursos Humanos
+6881.88,34,4,6.0,6,Analista de RH,Operações
+4103.48,32,3,6.5,3,Funcionário,Tecnologia
+5457.75,26,8,6.166666666666667,3,Funcionário,Recursos Humanos
+4577.26,65,8,5.714285714285714,3,Funcionário,Administração
+8602.93,38,11,3.6666666666666665,6,Analista de RH,Recursos Humanos
+4319.55,57,4,3.6666666666666665,3,Funcionário,Tecnologia
+4298.55,27,5,4.666666666666667,3,Funcionário,Administração
+7490.91,57,6,4.8,6,Analista de RH,Operações
+5257.6,27,11,6.333333333333333,3,Funcionário,Tecnologia
+7040.82,29,10,3.888888888888889,6,Analista de RH,Tecnologia
+7616.91,57,6,3.4,6,Analista de RH,Administração
+6448.63,38,1,0.0,6,Analista de RH,Operações
+5182.42,29,7,5.333333333333333,3,Funcionário,Recursos Humanos
+7274.91,41,6,5.4,6,Analista de RH,Recursos Humanos
+4307.42,25,7,5.333333333333333,3,Funcionário,Administração
+7170.74,50,0,0.0,6,Analista de RH,Recursos Humanos
+3818.48,41,4,2.5,3,Funcionário,Operações
+5230.63,36,2,1.0,6,Analista de RH,Operações
+7965.63,20,1,0.0,6,Analista de RH,Recursos Humanos
+5115.54,38,8,7.142857142857143,3,Funcionário,Tecnologia
+4934.55,54,4,7.666666666666667,3,Funcionário,Tecnologia
+7537.63,53,1,0.0,6,Analista de RH,Recursos Humanos
+5447.54,59,9,6.142857142857143,3,Funcionário,Tecnologia
+3686.74,37,0,0.0,3,Funcionário,Operações
+5176.38,57,10,4.777777777777778,3,Funcionário,Tecnologia
+3686.55,50,5,3.6666666666666665,3,Funcionário,Operações
+7903.97,55,8,5.285714285714286,6,Analista de RH,Operações
+9375.97,36,9,3.625,6,Analista de RH,Operações
+7293.91,53,7,4.4,6,Analista de RH,Operações
+5229.91,50,6,5.8,3,Funcionário,Tecnologia
+5260.4,60,8,6.428571428571429,3,Funcionário,Administração
+4400.11,36,8,5.0,3,Funcionário,Administração
+4826.47,53,9,4.75,3,Funcionário,Recursos Humanos
+7672.88,36,5,7.0,6,Analista de RH,Recursos Humanos
+4986.66,42,5,8.0,3,Funcionário,Tecnologia
+4537.88,61,4,5.0,3,Funcionário,Recursos Humanos
+5416.82,39,10,5.888888888888889,3,Funcionário,Administração
+7735.22,25,4,3.3333333333333335,6,Analista de RH,Administração
+7430.42,53,7,6.833333333333333,6,Analista de RH,Tecnologia
+6775.74,64,0,0.0,6,Analista de RH,Operações
+9061.55,20,5,5.666666666666667,6,Analista de RH,Operações
+5420.71,57,10,5.111111111111111,3,Funcionário,Tecnologia
+4031.63,54,1,0.0,3,Funcionário,Operações
+4477.88,28,4,5.0,3,Funcionário,Administração
+9224.26,57,8,4.714285714285714,6,Analista de RH,Operações
+5540.93,56,10,6.666666666666667,3,Funcionário,Recursos Humanos
+8410.91,53,7,6.6,6,Analista de RH,Recursos Humanos
+4468.66,29,5,3.75,3,Funcionário,Recursos Humanos
+6804.74,48,0,0.0,6,Analista de RH,Operações
+6463.63,32,1,0.0,6,Analista de RH,Recursos Humanos
+6126.74,41,0,0.0,6,Analista de RH,Administração
+4142.63,28,1,0.0,3,Funcionário,Administração
+4335.11,30,8,5.0,3,Funcionário,Recursos Humanos
+2999.74,34,0,0.0,3,Funcionário,Operações
+4623.49,51,10,5.555555555555555,3,Funcionário,Tecnologia
+4633.49,64,10,5.555555555555555,3,Funcionário,Operações
+3808.74,31,0,0.0,3,Funcionário,Tecnologia
+6967.66,20,5,5.0,6,Analista de RH,Tecnologia
+3982.63,60,1,0.0,3,Funcionário,Operações
+5240.22,32,4,7.333333333333333,3,Funcionário,Recursos Humanos
+6184.63,32,1,0.0,6,Analista de RH,Recursos Humanos
+4865.04,59,10,5.444444444444445,3,Funcionário,Tecnologia
+4524.63,23,2,7.0,3,Funcionário,Recursos Humanos
+4327.97,45,9,3.375,3,Funcionário,Administração
+4337.63,62,2,8.0,3,Funcionário,Recursos Humanos
+5213.91,25,6,6.4,3,Funcionário,Operações
+4516.91,42,6,5.4,3,Funcionário,Operações
+8187.66,24,5,6.75,6,Analista de RH,Operações
+9070.11,54,8,4.0,6,Analista de RH,Administração
+7889.63,59,1,0.0,6,Analista de RH,Administração
+3195.74,23,0,0.0,3,Funcionário,Operações
+8801.91,34,7,4.4,6,Analista de RH,Operações
+5620.63,55,2,2.0,6,Analista de RH,Administração
+5482.66,60,5,7.25,3,Funcionário,Operações
+6911.91,34,6,5.8,6,Analista de RH,Tecnologia
+9200.91,61,6,6.0,6,Analista de RH,Administração
+4184.42,59,7,4.333333333333333,3,Funcionário,Recursos Humanos
+4491.88,44,4,4.0,3,Funcionário,Administração
+8986.91,48,6,4.8,6,Analista de RH,Operações
+5330.47,50,9,5.5,3,Funcionário,Tecnologia
+4491.66,35,5,5.75,3,Funcionário,Administração
+7461.83,50,8,3.5714285714285716,6,Analista de RH,Tecnologia
+3313.74,20,0,0.0,3,Funcionário,Operações
+6043.74,30,0,0.0,6,Analista de RH,Tecnologia
+9471.97,41,9,4.375,6,Analista de RH,Administração
+4942.11,56,8,4.0,3,Funcionário,Recursos Humanos
+4185.66,19,5,2.75,3,Funcionário,Recursos Humanos
+3600.63,22,2,4.0,3,Funcionário,Administração
+9726.66,20,5,6.5,6,Analista de RH,Recursos Humanos
+7928.63,51,2,8.0,6,Analista de RH,Tecnologia
+7157.09,20,7,4.5,6,Analista de RH,Operações
+8386.75,38,7,5.666666666666667,6,Analista de RH,Administração
+8078.49,26,10,3.5555555555555554,6,Analista de RH,Tecnologia
+5314.26,26,10,5.0,3,Funcionário,Recursos Humanos
+5142.91,26,6,5.4,3,Funcionário,Operações
+5348.48,54,4,1.0,6,Analista de RH,Recursos Humanos
+7649.74,57,0,0.0,6,Analista de RH,Administração
+8639.47,64,9,4.25,6,Analista de RH,Administração
+5384.47,50,10,5.0,3,Funcionário,Operações
+5147.11,33,8,5.0,3,Funcionário,Tecnologia
+8667.15,33,10,5.222222222222222,6,Analista de RH,Administração
+7821.74,34,0,0.0,6,Analista de RH,Operações
+4149.71,37,10,3.111111111111111,3,Funcionário,Administração
+3595.63,49,2,2.0,3,Funcionário,Tecnologia
+6334.63,22,1,0.0,6,Analista de RH,Operações
+8759.93,40,10,4.666666666666667,6,Analista de RH,Recursos Humanos
+4281.88,28,4,6.0,3,Funcionário,Tecnologia
+4881.66,22,6,5.5,3,Funcionário,Administração
+5394.97,55,9,5.125,3,Funcionário,Operações
+8211.63,58,1,0.0,6,Analista de RH,Recursos Humanos
+7600.48,31,4,2.5,6,Analista de RH,Recursos Humanos
+7496.63,25,1,0.0,6,Analista de RH,Operações
+6395.63,19,2,2.0,6,Analista de RH,Recursos Humanos
+4620.47,60,9,5.0,3,Funcionário,Administração
+3227.74,25,0,0.0,3,Funcionário,Tecnologia
+8647.22,41,5,4.333333333333333,6,Analista de RH,Administração
+9402.55,22,4,5.666666666666667,6,Analista de RH,Administração
+4450.66,28,5,4.0,3,Funcionário,Recursos Humanos
+9115.91,23,6,7.4,6,Analista de RH,Operações
+8764.15,32,10,6.222222222222222,6,Analista de RH,Administração
+3904.63,53,1,0.0,3,Funcionário,Recursos Humanos
+6753.91,60,6,4.4,6,Analista de RH,Operações
+6907.75,65,8,3.1666666666666665,6,Analista de RH,Operações
+7327.97,45,9,5.625,6,Analista de RH,Administração
+9459.66,30,5,7.25,6,Analista de RH,Administração
+5063.63,60,2,10.0,3,Funcionário,Operações
+6996.63,50,1,0.0,6,Analista de RH,Administração
+5484.66,57,5,7.25,3,Funcionário,Operações
+7062.38,20,11,4.777777777777778,6,Analista de RH,Recursos Humanos
+8229.42,57,7,5.333333333333333,6,Analista de RH,Tecnologia
+4998.97,39,9,6.125,3,Funcionário,Operações
+7143.22,21,4,5.333333333333333,6,Analista de RH,Tecnologia
+8425.66,46,5,4.0,6,Analista de RH,Tecnologia
+8398.09,29,7,3.0,6,Analista de RH,Operações
+6611.63,43,1,0.0,6,Analista de RH,Operações
+6975.97,47,8,3.2857142857142856,6,Analista de RH,Administração
+5540.82,53,11,6.888888888888889,3,Funcionário,Recursos Humanos
+8120.66,40,6,5.0,6,Analista de RH,Tecnologia
+4895.38,64,10,4.777777777777778,3,Funcionário,Tecnologia
+6415.63,60,3,7.0,6,Analista de RH,Operações
+8462.66,25,5,4.0,6,Analista de RH,Operações
+5088.15,26,10,5.222222222222222,3,Funcionário,Administração
+7212.91,40,6,4.0,6,Analista de RH,Operações
+3789.74,61,1,0.0,3,Funcionário,Tecnologia
+5491.22,29,4,8.333333333333334,3,Funcionário,Operações
+8896.91,24,7,8.0,6,Analista de RH,Recursos Humanos
+4784.48,38,3,6.5,3,Funcionário,Tecnologia
+4768.47,43,9,5.25,3,Funcionário,Operações
+4409.97,39,10,4.125,3,Funcionário,Recursos Humanos
+7125.09,47,8,4.5,6,Analista de RH,Recursos Humanos
+5813.47,51,9,7.25,3,Funcionário,Recursos Humanos
+4273.66,63,5,4.0,3,Funcionário,Tecnologia
+8933.68,55,8,5.857142857142857,6,Analista de RH,Operações
+4382.68,46,8,4.857142857142857,3,Funcionário,Administração
+3808.63,51,1,0.0,3,Funcionário,Tecnologia
+8911.97,60,9,5.125,6,Analista de RH,Administração
+6092.55,51,4,1.6666666666666667,6,Analista de RH,Recursos Humanos
+3577.63,26,1,0.0,3,Funcionário,Recursos Humanos
+8163.97,35,9,5.125,6,Analista de RH,Operações
+9341.71,52,11,4.111111111111111,6,Analista de RH,Operações
+4881.71,30,10,4.111111111111111,3,Funcionário,Recursos Humanos
+5678.97,47,9,6.375,3,Funcionário,Tecnologia
+9177.47,50,10,6.75,6,Analista de RH,Administração
+3708.48,60,3,4.0,3,Funcionário,Administração
+8935.91,40,6,4.4,6,Analista de RH,Operações
+4848.09,63,7,5.0,3,Funcionário,Operações
+7634.63,42,1,0.0,6,Analista de RH,Operações
+7240.75,34,7,4.666666666666667,6,Analista de RH,Operações
+4568.55,63,4,7.666666666666667,3,Funcionário,Recursos Humanos
+4482.26,28,10,4.0,3,Funcionário,Operações
+7529.63,41,1,0.0,6,Analista de RH,Operações
+7953.63,25,3,5.0,6,Analista de RH,Tecnologia
+6350.63,38,3,5.0,6,Analista de RH,Recursos Humanos
+3933.42,40,7,3.3333333333333335,3,Funcionário,Administração
+4045.63,64,1,0.0,3,Funcionário,Administração
+9418.6,26,10,6.333333333333333,6,Analista de RH,Recursos Humanos
+4113.66,61,5,3.75,3,Funcionário,Tecnologia
+7245.74,29,0,0.0,6,Analista de RH,Recursos Humanos
+8580.48,23,3,9.0,6,Analista de RH,Operações
+4393.91,61,7,3.6,3,Funcionário,Tecnologia
+4782.91,45,7,4.8,3,Funcionário,Operações
+3984.63,53,3,7.0,3,Funcionário,Recursos Humanos
+4526.42,20,8,2.3333333333333335,3,Funcionário,Administração
+7146.38,59,11,3.7777777777777777,6,Analista de RH,Operações
+3265.63,42,1,0.0,3,Funcionário,Recursos Humanos
+4624.11,54,8,5.0,3,Funcionário,Recursos Humanos
+4944.54,64,8,6.142857142857143,3,Funcionário,Tecnologia
+5460.97,38,9,6.375,3,Funcionário,Operações
+5212.49,49,10,5.555555555555555,3,Funcionário,Recursos Humanos
+3920.48,22,3,3.0,3,Funcionário,Operações
+6603.55,63,4,1.6666666666666667,6,Analista de RH,Tecnologia
+9304.47,38,9,5.0,6,Analista de RH,Administração
+8629.88,41,5,7.0,6,Analista de RH,Operações
+4436.66,43,5,5.75,3,Funcionário,Administração
+8317.6,56,10,2.3333333333333335,6,Analista de RH,Operações
+4434.82,59,10,3.888888888888889,3,Funcionário,Operações
+8459.54,54,9,4.142857142857143,6,Analista de RH,Operações
+8122.74,48,0,0.0,6,Analista de RH,Tecnologia
+3074.74,29,0,0.0,3,Funcionário,Recursos Humanos
+3367.63,57,1,0.0,3,Funcionário,Administração
+7103.63,61,2,5.0,6,Analista de RH,Administração
+7452.48,22,4,7.0,6,Analista de RH,Administração
+8451.47,30,9,4.75,6,Analista de RH,Tecnologia
+4603.26,40,8,3.7142857142857144,3,Funcionário,Recursos Humanos
+4836.97,63,9,6.125,3,Funcionário,Administração
+7591.74,62,0,0.0,6,Analista de RH,Recursos Humanos
+4594.97,31,9,3.2857142857142856,3,Funcionário,Operações
+8904.48,19,3,7.5,6,Analista de RH,Recursos Humanos
+4622.48,62,3,8.5,3,Funcionário,Recursos Humanos
+4237.97,21,9,4.125,3,Funcionário,Tecnologia
+9038.66,65,6,5.0,6,Analista de RH,Tecnologia
+5120.47,39,9,4.5,3,Funcionário,Tecnologia
+8673.63,23,1,0.0,6,Analista de RH,Administração
+4212.63,53,2,0.0,3,Funcionário,Tecnologia
+8263.22,19,4,6.333333333333333,6,Analista de RH,Recursos Humanos
+5280.63,60,2,9.0,3,Funcionário,Recursos Humanos
+4416.11,49,9,5.0,3,Funcionário,Administração
+4528.47,44,9,4.5,3,Funcionário,Tecnologia
+8440.54,34,8,4.142857142857143,6,Analista de RH,Recursos Humanos
+4185.91,56,6,2.2,3,Funcionário,Administração
+4877.47,52,9,6.0,3,Funcionário,Administração
+9260.82,22,10,4.888888888888889,6,Analista de RH,Recursos Humanos
+4536.63,33,2,6.0,3,Funcionário,Operações
+8262.74,38,1,0.0,6,Analista de RH,Operações
+5153.63,59,2,10.0,3,Funcionário,Tecnologia
+3331.74,31,0,0.0,3,Funcionário,Administração
+4982.09,32,7,4.0,3,Funcionário,Operações
+9911.49,64,10,5.555555555555555,6,Analista de RH,Operações
+7210.88,38,5,6.0,6,Analista de RH,Operações
+4886.09,31,8,7.0,3,Funcionário,Operações
+4376.66,59,5,4.25,3,Funcionário,Recursos Humanos
+7120.71,54,10,5.111111111111111,6,Analista de RH,Tecnologia
+4895.66,37,5,5.5,3,Funcionário,Operações
+9564.42,27,7,4.833333333333333,6,Analista de RH,Administração
+7223.88,19,4,2.0,6,Analista de RH,Operações
+7299.47,46,9,6.25,6,Analista de RH,Administração
+5284.97,22,10,6.125,3,Funcionário,Operações
+4159.55,55,4,4.666666666666667,3,Funcionário,Operações
+7016.74,37,0,0.0,6,Analista de RH,Operações
+5700.83,30,9,7.571428571428571,3,Funcionário,Administração
+8861.75,59,7,4.666666666666667,6,Analista de RH,Administração
+4902.83,33,8,3.5714285714285716,3,Funcionário,Tecnologia
+8961.55,51,4,5.666666666666667,6,Analista de RH,Administração
+4325.91,39,6,3.6,3,Funcionário,Operações
+9027.22,32,4,5.333333333333333,6,Analista de RH,Recursos Humanos
+4304.55,56,4,5.666666666666667,3,Funcionário,Recursos Humanos
+4582.09,56,8,4.5,3,Funcionário,Administração
+6612.63,59,2,0.0,6,Analista de RH,Operações
+4959.97,52,9,5.375,3,Funcionário,Operações
+9330.48,50,4,6.0,6,Analista de RH,Operações
+5177.47,65,9,7.25,3,Funcionário,Operações
+4617.63,28,2,8.0,3,Funcionário,Tecnologia
+4853.75,50,7,5.166666666666667,3,Funcionário,Operações
+4963.4,54,9,4.428571428571429,3,Funcionário,Operações
+4294.97,50,9,3.375,3,Funcionário,Administração
+9869.97,39,9,5.375,6,Analista de RH,Recursos Humanos
+5241.91,40,6,6.4,3,Funcionário,Administração
+5417.55,28,4,7.666666666666667,3,Funcionário,Operações
+7820.75,30,7,6.666666666666667,6,Analista de RH,Operações
+8998.66,23,5,5.5,6,Analista de RH,Administração
+7786.74,45,0,0.0,6,Analista de RH,Operações
+5140.97,49,9,5.625,3,Funcionário,Operações
+4721.91,56,6,5.8,3,Funcionário,Tecnologia
+8177.48,54,4,3.0,6,Analista de RH,Recursos Humanos
+5332.47,57,9,5.5,3,Funcionário,Operações
+3861.63,26,1,0.0,3,Funcionário,Operações
+8029.55,58,4,5.666666666666667,6,Analista de RH,Administração
+4049.91,50,6,4.2,3,Funcionário,Operações
+4506.97,60,10,4.625,3,Funcionário,Administração
+9373.11,38,8,7.0,6,Analista de RH,Operações
+3793.63,62,2,6.0,3,Funcionário,Administração
+3512.55,21,4,1.6666666666666667,3,Funcionário,Operações
+7326.49,23,10,5.555555555555555,6,Analista de RH,Recursos Humanos
+4163.66,38,5,4.75,3,Funcionário,Operações
+8129.48,57,4,4.5,6,Analista de RH,Tecnologia
+8381.75,52,7,4.166666666666667,6,Analista de RH,Recursos Humanos
+5073.97,57,10,5.625,3,Funcionário,Operações
+4310.42,20,7,3.3333333333333335,3,Funcionário,Tecnologia
+4214.63,39,1,0.0,3,Funcionário,Operações
+9274.97,23,8,5.285714285714286,6,Analista de RH,Tecnologia
+3721.63,50,2,0.0,3,Funcionário,Tecnologia
+4867.09,38,8,5.0,3,Funcionário,Recursos Humanos
+7230.63,59,2,0.0,6,Analista de RH,Tecnologia
+8687.15,59,10,3.2222222222222223,6,Analista de RH,Recursos Humanos
+4865.75,28,7,5.166666666666667,3,Funcionário,Administração
+9237.55,46,4,5.666666666666667,6,Analista de RH,Administração
+5675.82,33,10,6.888888888888889,3,Funcionário,Administração
+3714.63,32,2,5.0,3,Funcionário,Administração
+4501.09,37,7,3.0,3,Funcionário,Recursos Humanos
+4572.22,24,4,4.333333333333333,3,Funcionário,Tecnologia
+4203.91,25,6,5.0,3,Funcionário,Operações
+6361.63,28,1,0.0,6,Analista de RH,Operações
+8712.26,30,10,5.0,6,Analista de RH,Operações
+9056.66,34,5,4.75,6,Analista de RH,Operações
+7221.09,40,7,4.5,6,Analista de RH,Tecnologia
+3085.74,61,0,0.0,3,Funcionário,Administração
+9523.82,56,10,5.888888888888889,6,Analista de RH,Operações
+8693.82,43,11,3.888888888888889,6,Analista de RH,Administração
+4820.48,46,3,9.0,3,Funcionário,Operações
+7141.42,61,7,3.8333333333333335,6,Analista de RH,Administração
+7128.26,36,10,4.0,6,Analista de RH,Recursos Humanos
+9020.6,55,10,7.333333333333333,6,Analista de RH,Operações
+7909.55,40,5,6.666666666666667,6,Analista de RH,Recursos Humanos
+9140.48,52,3,5.0,6,Analista de RH,Administração
+4581.66,54,6,6.5,3,Funcionário,Recursos Humanos
+5645.48,35,3,2.5,6,Analista de RH,Administração
+4568.93,49,10,3.6666666666666665,3,Funcionário,Recursos Humanos
+6235.74,27,0,0.0,6,Analista de RH,Recursos Humanos
+7142.66,30,5,6.75,6,Analista de RH,Recursos Humanos
+7495.63,62,1,0.0,6,Analista de RH,Operações
+8380.74,41,0,0.0,6,Analista de RH,Recursos Humanos
+3882.91,47,6,3.6,3,Funcionário,Tecnologia
+4848.91,53,6,4.6,3,Funcionário,Recursos Humanos
+6884.48,35,3,3.5,6,Analista de RH,Tecnologia
+7418.4,42,8,4.428571428571429,6,Analista de RH,Administração
+8389.48,62,4,5.0,6,Analista de RH,Recursos Humanos
+6426.63,52,1,0.0,6,Analista de RH,Administração
+8492.66,47,6,6.5,6,Analista de RH,Operações
+7687.48,47,3,5.5,6,Analista de RH,Operações
+4163.91,46,6,4.2,3,Funcionário,Tecnologia
+4574.63,59,2,10.0,3,Funcionário,Recursos Humanos
+4175.48,61,3,6.5,3,Funcionário,Tecnologia
+3529.74,44,0,0.0,3,Funcionário,Tecnologia
+8453.66,45,5,5.0,6,Analista de RH,Operações
+3237.63,55,1,0.0,3,Funcionário,Tecnologia
+6540.91,40,7,3.6,6,Analista de RH,Tecnologia
+5433.49,55,11,5.555555555555555,3,Funcionário,Recursos Humanos
+5070.42,20,7,4.333333333333333,3,Funcionário,Operações
+4132.63,51,3,8.0,3,Funcionário,Administração
+5097.4,63,8,5.428571428571429,3,Funcionário,Administração
+5293.15,58,10,5.222222222222222,3,Funcionário,Operações
+4828.97,31,10,4.125,3,Funcionário,Operações
+4410.22,23,4,6.333333333333333,3,Funcionário,Tecnologia
+4488.26,59,11,5.0,3,Funcionário,Administração
+3230.63,35,2,0.0,3,Funcionário,Recursos Humanos
+8858.55,33,4,4.666666666666667,6,Analista de RH,Recursos Humanos
+7387.22,41,5,5.333333333333333,6,Analista de RH,Administração
+6386.22,54,4,4.333333333333333,6,Analista de RH,Tecnologia
+6639.63,66,1,0.0,6,Analista de RH,Tecnologia
+5154.47,20,9,6.0,3,Funcionário,Operações
+8113.66,61,6,2.75,6,Analista de RH,Operações
+4792.91,28,6,6.6,3,Funcionário,Recursos Humanos
+8671.48,52,3,6.0,6,Analista de RH,Administração
+3753.63,39,2,4.0,3,Funcionário,Tecnologia
+4308.88,48,4,6.0,3,Funcionário,Tecnologia
+4192.42,61,7,4.333333333333333,3,Funcionário,Tecnologia
+9072.71,38,10,6.111111111111111,6,Analista de RH,Operações
+8374.55,51,4,4.666666666666667,6,Analista de RH,Tecnologia
+5452.74,54,0,0.0,6,Analista de RH,Administração
+4923.91,54,6,4.6,3,Funcionário,Administração
+7408.66,58,5,5.0,6,Analista de RH,Recursos Humanos
+6421.63,57,2,0.0,6,Analista de RH,Administração
+7559.68,56,9,5.857142857142857,6,Analista de RH,Operações
+6953.74,31,0,0.0,6,Analista de RH,Administração
+4015.22,34,4,1.3333333333333333,3,Funcionário,Recursos Humanos
+3798.48,30,3,4.0,3,Funcionário,Operações
+4951.22,59,4,6.333333333333333,3,Funcionário,Recursos Humanos
+4950.48,59,3,9.0,3,Funcionário,Recursos Humanos
+3896.91,62,6,2.6,3,Funcionário,Operações
+5584.97,24,8,7.285714285714286,3,Funcionário,Administração
+8985.63,20,2,7.0,6,Analista de RH,Operações
+8549.47,34,10,4.0,6,Analista de RH,Tecnologia
+8521.26,37,9,3.7142857142857144,6,Analista de RH,Tecnologia
+4891.47,55,9,3.0,3,Funcionário,Tecnologia
+4208.66,56,5,4.5,3,Funcionário,Tecnologia
+4939.22,53,4,6.333333333333333,3,Funcionário,Tecnologia
+8460.63,39,2,3.0,6,Analista de RH,Operações
+6804.74,24,0,0.0,6,Analista de RH,Recursos Humanos
+5900.63,53,1,0.0,6,Analista de RH,Administração
+4819.09,55,7,7.0,3,Funcionário,Administração
+8711.6,49,10,4.333333333333333,6,Analista de RH,Operações
+5032.91,42,6,6.0,3,Funcionário,Operações
+7335.63,23,2,4.0,6,Analista de RH,Operações
+4642.22,56,4,7.333333333333333,3,Funcionário,Recursos Humanos
+4461.91,41,6,3.8,3,Funcionário,Recursos Humanos
+5444.91,39,6,7.8,3,Funcionário,Recursos Humanos
+3933.74,63,0,0.0,3,Funcionário,Operações
+6200.63,61,1,0.0,6,Analista de RH,Administração
+4463.48,23,3,5.5,3,Funcionário,Operações
+8073.47,24,9,6.5,6,Analista de RH,Recursos Humanos
+9902.48,46,4,9.0,6,Analista de RH,Administração
+4530.66,58,5,3.5,3,Funcionário,Recursos Humanos
+6841.91,20,6,4.6,6,Analista de RH,Recursos Humanos
+9539.97,53,9,6.375,6,Analista de RH,Operações
+5585.75,23,7,6.666666666666667,3,Funcionário,Tecnologia
+9250.26,25,9,5.714285714285714,6,Analista de RH,Tecnologia
+7266.48,23,3,8.5,6,Analista de RH,Administração
+4503.42,28,8,4.833333333333333,3,Funcionário,Operações
+4247.48,20,3,5.0,3,Funcionário,Operações
+10547.82,37,10,7.888888888888889,6,Analista de RH,Recursos Humanos
+9551.97,40,9,6.125,6,Analista de RH,Operações
+6887.74,35,0,0.0,6,Analista de RH,Tecnologia
+4915.04,40,10,6.444444444444445,3,Funcionário,Recursos Humanos
+6817.22,28,4,5.333333333333333,6,Analista de RH,Tecnologia
+7859.74,48,0,0.0,6,Analista de RH,Operações
+7442.91,21,6,4.0,6,Analista de RH,Administração
+8815.91,21,6,5.2,6,Analista de RH,Tecnologia
+4577.09,25,7,5.0,3,Funcionário,Operações
+4906.75,51,7,6.166666666666667,3,Funcionário,Operações
+4561.75,66,7,6.166666666666667,3,Funcionário,Tecnologia
+9553.47,36,9,5.0,6,Analista de RH,Tecnologia
+7973.09,24,7,3.0,6,Analista de RH,Administração
+4376.54,33,8,3.142857142857143,3,Funcionário,Recursos Humanos
+4821.93,59,10,5.666666666666667,3,Funcionário,Tecnologia
+3370.63,29,1,0.0,3,Funcionário,Tecnologia
+8333.63,27,2,7.0,6,Analista de RH,Recursos Humanos
+4531.66,34,6,5.0,3,Funcionário,Tecnologia
+4498.66,22,5,4.5,3,Funcionário,Administração
+8209.83,30,8,7.571428571428571,6,Analista de RH,Tecnologia
+9620.97,58,9,5.125,6,Analista de RH,Administração
+5685.74,36,0,0.0,6,Analista de RH,Recursos Humanos
+4320.66,25,5,2.5,3,Funcionário,Recursos Humanos
+4155.48,32,3,5.5,3,Funcionário,Tecnologia
+3738.63,64,1,0.0,3,Funcionário,Recursos Humanos
+4650.42,61,7,5.833333333333333,3,Funcionário,Recursos Humanos
+6783.74,53,0,0.0,6,Analista de RH,Recursos Humanos
+5445.48,44,3,9.5,3,Funcionário,Recursos Humanos
+7303.91,31,6,5.0,6,Analista de RH,Tecnologia
+3962.63,51,2,0.0,3,Funcionário,Tecnologia
+5250.11,56,8,5.0,3,Funcionário,Administração
+3410.74,51,0,0.0,3,Funcionário,Tecnologia
+9430.91,35,6,5.6,6,Analista de RH,Operações
+7690.63,49,1,0.0,6,Analista de RH,Administração
+4592.49,61,10,3.5555555555555554,3,Funcionário,Operações
+9706.63,40,3,9.0,6,Analista de RH,Administração
+7537.47,36,9,5.5,6,Analista de RH,Operações
+5440.26,36,9,5.714285714285714,3,Funcionário,Recursos Humanos
+6870.48,28,3,4.0,6,Analista de RH,Recursos Humanos
+9229.63,25,3,8.0,6,Analista de RH,Administração
+3367.63,40,1,0.0,3,Funcionário,Recursos Humanos
+5256.47,33,9,5.5,3,Funcionário,Tecnologia
+3761.63,27,2,3.0,3,Funcionário,Tecnologia
+9014.66,23,5,4.75,6,Analista de RH,Recursos Humanos
+3874.74,46,0,0.0,3,Funcionário,Recursos Humanos
+4810.4,21,8,4.428571428571429,3,Funcionário,Tecnologia
+4645.97,28,9,4.125,3,Funcionário,Tecnologia
+9312.11,61,9,5.0,6,Analista de RH,Recursos Humanos
+9724.47,29,9,4.75,6,Analista de RH,Recursos Humanos
+8405.82,46,10,4.888888888888889,6,Analista de RH,Recursos Humanos
+4583.88,57,4,6.0,3,Funcionário,Recursos Humanos
+5393.26,25,10,5.0,3,Funcionário,Administração
+5196.47,37,9,5.0,3,Funcionário,Tecnologia
+4786.42,43,8,7.333333333333333,3,Funcionário,Recursos Humanos
+3345.63,26,1,0.0,3,Funcionário,Recursos Humanos
+7832.4,53,8,6.428571428571429,6,Analista de RH,Tecnologia
+8804.26,34,8,5.714285714285714,6,Analista de RH,Tecnologia
+5269.63,26,2,9.0,3,Funcionário,Recursos Humanos
+3443.63,48,1,0.0,3,Funcionário,Administração
+9780.09,43,7,6.0,6,Analista de RH,Administração
+4168.22,45,4,4.333333333333333,3,Funcionário,Recursos Humanos
+4292.63,22,2,6.0,3,Funcionário,Recursos Humanos
+7166.93,24,10,5.666666666666667,6,Analista de RH,Tecnologia
+7170.63,42,1,0.0,6,Analista de RH,Operações
+8380.22,54,5,4.333333333333333,6,Analista de RH,Recursos Humanos
+9402.42,47,7,6.333333333333333,6,Analista de RH,Recursos Humanos
+6597.74,33,0,0.0,6,Analista de RH,Operações
+7465.48,38,3,4.0,6,Analista de RH,Recursos Humanos
+3959.66,30,5,4.5,3,Funcionário,Tecnologia
+4147.63,59,1,0.0,3,Funcionário,Operações
+5507.47,46,9,7.75,3,Funcionário,Operações
+7238.47,41,9,3.5,6,Analista de RH,Recursos Humanos
+4007.66,48,5,4.5,3,Funcionário,Tecnologia
+3601.63,49,2,0.0,3,Funcionário,Administração
+8302.63,30,2,8.0,6,Analista de RH,Recursos Humanos
+9680.42,31,8,5.333333333333333,6,Analista de RH,Tecnologia
+7045.74,59,1,0.0,6,Analista de RH,Tecnologia
+4716.63,30,2,8.0,3,Funcionário,Operações
+5186.91,49,6,6.8,3,Funcionário,Operações
+5224.15,20,10,4.222222222222222,3,Funcionário,Tecnologia
+4741.09,47,7,6.5,3,Funcionário,Tecnologia
+5256.63,24,2,0.0,6,Analista de RH,Tecnologia
+7665.26,62,10,7.0,6,Analista de RH,Administração
+4620.48,19,4,5.5,3,Funcionário,Operações
+6399.63,45,1,0.0,6,Analista de RH,Administração
+3029.74,23,0,0.0,3,Funcionário,Recursos Humanos
+8617.63,22,2,8.0,6,Analista de RH,Recursos Humanos
+5144.88,25,4,8.0,3,Funcionário,Administração
+4737.75,29,7,4.166666666666667,3,Funcionário,Tecnologia
+4871.26,53,8,5.714285714285714,3,Funcionário,Administração
+6151.63,50,2,4.0,6,Analista de RH,Recursos Humanos
+7133.63,20,2,3.0,6,Analista de RH,Tecnologia
+7316.11,42,8,5.0,6,Analista de RH,Operações
+8325.82,44,11,5.888888888888889,6,Analista de RH,Operações
+7681.75,56,7,4.666666666666667,6,Analista de RH,Administração
+7760.97,20,9,5.285714285714286,6,Analista de RH,Recursos Humanos
+4771.6,41,10,5.333333333333333,3,Funcionário,Recursos Humanos
+4954.66,41,5,6.25,3,Funcionário,Tecnologia
+4705.04,32,10,4.444444444444445,3,Funcionário,Tecnologia
+4728.97,41,8,5.285714285714286,3,Funcionário,Recursos Humanos
+8787.91,56,6,4.4,6,Analista de RH,Administração
+9545.6,65,10,4.333333333333333,6,Analista de RH,Tecnologia
+4938.26,62,8,5.714285714285714,3,Funcionário,Tecnologia
+9547.82,59,10,4.888888888888889,6,Analista de RH,Operações
+5455.97,53,9,5.375,3,Funcionário,Operações
+6278.63,35,1,0.0,6,Analista de RH,Tecnologia
+9707.97,56,10,6.125,6,Analista de RH,Recursos Humanos
+8545.93,52,11,4.666666666666667,6,Analista de RH,Recursos Humanos
+6154.74,34,0,0.0,6,Analista de RH,Tecnologia
+7533.42,39,7,5.833333333333333,6,Analista de RH,Administração
+4014.63,33,1,0.0,3,Funcionário,Operações
+4876.47,31,10,4.25,3,Funcionário,Administração
+6680.63,55,1,0.0,6,Analista de RH,Operações
+4139.97,45,9,3.625,3,Funcionário,Tecnologia
+8766.91,39,6,5.0,6,Analista de RH,Administração
+8511.09,26,7,4.5,6,Analista de RH,Recursos Humanos
+5812.63,64,1,0.0,6,Analista de RH,Administração
+6975.47,26,9,4.5,6,Analista de RH,Administração
+8041.75,60,7,3.6666666666666665,6,Analista de RH,Administração
+4780.66,21,5,7.75,3,Funcionário,Tecnologia
+8466.91,49,6,6.0,6,Analista de RH,Recursos Humanos
+4521.47,38,9,4.25,3,Funcionário,Administração
+4767.4,62,8,5.428571428571429,3,Funcionário,Recursos Humanos
+8531.63,45,2,4.0,6,Analista de RH,Operações
+5396.93,53,10,5.666666666666667,3,Funcionário,Operações
+6727.63,36,1,0.0,6,Analista de RH,Recursos Humanos
+3503.74,30,1,0.0,3,Funcionário,Operações
+4073.63,61,2,7.0,3,Funcionário,Tecnologia
+4219.42,23,7,4.333333333333333,3,Funcionário,Operações
+4383.66,25,5,5.5,3,Funcionário,Recursos Humanos
+5368.97,47,9,5.625,3,Funcionário,Administração
+5293.6,62,10,4.333333333333333,3,Funcionário,Operações
+6788.63,29,1,0.0,6,Analista de RH,Tecnologia
+4274.91,44,7,4.4,3,Funcionário,Administração
+7210.91,23,6,5.8,6,Analista de RH,Administração
+5081.09,35,7,5.0,3,Funcionário,Recursos Humanos
+4458.91,64,6,5.8,3,Funcionário,Operações
+7927.63,32,2,7.0,6,Analista de RH,Operações
+4739.66,63,5,5.0,3,Funcionário,Administração
+8887.48,50,3,7.0,6,Analista de RH,Administração
+7060.26,40,8,3.7142857142857144,6,Analista de RH,Operações
+3512.74,35,0,0.0,3,Funcionário,Tecnologia
+6734.63,49,1,0.0,6,Analista de RH,Administração
+4331.91,51,7,5.8,3,Funcionário,Operações
+4726.38,58,10,3.7777777777777777,3,Funcionário,Operações
+7983.88,39,4,4.0,6,Analista de RH,Recursos Humanos
+7902.91,59,7,6.8,6,Analista de RH,Operações
+4415.75,55,8,4.666666666666667,3,Funcionário,Administração
+4313.91,20,6,3.4,3,Funcionário,Administração
+7846.97,38,9,5.625,6,Analista de RH,Operações
+5070.47,57,9,4.75,3,Funcionário,Recursos Humanos
+5265.82,31,10,4.888888888888889,3,Funcionário,Operações
+9771.97,49,9,4.875,6,Analista de RH,Recursos Humanos
+5887.63,31,2,1.0,6,Analista de RH,Tecnologia
+4518.48,25,3,6.0,3,Funcionário,Recursos Humanos
+8768.93,62,10,3.6666666666666665,6,Analista de RH,Tecnologia
+9173.63,26,2,10.0,6,Analista de RH,Operações
+9528.38,63,10,6.777777777777778,6,Analista de RH,Tecnologia
+5493.74,55,0,0.0,6,Analista de RH,Operações
+4184.48,53,3,4.0,3,Funcionário,Tecnologia
+4811.26,22,8,3.7142857142857144,3,Funcionário,Tecnologia
+5742.48,47,3,1.0,6,Analista de RH,Tecnologia
+4519.66,64,6,6.5,3,Funcionário,Administração
+4599.97,35,9,4.625,3,Funcionário,Operações
+8084.63,56,2,6.0,6,Analista de RH,Administração
+8109.74,29,1,0.0,6,Analista de RH,Tecnologia
+9034.66,47,6,4.25,6,Analista de RH,Operações
+3399.74,39,1,0.0,3,Funcionário,Operações
+3559.63,64,1,0.0,3,Funcionário,Operações
+4799.22,21,4,7.333333333333333,3,Funcionário,Operações
+3923.22,58,4,4.333333333333333,3,Funcionário,Administração
+3853.74,27,1,0.0,3,Funcionário,Administração
+3756.63,38,1,0.0,3,Funcionário,Operações
+4715.09,54,7,5.5,3,Funcionário,Tecnologia
+4858.97,59,9,5.375,3,Funcionário,Recursos Humanos
+7202.55,41,4,4.666666666666667,6,Analista de RH,Recursos Humanos
+7272.75,19,7,5.666666666666667,6,Analista de RH,Tecnologia
+4505.49,31,11,4.555555555555555,3,Funcionário,Operações
+4516.47,35,9,5.5,3,Funcionário,Recursos Humanos
+6342.91,25,6,3.2,6,Analista de RH,Recursos Humanos
+3106.22,60,5,1.3333333333333333,3,Funcionário,Administração
+4515.66,56,6,6.0,3,Funcionário,Recursos Humanos
+4165.91,64,6,4.2,3,Funcionário,Recursos Humanos
+9345.75,24,7,5.166666666666667,6,Analista de RH,Operações
+4495.48,64,3,5.5,3,Funcionário,Recursos Humanos
+7269.55,40,4,4.666666666666667,6,Analista de RH,Operações
+7026.6,34,11,4.333333333333333,6,Analista de RH,Tecnologia
+5314.63,54,2,9.0,3,Funcionário,Operações
+9355.66,45,5,6.5,6,Analista de RH,Recursos Humanos
+5097.66,56,5,7.75,3,Funcionário,Recursos Humanos
+9518.47,61,9,6.0,6,Analista de RH,Administração
+7111.63,25,1,0.0,6,Analista de RH,Recursos Humanos
+3247.74,56,0,0.0,3,Funcionário,Administração
+8622.55,49,5,5.666666666666667,6,Analista de RH,Administração
+5336.97,59,8,5.285714285714286,3,Funcionário,Tecnologia
+4950.83,48,8,6.571428571428571,3,Funcionário,Tecnologia
+4427.42,45,7,5.833333333333333,3,Funcionário,Administração
+5021.48,59,3,7.0,3,Funcionário,Tecnologia
+9085.66,64,5,5.5,6,Analista de RH,Tecnologia
+8244.4,47,8,4.428571428571429,6,Analista de RH,Tecnologia
+4960.47,57,9,4.0,3,Funcionário,Recursos Humanos
+8369.42,20,8,4.333333333333333,6,Analista de RH,Operações
+3548.22,54,5,2.3333333333333335,3,Funcionário,Operações
+4551.38,43,10,4.777777777777778,3,Funcionário,Operações
+5689.97,65,9,7.125,3,Funcionário,Operações
+8243.63,22,1,0.0,6,Analista de RH,Recursos Humanos
+4552.4,32,8,5.428571428571429,3,Funcionário,Recursos Humanos
+8451.63,31,2,6.0,6,Analista de RH,Operações
+4819.47,44,9,6.25,3,Funcionário,Recursos Humanos
+4329.91,50,6,3.8,3,Funcionário,Administração
+6486.63,46,2,1.0,6,Analista de RH,Administração
+4837.42,38,8,4.833333333333333,3,Funcionário,Recursos Humanos
+7043.91,58,6,2.8,6,Analista de RH,Operações
+4575.66,56,5,5.25,3,Funcionário,Tecnologia
+7519.48,63,3,5.0,6,Analista de RH,Administração
+3999.48,57,3,5.5,3,Funcionário,Administração
+7413.91,42,6,3.8,6,Analista de RH,Tecnologia
+9473.66,49,5,5.5,6,Analista de RH,Operações
+8388.47,48,9,4.75,6,Analista de RH,Tecnologia
+4355.49,31,10,4.555555555555555,3,Funcionário,Recursos Humanos
+6404.63,42,2,5.0,6,Analista de RH,Operações
+5269.63,45,2,9.0,3,Funcionário,Recursos Humanos
+5109.4,39,9,7.428571428571429,3,Funcionário,Operações
+4827.97,44,10,4.125,3,Funcionário,Recursos Humanos
+9713.88,49,4,7.0,6,Analista de RH,Tecnologia
+8568.66,41,5,6.75,6,Analista de RH,Administração
+2706.63,44,2,0.0,3,Funcionário,Recursos Humanos
+3705.63,25,2,6.0,3,Funcionário,Recursos Humanos
+9368.75,37,7,5.666666666666667,6,Analista de RH,Operações
+3783.66,43,5,3.5,3,Funcionário,Tecnologia
+8779.66,38,5,6.0,6,Analista de RH,Operações
+6085.63,46,2,2.0,6,Analista de RH,Operações
+6679.63,21,2,4.0,6,Analista de RH,Tecnologia
+3361.74,44,0,0.0,3,Funcionário,Operações
+5103.42,19,7,7.833333333333333,3,Funcionário,Administração
+4985.22,46,4,6.333333333333333,3,Funcionário,Operações
+4639.97,65,8,5.285714285714286,3,Funcionário,Operações
+3210.63,34,2,2.0,3,Funcionário,Administração
+4810.91,42,6,5.6,3,Funcionário,Recursos Humanos
+8513.91,46,6,4.4,6,Analista de RH,Operações
+4723.66,49,5,5.75,3,Funcionário,Administração
+4716.09,38,7,3.5,3,Funcionário,Recursos Humanos
+7705.97,22,10,3.375,6,Analista de RH,Recursos Humanos
+3977.63,44,2,3.0,3,Funcionário,Recursos Humanos
+4312.48,34,4,7.0,3,Funcionário,Recursos Humanos
+4437.75,57,7,4.666666666666667,3,Funcionário,Operações
+3327.74,48,0,0.0,3,Funcionário,Administração
+7164.63,35,1,0.0,6,Analista de RH,Tecnologia
+8408.97,23,9,2.375,6,Analista de RH,Operações
+7038.63,42,1,0.0,6,Analista de RH,Tecnologia
+4576.91,22,7,3.6,3,Funcionário,Administração
+3328.63,51,2,0.0,3,Funcionário,Operações
+4676.66,45,5,3.75,3,Funcionário,Recursos Humanos
+4390.26,47,8,4.714285714285714,3,Funcionário,Administração
+8526.97,57,10,3.125,6,Analista de RH,Recursos Humanos
+4348.97,51,9,3.875,3,Funcionário,Administração
+4239.47,47,9,4.0,3,Funcionário,Recursos Humanos
+4072.48,32,3,3.0,3,Funcionário,Recursos Humanos
+3919.63,40,2,3.0,3,Funcionário,Recursos Humanos
+7688.74,62,1,0.0,6,Analista de RH,Operações
+7703.63,29,2,8.0,6,Analista de RH,Administração
+7760.42,61,8,4.833333333333333,6,Analista de RH,Operações
+8714.48,51,3,8.0,6,Analista de RH,Administração
+5981.74,43,0,0.0,6,Analista de RH,Operações
+3710.74,52,0,0.0,3,Funcionário,Administração
+9153.75,61,7,4.666666666666667,6,Analista de RH,Operações
+4382.66,55,5,5.75,3,Funcionário,Tecnologia
+9704.04,60,10,4.444444444444445,6,Analista de RH,Recursos Humanos
+6916.91,21,6,3.2,6,Analista de RH,Tecnologia
+8686.55,34,4,6.666666666666667,6,Analista de RH,Administração
+4897.47,65,9,4.5,3,Funcionário,Administração
+4434.47,26,9,4.5,3,Funcionário,Tecnologia
+7053.55,46,4,6.666666666666667,6,Analista de RH,Tecnologia
+4618.91,44,6,5.8,3,Funcionário,Tecnologia
+8212.91,31,6,4.4,6,Analista de RH,Administração
+4051.63,38,1,0.0,3,Funcionário,Operações
+4740.66,33,6,5.75,3,Funcionário,Recursos Humanos
+9023.26,46,11,6.0,6,Analista de RH,Tecnologia
+6717.63,38,3,3.0,6,Analista de RH,Tecnologia
+5093.47,41,9,4.0,3,Funcionário,Administração
+4760.09,61,7,6.0,3,Funcionário,Recursos Humanos
+6922.74,38,0,0.0,6,Analista de RH,Recursos Humanos
+7026.63,46,1,0.0,6,Analista de RH,Tecnologia
+7148.63,61,2,2.0,6,Analista de RH,Operações
+6938.42,48,7,5.833333333333333,6,Analista de RH,Operações
+6313.09,19,7,2.0,6,Analista de RH,Recursos Humanos
+3885.63,56,1,0.0,3,Funcionário,Tecnologia
+5755.63,22,2,3.0,6,Analista de RH,Recursos Humanos
+5925.74,65,0,0.0,6,Analista de RH,Recursos Humanos
+3640.48,29,3,3.5,3,Funcionário,Recursos Humanos
+5445.66,39,5,8.25,3,Funcionário,Tecnologia
+3322.63,51,1,0.0,3,Funcionário,Administração
+7092.91,62,6,4.2,6,Analista de RH,Operações
+6850.63,29,2,6.0,6,Analista de RH,Tecnologia
+6947.63,56,3,4.0,6,Analista de RH,Recursos Humanos
+3263.63,59,1,0.0,3,Funcionário,Recursos Humanos
+9205.66,35,5,5.0,6,Analista de RH,Operações
+5137.15,28,11,6.222222222222222,3,Funcionário,Operações
+4170.97,32,9,3.2857142857142856,3,Funcionário,Administração
+5466.63,36,2,2.0,6,Analista de RH,Tecnologia
+7930.74,43,0,0.0,6,Analista de RH,Tecnologia
+4319.66,27,5,5.0,3,Funcionário,Operações
+5306.09,61,7,6.0,3,Funcionário,Administração
+10041.82,35,10,6.888888888888889,6,Analista de RH,Recursos Humanos
+4703.66,47,5,4.75,3,Funcionário,Recursos Humanos
+8204.63,61,2,6.0,6,Analista de RH,Tecnologia
+5627.82,37,10,5.888888888888889,3,Funcionário,Tecnologia
+7785.63,30,2,6.0,6,Analista de RH,Tecnologia
+5169.11,54,8,6.0,3,Funcionário,Operações
+8477.66,37,5,6.75,6,Analista de RH,Administração
+6475.63,29,2,3.0,6,Analista de RH,Recursos Humanos
+4400.97,49,9,4.375,3,Funcionário,Administração
+4147.48,37,3,4.5,3,Funcionário,Tecnologia
+5120.47,28,9,5.25,3,Funcionário,Tecnologia
+3856.74,27,0,0.0,3,Funcionário,Tecnologia
+4052.63,24,3,4.0,3,Funcionário,Operações
+5205.97,56,8,5.285714285714286,3,Funcionário,Operações
+4105.63,50,2,5.0,3,Funcionário,Operações
+7131.22,48,5,4.333333333333333,6,Analista de RH,Administração
+4545.63,20,2,8.0,3,Funcionário,Recursos Humanos
+3974.88,28,4,3.0,3,Funcionário,Administração
+8492.93,36,11,5.666666666666667,6,Analista de RH,Administração
+4983.91,51,6,6.2,3,Funcionário,Operações
+3168.74,60,0,0.0,3,Funcionário,Operações
+4332.66,29,5,5.75,3,Funcionário,Recursos Humanos
+4872.93,39,11,5.666666666666667,3,Funcionário,Operações
+4538.48,51,3,4.5,3,Funcionário,Operações
+4896.63,62,3,10.0,3,Funcionário,Operações
+6680.26,50,8,2.7142857142857144,6,Analista de RH,Tecnologia
+9479.42,65,7,5.833333333333333,6,Analista de RH,Recursos Humanos
+4865.48,49,3,6.0,3,Funcionário,Administração
+4300.91,66,6,4.4,3,Funcionário,Recursos Humanos
+4187.63,36,1,0.0,3,Funcionário,Recursos Humanos
+7904.74,28,0,0.0,6,Analista de RH,Administração
+3340.63,32,1,0.0,3,Funcionário,Operações
+8722.47,61,9,3.0,6,Analista de RH,Tecnologia
+5100.71,34,10,7.111111111111111,3,Funcionário,Tecnologia
+4514.48,50,3,5.5,3,Funcionário,Operações
+7285.91,26,6,5.0,6,Analista de RH,Tecnologia
+9378.55,57,4,8.666666666666666,6,Analista de RH,Recursos Humanos
+3923.63,34,2,0.0,3,Funcionário,Administração
+9000.63,58,2,6.0,6,Analista de RH,Operações
+4894.88,36,4,7.0,3,Funcionário,Recursos Humanos
+6344.88,50,4,5.0,6,Analista de RH,Operações
+6794.48,52,3,4.5,6,Analista de RH,Operações
+7350.6,20,10,4.333333333333333,6,Analista de RH,Recursos Humanos
+8083.97,43,9,4.875,6,Analista de RH,Recursos Humanos
+6903.55,20,4,4.666666666666667,6,Analista de RH,Tecnologia
+9066.48,55,3,8.5,6,Analista de RH,Administração
+6727.74,44,1,0.0,6,Analista de RH,Recursos Humanos
+5155.26,34,8,4.714285714285714,3,Funcionário,Operações
+8392.97,40,9,5.625,6,Analista de RH,Tecnologia
+8246.97,24,9,6.375,6,Analista de RH,Administração
+3431.63,27,2,0.0,3,Funcionário,Tecnologia
+6965.42,36,7,4.333333333333333,6,Analista de RH,Tecnologia
+5088.11,42,8,4.0,3,Funcionário,Administração
+5140.49,43,11,5.555555555555555,3,Funcionário,Operações
+9735.11,56,8,5.0,6,Analista de RH,Administração
+9356.04,58,11,4.444444444444445,6,Analista de RH,Administração
+5709.63,33,2,3.0,6,Analista de RH,Operações
+4976.09,27,7,4.5,3,Funcionário,Operações
+7315.47,46,9,2.75,6,Analista de RH,Tecnologia
+4306.55,58,4,3.6666666666666665,3,Funcionário,Tecnologia
+6008.48,25,3,2.0,6,Analista de RH,Recursos Humanos
+7217.91,59,6,5.0,6,Analista de RH,Administração
+6054.63,60,1,0.0,6,Analista de RH,Operações
+4902.63,42,2,9.0,3,Funcionário,Operações
+6663.88,40,4,2.0,6,Analista de RH,Recursos Humanos
+4110.66,57,5,4.0,3,Funcionário,Administração
+3959.48,65,3,5.5,3,Funcionário,Administração
+6840.55,43,4,2.6666666666666665,6,Analista de RH,Administração
+4478.88,55,4,6.0,3,Funcionário,Tecnologia
+4950.97,21,9,5.125,3,Funcionário,Operações
+4675.91,20,6,5.8,3,Funcionário,Tecnologia
+6651.74,24,0,0.0,6,Analista de RH,Operações
+4953.91,21,6,4.4,3,Funcionário,Administração
+7573.97,19,8,7.285714285714286,6,Analista de RH,Recursos Humanos
+8592.75,42,7,5.666666666666667,6,Analista de RH,Administração
+6261.63,38,2,1.0,6,Analista de RH,Administração
+3603.63,46,1,0.0,3,Funcionário,Tecnologia
+4024.48,46,3,6.0,3,Funcionário,Administração
+7728.15,25,10,6.222222222222222,6,Analista de RH,Operações
+3703.63,48,1,0.0,3,Funcionário,Administração
+4222.88,32,4,4.0,3,Funcionário,Administração
+4195.47,37,9,3.0,3,Funcionário,Tecnologia
+6916.48,22,4,2.5,6,Analista de RH,Recursos Humanos
+8455.63,23,1,0.0,6,Analista de RH,Recursos Humanos
+7289.97,39,8,5.285714285714286,6,Analista de RH,Operações
+7717.4,31,8,2.4285714285714284,6,Analista de RH,Recursos Humanos
+4579.66,58,5,7.0,3,Funcionário,Administração
+7421.74,40,1,0.0,6,Analista de RH,Administração
+4286.66,26,5,4.5,3,Funcionário,Administração
+6990.48,22,3,6.0,6,Analista de RH,Tecnologia
+6919.48,31,3,8.0,6,Analista de RH,Administração
+4267.26,34,8,3.7142857142857144,3,Funcionário,Tecnologia
+6812.91,27,6,4.6,6,Analista de RH,Tecnologia
+4349.63,28,2,9.0,3,Funcionário,Operações
+9354.63,43,2,9.0,6,Analista de RH,Recursos Humanos
+6502.97,33,9,2.875,6,Analista de RH,Recursos Humanos
+7525.48,47,3,4.0,6,Analista de RH,Administração
+5423.47,38,9,7.0,3,Funcionário,Tecnologia
+5327.49,42,10,4.555555555555555,3,Funcionário,Administração
+3647.91,28,6,2.6,3,Funcionário,Tecnologia
+4433.4,23,8,3.4285714285714284,3,Funcionário,Tecnologia
+4346.66,56,5,4.75,3,Funcionário,Tecnologia
+5360.38,42,11,4.777777777777778,3,Funcionário,Recursos Humanos
+5100.75,33,7,5.666666666666667,3,Funcionário,Recursos Humanos
+9412.26,55,8,5.714285714285714,6,Analista de RH,Recursos Humanos
+5178.4,44,9,4.428571428571429,3,Funcionário,Administração
+7977.47,40,9,5.5,6,Analista de RH,Administração
+3646.74,37,0,0.0,3,Funcionário,Tecnologia
+4970.42,33,7,5.333333333333333,3,Funcionário,Tecnologia
+4598.93,58,10,3.6666666666666665,3,Funcionário,Operações
+7983.48,32,3,3.0,6,Analista de RH,Operações
+7241.63,29,1,0.0,6,Analista de RH,Recursos Humanos
+7122.75,52,7,4.666666666666667,6,Analista de RH,Tecnologia
+5731.74,27,0,0.0,6,Analista de RH,Tecnologia
+4011.63,51,2,0.0,3,Funcionário,Administração
+8439.71,53,10,7.111111111111111,6,Analista de RH,Administração
+9937.15,53,10,6.222222222222222,6,Analista de RH,Recursos Humanos
+4718.54,28,8,4.142857142857143,3,Funcionário,Recursos Humanos
+4757.63,30,2,7.0,3,Funcionário,Tecnologia
+8415.83,26,8,3.5714285714285716,6,Analista de RH,Operações
+4388.4,61,8,3.4285714285714284,3,Funcionário,Tecnologia
+8245.74,46,0,0.0,6,Analista de RH,Operações
+3573.48,33,3,1.5,3,Funcionário,Tecnologia
+3797.48,51,3,5.5,3,Funcionário,Recursos Humanos
+5278.15,44,10,5.222222222222222,3,Funcionário,Operações
+7992.97,31,9,4.375,6,Analista de RH,Recursos Humanos
+7269.74,41,0,0.0,6,Analista de RH,Administração
+4367.48,36,3,7.0,3,Funcionário,Tecnologia
+5101.11,50,9,6.0,3,Funcionário,Operações
+5139.97,44,9,5.625,3,Funcionário,Recursos Humanos
+8517.63,39,2,0.0,6,Analista de RH,Administração
+7500.97,36,9,4.125,6,Analista de RH,Tecnologia
+8339.63,26,1,0.0,6,Analista de RH,Recursos Humanos
+7086.63,45,1,0.0,6,Analista de RH,Recursos Humanos
+6453.63,65,1,0.0,6,Analista de RH,Recursos Humanos
+4742.48,42,3,6.0,3,Funcionário,Operações
+4050.88,26,5,4.0,3,Funcionário,Recursos Humanos
+7683.66,30,5,6.25,6,Analista de RH,Administração
+7902.66,55,5,5.75,6,Analista de RH,Administração
+7187.63,52,1,0.0,6,Analista de RH,Recursos Humanos
+4745.11,44,8,4.0,3,Funcionário,Administração
+7175.42,21,8,3.3333333333333335,6,Analista de RH,Recursos Humanos
+4042.63,28,1,0.0,3,Funcionário,Operações
+4422.66,55,5,2.5,3,Funcionário,Tecnologia
+7006.74,44,0,0.0,6,Analista de RH,Recursos Humanos
+5325.66,52,5,6.75,3,Funcionário,Administração
+5831.74,64,1,0.0,6,Analista de RH,Administração
+8626.63,37,1,0.0,6,Analista de RH,Recursos Humanos
+8194.63,53,1,0.0,6,Analista de RH,Administração
+8933.66,20,6,5.5,6,Analista de RH,Recursos Humanos
+8398.66,24,6,8.0,6,Analista de RH,Administração
+5081.49,35,11,5.555555555555555,3,Funcionário,Recursos Humanos
+4992.09,45,7,8.0,3,Funcionário,Administração
+7731.97,21,9,4.125,6,Analista de RH,Tecnologia
+4255.91,37,6,3.8,3,Funcionário,Administração
+9296.22,47,4,5.333333333333333,6,Analista de RH,Recursos Humanos
+9662.42,52,7,5.833333333333333,6,Analista de RH,Recursos Humanos
+6969.97,58,8,2.2857142857142856,6,Analista de RH,Tecnologia
+8718.42,25,7,4.333333333333333,6,Analista de RH,Tecnologia
+8806.48,38,3,4.0,6,Analista de RH,Recursos Humanos
+4673.15,21,11,5.222222222222222,3,Funcionário,Administração
+6069.74,64,0,0.0,6,Analista de RH,Operações
+7674.63,41,3,6.0,6,Analista de RH,Tecnologia
+3901.91,33,6,2.6,3,Funcionário,Administração
+4530.66,36,5,4.75,3,Funcionário,Recursos Humanos
+7633.6,53,10,6.333333333333333,6,Analista de RH,Tecnologia
+9064.93,19,10,4.666666666666667,6,Analista de RH,Administração
+5310.91,28,7,6.6,3,Funcionário,Administração
+4459.55,39,4,6.666666666666667,3,Funcionário,Operações
+7298.22,25,4,7.333333333333333,6,Analista de RH,Administração
+4030.66,19,5,4.5,3,Funcionário,Tecnologia
+7224.54,31,8,5.142857142857143,6,Analista de RH,Recursos Humanos
+3827.63,59,2,5.0,3,Funcionário,Recursos Humanos
+4584.97,44,10,4.625,3,Funcionário,Recursos Humanos
+4166.4,42,8,3.4285714285714284,3,Funcionário,Administração
+3853.63,55,2,0.0,3,Funcionário,Administração
+4464.48,41,3,5.5,3,Funcionário,Operações
+5147.75,32,7,5.166666666666667,3,Funcionário,Recursos Humanos
+7775.48,45,3,7.5,6,Analista de RH,Administração
+7330.63,48,1,0.0,6,Analista de RH,Tecnologia
+4815.47,56,9,6.25,3,Funcionário,Administração
+6839.09,39,7,3.5,6,Analista de RH,Operações
+3576.74,32,0,0.0,3,Funcionário,Operações
+4065.63,29,1,0.0,3,Funcionário,Operações
+8426.74,54,1,0.0,6,Analista de RH,Administração
+3342.74,31,0,0.0,3,Funcionário,Operações
+4254.91,60,6,5.0,3,Funcionário,Recursos Humanos
+5173.88,58,5,7.0,3,Funcionário,Operações
+9552.47,61,9,5.25,6,Analista de RH,Operações
+8557.66,33,5,3.5,6,Analista de RH,Tecnologia
+4934.38,46,10,5.777777777777778,3,Funcionário,Recursos Humanos
+6990.74,38,1,0.0,6,Analista de RH,Operações
+7406.48,20,3,5.0,6,Analista de RH,Administração
+9365.91,36,6,5.2,6,Analista de RH,Recursos Humanos
+9228.91,61,6,5.8,6,Analista de RH,Administração
+6884.68,35,8,4.857142857142857,6,Analista de RH,Administração
+4942.83,22,8,4.571428571428571,3,Funcionário,Tecnologia
+6880.66,21,5,5.5,6,Analista de RH,Tecnologia
+6953.74,29,0,0.0,6,Analista de RH,Recursos Humanos
+5017.42,52,7,6.333333333333333,3,Funcionário,Recursos Humanos
+9303.54,32,8,4.142857142857143,6,Analista de RH,Administração
+7765.42,49,7,4.333333333333333,6,Analista de RH,Tecnologia
+3685.22,58,4,3.3333333333333335,3,Funcionário,Administração
+3863.74,59,0,0.0,3,Funcionário,Administração
+4398.47,57,9,4.5,3,Funcionário,Recursos Humanos
+4580.91,54,6,3.4,3,Funcionário,Recursos Humanos
+5411.97,43,9,5.625,3,Funcionário,Operações
+4077.88,57,4,4.0,3,Funcionário,Recursos Humanos
+3846.22,51,4,4.333333333333333,3,Funcionário,Administração
+8229.63,19,2,6.0,6,Analista de RH,Operações
+8386.48,41,3,3.0,6,Analista de RH,Tecnologia
+8101.63,62,2,7.0,6,Analista de RH,Recursos Humanos
+6206.63,26,1,0.0,6,Analista de RH,Recursos Humanos
+3311.63,52,2,3.0,3,Funcionário,Administração
+7458.54,28,8,5.142857142857143,6,Analista de RH,Operações
+4153.48,32,3,5.0,3,Funcionário,Administração
+5191.91,54,6,6.4,3,Funcionário,Tecnologia
+4981.66,65,5,5.5,3,Funcionário,Administração
+5256.42,53,7,5.333333333333333,3,Funcionário,Operações
+6458.74,36,0,0.0,6,Analista de RH,Tecnologia
+6837.66,64,5,4.75,6,Analista de RH,Recursos Humanos
+5052.11,65,8,5.0,3,Funcionário,Recursos Humanos
+4105.63,26,2,4.0,3,Funcionário,Administração
+8141.74,52,0,0.0,6,Analista de RH,Recursos Humanos
+8325.68,40,8,4.857142857142857,6,Analista de RH,Operações
+4415.93,59,10,4.666666666666667,3,Funcionário,Tecnologia
+5011.4,41,8,4.428571428571429,3,Funcionário,Tecnologia
+8266.74,25,0,0.0,6,Analista de RH,Tecnologia
+8725.48,48,4,8.0,6,Analista de RH,Recursos Humanos
+3799.48,26,3,4.5,3,Funcionário,Administração
+7097.49,61,10,5.555555555555555,6,Analista de RH,Operações
+6303.63,33,2,6.0,6,Analista de RH,Recursos Humanos
+6771.48,63,3,3.5,6,Analista de RH,Tecnologia
+4723.54,64,8,5.142857142857143,3,Funcionário,Recursos Humanos
+8423.66,22,5,3.5,6,Analista de RH,Administração
+7009.68,26,8,5.857142857142857,6,Analista de RH,Tecnologia
+4996.66,52,5,7.5,3,Funcionário,Operações
+5429.42,40,7,6.333333333333333,3,Funcionário,Tecnologia
+6264.74,27,0,0.0,6,Analista de RH,Tecnologia
+10496.97,45,9,8.285714285714286,6,Analista de RH,Tecnologia
+4692.55,41,4,4.666666666666667,3,Funcionário,Operações
+7120.97,46,9,4.625,6,Analista de RH,Recursos Humanos
+4964.48,60,3,10.0,3,Funcionário,Administração
+4154.66,29,5,3.25,3,Funcionário,Tecnologia
+4250.22,54,4,5.333333333333333,3,Funcionário,Operações
+4836.91,27,6,5.2,3,Funcionário,Recursos Humanos
+4700.93,57,10,4.666666666666667,3,Funcionário,Tecnologia
+3095.74,33,0,0.0,3,Funcionário,Operações
+3876.63,58,2,4.0,3,Funcionário,Tecnologia
+4650.75,26,7,5.666666666666667,3,Funcionário,Recursos Humanos
+6750.63,61,2,0.0,6,Analista de RH,Operações
+6397.74,29,0,0.0,6,Analista de RH,Recursos Humanos
+4770.91,33,6,4.6,3,Funcionário,Administração
+10049.48,27,3,9.0,6,Analista de RH,Operações
+5121.91,33,6,5.2,3,Funcionário,Recursos Humanos
+7084.97,26,9,5.125,6,Analista de RH,Administração
+8263.63,61,1,0.0,6,Analista de RH,Tecnologia
+9186.91,31,6,5.2,6,Analista de RH,Operações
+5425.26,39,8,6.714285714285714,3,Funcionário,Administração
+8700.91,46,6,3.6,6,Analista de RH,Administração
+7362.09,34,7,7.0,6,Analista de RH,Recursos Humanos
+3447.74,42,0,0.0,3,Funcionário,Administração
+3158.63,23,2,0.0,3,Funcionário,Tecnologia
+8978.91,50,6,3.8,6,Analista de RH,Recursos Humanos
+7013.48,48,3,2.5,6,Analista de RH,Operações
+9379.97,25,9,5.625,6,Analista de RH,Operações
+6659.88,50,4,6.0,6,Analista de RH,Recursos Humanos
+3274.63,41,3,1.0,3,Funcionário,Administração
+5234.97,58,9,5.125,3,Funcionário,Operações
+8353.71,59,10,6.111111111111111,6,Analista de RH,Recursos Humanos
+4496.97,49,9,4.285714285714286,3,Funcionário,Recursos Humanos
+3771.48,62,3,2.0,3,Funcionário,Recursos Humanos
+4510.47,62,9,5.0,3,Funcionário,Tecnologia
+8836.97,55,9,5.375,6,Analista de RH,Recursos Humanos
+5623.74,49,0,0.0,6,Analista de RH,Operações
+7518.48,46,4,4.5,6,Analista de RH,Administração
+7315.63,47,2,0.0,6,Analista de RH,Tecnologia
+7383.47,25,9,6.25,6,Analista de RH,Administração
+4852.22,53,4,6.333333333333333,3,Funcionário,Tecnologia
+4819.4,45,8,3.4285714285714284,3,Funcionário,Tecnologia
+4735.91,43,6,4.0,3,Funcionário,Operações
+3896.74,26,0,0.0,3,Funcionário,Administração
+8306.09,33,7,4.5,6,Analista de RH,Recursos Humanos
+6775.88,54,4,5.0,6,Analista de RH,Administração
+3837.66,37,6,3.75,3,Funcionário,Tecnologia
+7803.74,55,0,0.0,6,Analista de RH,Tecnologia
+6908.66,21,5,4.75,6,Analista de RH,Tecnologia
+9597.47,60,10,4.0,6,Analista de RH,Operações
+5041.93,62,11,5.666666666666667,3,Funcionário,Administração
+5287.75,46,7,6.166666666666667,3,Funcionário,Operações
+8492.15,63,10,4.222222222222222,6,Analista de RH,Recursos Humanos
+3441.63,57,1,0.0,3,Funcionário,Operações
+4944.97,32,8,4.285714285714286,3,Funcionário,Administração
+2993.63,19,2,1.0,3,Funcionário,Tecnologia
+5231.82,34,10,5.888888888888889,3,Funcionário,Tecnologia
+4633.49,60,11,5.555555555555555,3,Funcionário,Administração
+4978.66,23,5,5.75,3,Funcionário,Recursos Humanos
+3045.74,65,0,0.0,3,Funcionário,Administração
+7340.22,41,4,4.333333333333333,6,Analista de RH,Administração
+4695.91,23,6,3.8,3,Funcionário,Administração
+5006.63,28,2,8.0,3,Funcionário,Tecnologia
+5485.47,26,9,6.25,3,Funcionário,Tecnologia
+8743.48,49,3,5.0,6,Analista de RH,Operações
+4992.48,26,3,7.5,3,Funcionário,Tecnologia
+7328.63,38,1,0.0,6,Analista de RH,Tecnologia
+3959.63,65,1,0.0,3,Funcionário,Recursos Humanos
+8889.47,41,9,3.75,6,Analista de RH,Tecnologia
+6992.82,33,10,3.888888888888889,6,Analista de RH,Tecnologia
+8187.74,24,0,0.0,6,Analista de RH,Recursos Humanos
+6958.66,46,5,5.75,6,Analista de RH,Administração
+7996.42,24,7,4.833333333333333,6,Analista de RH,Operações
+7702.83,63,8,5.571428571428571,6,Analista de RH,Tecnologia
+4345.4,52,9,4.428571428571429,3,Funcionário,Recursos Humanos
+6440.63,23,1,0.0,6,Analista de RH,Tecnologia
+7457.55,45,4,4.666666666666667,6,Analista de RH,Administração
+7869.09,45,8,7.0,6,Analista de RH,Tecnologia
+4787.91,56,6,6.4,3,Funcionário,Tecnologia
+5043.11,42,8,5.0,3,Funcionário,Operações
+5203.91,34,6,6.4,3,Funcionário,Operações
+4256.91,49,6,5.6,3,Funcionário,Operações
+4854.22,57,5,7.333333333333333,3,Funcionário,Recursos Humanos
+8552.49,52,10,5.555555555555555,6,Analista de RH,Recursos Humanos
+8510.26,27,9,4.714285714285714,6,Analista de RH,Tecnologia
+8367.74,26,0,0.0,6,Analista de RH,Tecnologia
+4268.97,54,9,4.375,3,Funcionário,Recursos Humanos
+7990.74,37,0,0.0,6,Analista de RH,Operações
+3073.74,33,1,0.0,3,Funcionário,Recursos Humanos
+3772.63,23,1,0.0,3,Funcionário,Tecnologia
+4178.88,58,4,5.0,3,Funcionário,Administração
+8748.91,44,6,3.8,6,Analista de RH,Recursos Humanos
+4761.26,30,10,4.0,3,Funcionário,Operações
+7871.91,60,6,5.4,6,Analista de RH,Administração
+7073.71,52,10,5.111111111111111,6,Analista de RH,Tecnologia
+4360.55,42,4,3.6666666666666665,3,Funcionário,Administração
+4509.66,28,6,6.0,3,Funcionário,Recursos Humanos
+5300.63,33,2,10.0,3,Funcionário,Tecnologia
+5012.88,58,5,6.0,3,Funcionário,Operações
+3232.74,44,0,0.0,3,Funcionário,Administração
+7094.48,26,3,6.5,6,Analista de RH,Tecnologia
+7133.97,33,9,6.125,6,Analista de RH,Operações
+7554.74,34,0,0.0,6,Analista de RH,Administração
+4754.91,57,6,7.4,3,Funcionário,Operações
+4157.48,32,4,6.5,3,Funcionário,Operações
+3042.63,24,2,3.0,3,Funcionário,Tecnologia
+9140.48,37,3,5.0,6,Analista de RH,Recursos Humanos
+3877.63,36,2,3.0,3,Funcionário,Administração
+4198.48,29,3,4.0,3,Funcionário,Administração
+8861.88,37,4,4.0,6,Analista de RH,Operações
+4297.63,63,3,5.0,3,Funcionário,Administração
+7404.75,31,7,7.666666666666667,6,Analista de RH,Tecnologia
+3688.48,54,3,2.5,3,Funcionário,Recursos Humanos
+4460.48,48,3,6.5,3,Funcionário,Recursos Humanos
+6433.22,28,4,3.3333333333333335,6,Analista de RH,Administração
+4776.63,25,2,10.0,3,Funcionário,Administração
+7683.74,53,0,0.0,6,Analista de RH,Administração
+3633.74,63,0,0.0,3,Funcionário,Tecnologia
+4155.22,38,5,5.333333333333333,3,Funcionário,Administração
+8898.91,65,7,6.2,6,Analista de RH,Tecnologia
+5098.91,43,6,5.0,3,Funcionário,Operações
+4884.97,65,9,5.875,3,Funcionário,Operações
+5530.04,52,10,5.444444444444445,3,Funcionário,Operações
+4754.66,58,5,7.75,3,Funcionário,Recursos Humanos
+4210.63,65,2,6.0,3,Funcionário,Administração
+3370.74,43,1,0.0,3,Funcionário,Tecnologia
+3833.74,52,1,0.0,3,Funcionário,Administração
+6162.63,28,2,0.0,6,Analista de RH,Recursos Humanos
+5324.75,28,7,6.166666666666667,3,Funcionário,Tecnologia
+3800.74,51,0,0.0,3,Funcionário,Operações
+4137.63,52,2,5.0,3,Funcionário,Operações
+6452.63,30,1,0.0,6,Analista de RH,Tecnologia
+8347.42,31,7,4.833333333333333,6,Analista de RH,Administração
+3281.63,21,2,4.0,3,Funcionário,Administração
+7065.63,42,2,4.0,6,Analista de RH,Operações
+7495.68,60,8,6.857142857142857,6,Analista de RH,Administração
+8605.48,46,3,3.5,6,Analista de RH,Recursos Humanos
+3896.74,54,1,0.0,3,Funcionário,Tecnologia
+5276.38,51,10,4.777777777777778,3,Funcionário,Operações
+7879.97,33,9,4.875,6,Analista de RH,Tecnologia
+5422.6,55,11,6.333333333333333,3,Funcionário,Administração
+7771.6,21,10,5.333333333333333,6,Analista de RH,Tecnologia
+3676.63,59,1,0.0,3,Funcionário,Tecnologia
+8808.47,65,9,5.0,6,Analista de RH,Operações
+7541.63,19,2,8.0,6,Analista de RH,Tecnologia
+3235.63,24,1,0.0,3,Funcionário,Administração
+3660.48,19,3,2.5,3,Funcionário,Tecnologia
+4038.91,59,6,3.2,3,Funcionário,Tecnologia
+8807.83,38,9,4.571428571428571,6,Analista de RH,Tecnologia
+3596.88,59,5,2.0,3,Funcionário,Operações
+4305.75,45,7,4.666666666666667,3,Funcionário,Tecnologia
+4039.63,46,2,0.0,3,Funcionário,Operações
+5721.74,59,1,0.0,6,Analista de RH,Tecnologia
+5200.48,44,4,9.0,3,Funcionário,Administração
+7384.49,25,10,6.555555555555555,6,Analista de RH,Operações
+4351.91,42,6,2.4,3,Funcionário,Operações
+7846.63,50,2,1.0,6,Analista de RH,Operações
+7202.48,19,3,6.5,6,Analista de RH,Recursos Humanos
+4567.47,29,9,4.25,3,Funcionário,Recursos Humanos
+4092.66,55,5,2.25,3,Funcionário,Administração
+4185.63,26,2,0.0,3,Funcionário,Operações
+7228.49,51,10,4.555555555555555,6,Analista de RH,Tecnologia
+9161.75,37,7,5.166666666666667,6,Analista de RH,Administração
+4105.66,36,5,4.5,3,Funcionário,Operações
+4759.75,51,7,5.666666666666667,3,Funcionário,Operações
+4197.66,46,5,3.5,3,Funcionário,Administração
+7845.91,56,7,7.6,6,Analista de RH,Administração
+8267.63,43,2,6.0,6,Analista de RH,Tecnologia
+6844.63,41,1,0.0,6,Analista de RH,Operações
+4372.91,33,6,5.4,3,Funcionário,Tecnologia
+3272.74,42,0,0.0,3,Funcionário,Administração
+8104.11,64,8,3.0,6,Analista de RH,Tecnologia
+8388.63,32,2,4.0,6,Analista de RH,Operações
+8839.38,39,10,4.777777777777778,6,Analista de RH,Recursos Humanos
+8964.93,40,10,5.666666666666667,6,Analista de RH,Tecnologia
+3552.63,32,2,2.0,3,Funcionário,Administração
+4076.66,28,5,2.75,3,Funcionário,Recursos Humanos
+5743.63,36,1,0.0,6,Analista de RH,Tecnologia
+4782.97,63,8,4.285714285714286,3,Funcionário,Recursos Humanos
+4586.42,58,7,4.333333333333333,3,Funcionário,Tecnologia
+7904.63,50,2,10.0,6,Analista de RH,Tecnologia
+8245.63,46,2,7.0,6,Analista de RH,Recursos Humanos
+6022.63,21,2,0.0,6,Analista de RH,Operações
+4564.48,33,3,7.0,3,Funcionário,Operações
+4409.04,36,10,4.444444444444445,3,Funcionário,Administração
+4028.63,62,2,4.0,3,Funcionário,Tecnologia
+10101.15,45,10,6.222222222222222,6,Analista de RH,Recursos Humanos
+7252.74,20,0,0.0,6,Analista de RH,Tecnologia
+7304.11,55,8,4.0,6,Analista de RH,Tecnologia
+8387.91,31,7,4.6,6,Analista de RH,Administração
+3514.63,60,2,4.0,3,Funcionário,Tecnologia
+6815.97,28,9,4.375,6,Analista de RH,Tecnologia
+4577.6,61,10,5.333333333333333,3,Funcionário,Tecnologia
+8417.68,49,8,3.857142857142857,6,Analista de RH,Operações
+7969.09,25,7,6.0,6,Analista de RH,Tecnologia
+4760.42,51,7,4.333333333333333,3,Funcionário,Administração
+5183.71,60,10,5.111111111111111,3,Funcionário,Recursos Humanos
+5071.97,62,10,6.875,3,Funcionário,Recursos Humanos
+4862.11,33,8,4.0,3,Funcionário,Recursos Humanos
+4743.47,27,10,5.75,3,Funcionário,Administração
+4132.66,29,6,5.5,3,Funcionário,Operações
+4784.26,29,10,4.0,3,Funcionário,Recursos Humanos
+7691.48,59,3,5.0,6,Analista de RH,Operações
+4558.42,53,7,5.833333333333333,3,Funcionário,Administração
+6870.48,53,3,5.0,6,Analista de RH,Administração
+8592.55,60,4,6.666666666666667,6,Analista de RH,Operações
+4935.48,50,3,7.5,3,Funcionário,Administração
+7800.48,50,4,0.0,6,Analista de RH,Recursos Humanos
+8025.63,21,1,0.0,6,Analista de RH,Operações
+4874.83,24,8,4.571428571428571,3,Funcionário,Operações
+4643.75,63,7,5.666666666666667,3,Funcionário,Operações
+7081.63,35,1,0.0,6,Analista de RH,Recursos Humanos
+8651.91,33,6,5.0,6,Analista de RH,Tecnologia
+5069.82,49,10,3.888888888888889,3,Funcionário,Administração
+5290.42,48,7,6.333333333333333,3,Funcionário,Recursos Humanos
+5754.74,49,0,0.0,6,Analista de RH,Tecnologia
+8723.48,38,3,5.5,6,Analista de RH,Administração
+7813.66,55,5,4.5,6,Analista de RH,Operações
+4962.63,31,2,0.0,6,Analista de RH,Administração
+5550.74,65,0,0.0,6,Analista de RH,Operações
+7486.74,60,1,0.0,6,Analista de RH,Operações
+8307.91,27,6,6.2,6,Analista de RH,Recursos Humanos
+4473.91,64,7,6.6,3,Funcionário,Tecnologia
+5055.47,29,9,5.25,3,Funcionário,Administração
+5179.63,63,2,9.0,3,Funcionário,Administração
+9030.82,44,10,5.888888888888889,6,Analista de RH,Operações
+7868.63,42,1,0.0,6,Analista de RH,Operações
+6568.63,34,2,4.0,6,Analista de RH,Administração
+4347.42,54,7,4.833333333333333,3,Funcionário,Recursos Humanos
+7839.97,26,8,6.285714285714286,6,Analista de RH,Recursos Humanos
+4420.47,61,9,4.0,3,Funcionário,Operações
+4145.63,59,2,0.0,3,Funcionário,Operações
+4642.63,39,3,8.0,3,Funcionário,Tecnologia
+4664.66,59,5,6.75,3,Funcionário,Operações
+4009.55,50,4,4.666666666666667,3,Funcionário,Tecnologia
+4749.91,19,6,4.2,3,Funcionário,Recursos Humanos
+5166.38,30,10,6.777777777777778,3,Funcionário,Recursos Humanos
+4820.49,46,11,3.5555555555555554,3,Funcionário,Tecnologia
+4836.88,56,4,6.0,3,Funcionário,Administração
+6999.91,57,6,5.0,6,Analista de RH,Recursos Humanos
+8175.63,58,2,3.0,6,Analista de RH,Operações
+7975.75,47,7,2.6666666666666665,6,Analista de RH,Administração
+6958.4,24,8,3.4285714285714284,6,Analista de RH,Operações
+4603.63,30,3,7.0,3,Funcionário,Operações
+6950.48,31,3,2.5,6,Analista de RH,Operações
+3304.74,52,0,0.0,3,Funcionário,Operações
+7269.91,44,7,6.4,6,Analista de RH,Operações
+6481.66,63,5,4.75,6,Analista de RH,Administração
+4626.42,29,8,6.333333333333333,3,Funcionário,Administração
+7628.88,32,4,5.0,6,Analista de RH,Administração
+6920.22,27,4,6.333333333333333,6,Analista de RH,Recursos Humanos
+7836.88,25,4,3.0,6,Analista de RH,Operações
+6507.74,24,1,0.0,6,Analista de RH,Tecnologia
+7024.74,52,0,0.0,6,Analista de RH,Administração
+9118.83,46,8,5.571428571428571,6,Analista de RH,Recursos Humanos
+4964.83,43,8,4.571428571428571,3,Funcionário,Administração
+6860.74,36,0,0.0,6,Analista de RH,Tecnologia
+8538.63,49,2,0.0,6,Analista de RH,Recursos Humanos
+4644.88,36,4,6.0,3,Funcionário,Recursos Humanos
+4284.75,31,7,4.666666666666667,3,Funcionário,Operações
+5348.75,51,7,6.666666666666667,3,Funcionário,Tecnologia
+5252.97,33,9,6.625,3,Funcionário,Administração
+4366.97,55,9,4.625,3,Funcionário,Tecnologia
+5261.75,38,7,6.166666666666667,3,Funcionário,Tecnologia
+4438.97,19,9,3.375,3,Funcionário,Operações
+4555.48,20,3,8.0,3,Funcionário,Tecnologia
+5172.26,19,8,4.714285714285714,3,Funcionário,Operações
+8477.91,56,6,3.6,6,Analista de RH,Administração
+8559.47,62,9,7.75,6,Analista de RH,Administração
+4047.63,52,2,6.0,3,Funcionário,Tecnologia
+8348.55,34,4,3.6666666666666665,6,Analista de RH,Tecnologia
+10244.91,48,6,9.0,6,Analista de RH,Recursos Humanos
+6694.68,58,8,3.857142857142857,6,Analista de RH,Tecnologia
+8517.6,19,10,5.333333333333333,6,Analista de RH,Administração
+6058.74,38,1,0.0,6,Analista de RH,Tecnologia
+8994.91,46,7,4.2,6,Analista de RH,Recursos Humanos
+7597.74,54,0,0.0,6,Analista de RH,Tecnologia
+7629.66,39,5,3.5,6,Analista de RH,Operações
+5106.97,61,9,4.875,3,Funcionário,Tecnologia
+6790.63,35,1,0.0,6,Analista de RH,Operações
+4798.11,25,8,6.0,3,Funcionário,Tecnologia
+8290.48,49,3,4.0,6,Analista de RH,Recursos Humanos
+4009.91,39,6,3.6,3,Funcionário,Recursos Humanos
+9514.97,30,9,6.875,6,Analista de RH,Administração
+9841.93,43,10,4.666666666666667,6,Analista de RH,Operações
+3906.63,64,1,0.0,3,Funcionário,Recursos Humanos
+7573.68,42,8,5.857142857142857,6,Analista de RH,Administração
+9057.83,46,8,5.571428571428571,6,Analista de RH,Administração
+5496.4,37,8,6.428571428571429,3,Funcionário,Administração
+5493.74,62,0,0.0,6,Analista de RH,Tecnologia
+8839.66,46,6,5.5,6,Analista de RH,Recursos Humanos
+4333.66,45,5,2.25,3,Funcionário,Administração
+7464.09,39,7,5.0,6,Analista de RH,Tecnologia
+4056.63,28,2,0.0,3,Funcionário,Tecnologia
+7366.15,39,10,4.222222222222222,6,Analista de RH,Operações
+8631.97,24,8,4.285714285714286,6,Analista de RH,Administração
+3181.74,49,0,0.0,3,Funcionário,Administração
+8145.74,55,0,0.0,6,Analista de RH,Operações
+4547.91,45,6,6.2,3,Funcionário,Administração
+8544.63,30,2,0.0,6,Analista de RH,Recursos Humanos
+3426.63,48,2,1.0,3,Funcionário,Administração
+3895.63,22,1,0.0,3,Funcionário,Operações
+8311.55,30,5,1.6666666666666667,6,Analista de RH,Operações
+2907.63,39,2,1.0,3,Funcionário,Administração
+4695.38,54,10,5.777777777777778,3,Funcionário,Recursos Humanos
+6295.63,38,1,0.0,6,Analista de RH,Operações
+4594.91,51,6,4.0,3,Funcionário,Administração
+4532.93,43,10,3.6666666666666665,3,Funcionário,Operações
+8251.75,27,8,3.1666666666666665,6,Analista de RH,Operações
+6562.74,25,0,0.0,6,Analista de RH,Administração
+9401.91,33,7,7.8,6,Analista de RH,Operações
+8026.66,38,5,6.0,6,Analista de RH,Tecnologia
+4587.82,29,11,4.888888888888889,3,Funcionário,Operações
+8789.26,64,8,3.7142857142857144,6,Analista de RH,Recursos Humanos
+2858.63,21,2,0.0,3,Funcionário,Tecnologia
+4830.63,33,2,9.0,3,Funcionário,Tecnologia
+7861.22,20,4,3.3333333333333335,6,Analista de RH,Operações
+6684.63,33,1,0.0,6,Analista de RH,Administração
+4674.91,45,6,6.8,3,Funcionário,Operações
+4483.66,38,5,7.0,3,Funcionário,Administração
+6944.75,32,8,4.166666666666667,6,Analista de RH,Tecnologia
+6203.91,45,6,1.6,6,Analista de RH,Recursos Humanos
+4021.63,21,1,0.0,3,Funcionário,Recursos Humanos
+4180.4,26,8,2.4285714285714284,3,Funcionário,Tecnologia
+5079.83,39,8,6.571428571428571,3,Funcionário,Tecnologia
+6710.63,60,2,1.0,6,Analista de RH,Recursos Humanos
+6832.47,59,9,4.75,6,Analista de RH,Operações
+7715.97,38,8,6.285714285714286,6,Analista de RH,Tecnologia
+4692.66,30,5,4.75,3,Funcionário,Operações
+4103.88,19,4,6.0,3,Funcionário,Recursos Humanos
+7869.66,46,5,3.5,6,Analista de RH,Administração
+7650.97,41,9,4.875,6,Analista de RH,Operações
+8038.63,30,2,4.0,6,Analista de RH,Tecnologia
+4987.97,65,9,6.625,3,Funcionário,Recursos Humanos
+3230.74,48,0,0.0,3,Funcionário,Operações
+8402.47,33,9,4.5,6,Analista de RH,Operações
+4762.66,61,5,4.75,3,Funcionário,Recursos Humanos
+4479.55,64,4,5.666666666666667,3,Funcionário,Recursos Humanos
+3571.74,35,0,0.0,3,Funcionário,Recursos Humanos
+8486.68,40,8,4.857142857142857,6,Analista de RH,Administração
+4396.97,52,8,5.285714285714286,3,Funcionário,Operações
+4451.09,49,8,5.0,3,Funcionário,Recursos Humanos
+6677.74,60,0,0.0,6,Analista de RH,Administração
+7964.22,39,4,7.333333333333333,6,Analista de RH,Tecnologia
+5474.66,21,5,7.75,3,Funcionário,Tecnologia
+9477.38,22,10,3.7777777777777777,6,Analista de RH,Tecnologia
+7758.66,58,5,3.5,6,Analista de RH,Administração
+3639.91,39,6,2.6,3,Funcionário,Administração
+2683.63,39,2,0.0,3,Funcionário,Operações
+5119.55,42,4,7.666666666666667,3,Funcionário,Tecnologia
+5399.91,30,6,7.0,3,Funcionário,Operações
+9249.66,61,6,5.5,6,Analista de RH,Tecnologia
+3190.48,48,3,1.5,3,Funcionário,Administração
+7522.63,57,1,0.0,6,Analista de RH,Recursos Humanos
+4389.47,53,9,2.5,3,Funcionário,Tecnologia
+8601.11,32,8,5.0,6,Analista de RH,Tecnologia
+8387.74,44,0,0.0,6,Analista de RH,Tecnologia
+4533.91,32,7,5.0,3,Funcionário,Operações
+7867.42,29,7,4.833333333333333,6,Analista de RH,Operações
+7574.68,42,8,4.857142857142857,6,Analista de RH,Recursos Humanos
+6223.74,39,0,0.0,6,Analista de RH,Tecnologia
+5084.91,35,6,5.2,3,Funcionário,Recursos Humanos
+4076.48,64,3,4.5,3,Funcionário,Administração
+9005.26,21,8,4.714285714285714,6,Analista de RH,Recursos Humanos
+8291.63,32,1,0.0,6,Analista de RH,Recursos Humanos
+3285.74,42,0,0.0,3,Funcionário,Administração
+3777.55,40,4,0.6666666666666666,3,Funcionário,Administração
+8076.54,27,8,6.142857142857143,6,Analista de RH,Tecnologia
+3580.48,62,3,2.5,3,Funcionário,Administração
+4705.97,24,9,4.875,3,Funcionário,Operações
+4466.91,47,6,4.4,3,Funcionário,Tecnologia
+6675.75,41,7,3.6666666666666665,6,Analista de RH,Tecnologia
+7834.75,33,7,3.6666666666666665,6,Analista de RH,Administração
+5229.04,38,10,4.444444444444445,3,Funcionário,Recursos Humanos
+3971.63,52,2,5.0,3,Funcionário,Administração
+4909.97,55,10,5.125,3,Funcionário,Tecnologia
+7523.63,61,1,0.0,6,Analista de RH,Operações
+2945.74,48,0,0.0,3,Funcionário,Tecnologia
+7196.09,31,7,5.5,6,Analista de RH,Administração
+7157.66,37,5,2.25,6,Analista de RH,Recursos Humanos
+9086.42,48,8,3.3333333333333335,6,Analista de RH,Tecnologia
+5169.22,28,4,7.333333333333333,3,Funcionário,Operações
+5120.6,52,10,4.333333333333333,3,Funcionário,Administração
+9807.6,49,10,6.333333333333333,6,Analista de RH,Administração
+4182.63,26,1,0.0,3,Funcionário,Tecnologia
+8335.83,28,9,5.571428571428571,6,Analista de RH,Tecnologia
+7855.63,44,2,0.0,6,Analista de RH,Operações
+7891.74,42,0,0.0,6,Analista de RH,Administração
+4772.04,26,10,4.444444444444445,3,Funcionário,Operações
+5459.22,22,4,8.333333333333334,3,Funcionário,Operações
+4819.54,20,9,6.142857142857143,3,Funcionário,Recursos Humanos
+4388.09,27,8,4.0,3,Funcionário,Operações
+8633.47,53,9,3.25,6,Analista de RH,Recursos Humanos
+9264.88,41,4,5.0,6,Analista de RH,Administração
+8897.09,63,7,5.5,6,Analista de RH,Administração
+2980.63,50,2,0.0,3,Funcionário,Recursos Humanos
+8679.66,65,5,6.0,6,Analista de RH,Administração
+5149.91,46,6,6.8,3,Funcionário,Tecnologia
+8546.09,30,8,3.0,6,Analista de RH,Tecnologia
+4985.22,33,4,6.333333333333333,3,Funcionário,Operações
+9238.88,36,4,6.0,6,Analista de RH,Administração
+4674.66,43,5,6.0,3,Funcionário,Recursos Humanos
+4609.09,30,7,3.0,3,Funcionário,Operações
+8226.63,64,2,5.0,6,Analista de RH,Tecnologia
+9526.47,45,9,5.25,6,Analista de RH,Recursos Humanos
+4457.66,45,5,5.0,3,Funcionário,Recursos Humanos
+8310.55,48,4,3.6666666666666665,6,Analista de RH,Tecnologia
+4598.54,34,8,6.142857142857143,3,Funcionário,Administração
+3261.63,51,1,0.0,3,Funcionário,Tecnologia
+3535.48,50,3,4.0,3,Funcionário,Recursos Humanos
+7815.63,39,3,8.0,6,Analista de RH,Operações
+2981.74,30,1,0.0,3,Funcionário,Operações
+3886.66,29,5,3.5,3,Funcionário,Operações
+2680.63,19,2,1.0,3,Funcionário,Tecnologia
+8697.63,54,1,0.0,6,Analista de RH,Recursos Humanos
+8398.63,31,1,0.0,6,Analista de RH,Administração
+5094.97,30,9,5.125,3,Funcionário,Tecnologia
+4753.91,53,6,5.4,3,Funcionário,Recursos Humanos
+5054.66,45,5,5.5,3,Funcionário,Operações
+6995.91,51,6,5.8,6,Analista de RH,Tecnologia
+4665.83,25,8,5.571428571428571,3,Funcionário,Tecnologia
+7713.63,50,2,6.0,6,Analista de RH,Administração
+4446.04,27,11,4.444444444444445,3,Funcionário,Operações
+4686.66,30,5,5.75,3,Funcionário,Operações
+3332.74,57,0,0.0,3,Funcionário,Recursos Humanos
+2944.74,22,0,0.0,3,Funcionário,Administração
+5002.63,35,2,9.0,3,Funcionário,Operações
+6433.66,57,5,4.0,6,Analista de RH,Administração
+7764.22,50,4,1.3333333333333333,6,Analista de RH,Recursos Humanos
+9750.09,33,7,5.5,6,Analista de RH,Administração
+4275.88,38,4,5.0,3,Funcionário,Recursos Humanos
+4729.82,55,10,3.888888888888889,3,Funcionário,Tecnologia
+8940.97,38,10,4.625,6,Analista de RH,Administração
+4586.11,23,8,5.0,3,Funcionário,Operações
+6812.75,33,7,4.166666666666667,6,Analista de RH,Operações
+6609.63,62,2,5.0,6,Analista de RH,Tecnologia
+8559.63,26,1,0.0,6,Analista de RH,Administração
+3540.63,22,1,0.0,3,Funcionário,Recursos Humanos
+7366.48,30,4,8.0,6,Analista de RH,Operações
+4578.48,25,3,5.5,3,Funcionário,Administração
+6830.48,22,3,3.5,6,Analista de RH,Administração
+8640.55,43,4,4.666666666666667,6,Analista de RH,Operações
+5068.91,21,6,6.2,3,Funcionário,Tecnologia
+3914.66,64,5,2.75,3,Funcionário,Recursos Humanos
+3180.74,40,0,0.0,3,Funcionário,Recursos Humanos
+8093.74,55,1,0.0,6,Analista de RH,Tecnologia
+8173.4,62,8,5.428571428571429,6,Analista de RH,Tecnologia
+3776.74,40,0,0.0,3,Funcionário,Recursos Humanos
+2991.74,51,0,0.0,3,Funcionário,Recursos Humanos
+4943.93,29,11,4.666666666666667,3,Funcionário,Operações
+7855.74,34,0,0.0,6,Analista de RH,Tecnologia
+5008.97,24,9,4.875,3,Funcionário,Operações
+3675.74,37,0,0.0,3,Funcionário,Tecnologia
+6404.88,25,4,5.0,6,Analista de RH,Recursos Humanos
+7404.91,61,6,3.8,6,Analista de RH,Recursos Humanos
+7338.48,65,3,6.0,6,Analista de RH,Administração
+7843.74,41,0,0.0,6,Analista de RH,Tecnologia
+8250.55,64,4,3.6666666666666665,6,Analista de RH,Tecnologia
+4844.47,51,9,5.0,3,Funcionário,Operações
+6336.63,51,3,4.0,6,Analista de RH,Administração
+4533.66,32,5,4.5,3,Funcionário,Tecnologia
+8042.48,54,3,7.0,6,Analista de RH,Recursos Humanos
+4459.49,65,10,4.555555555555555,3,Funcionário,Operações
+3786.63,61,2,3.0,3,Funcionário,Operações
+5750.63,42,1,0.0,6,Analista de RH,Recursos Humanos
+7219.91,46,6,3.0,6,Analista de RH,Tecnologia
+7067.04,61,11,4.444444444444445,6,Analista de RH,Administração
+4769.75,43,7,6.166666666666667,3,Funcionário,Recursos Humanos
+9132.48,48,3,7.5,6,Analista de RH,Recursos Humanos
+7224.63,56,1,0.0,6,Analista de RH,Operações
+8641.55,36,4,4.666666666666667,6,Analista de RH,Recursos Humanos
+7126.91,44,6,5.4,6,Analista de RH,Administração
+3662.63,46,1,0.0,3,Funcionário,Administração
+3527.63,37,1,0.0,3,Funcionário,Recursos Humanos
+9922.83,60,8,6.571428571428571,6,Analista de RH,Tecnologia
+7189.15,24,10,5.222222222222222,6,Analista de RH,Operações
+4914.09,49,8,7.5,3,Funcionário,Recursos Humanos
+5250.15,40,10,5.222222222222222,3,Funcionário,Operações
+8888.48,22,3,8.5,6,Analista de RH,Administração
+4805.54,25,8,7.142857142857143,3,Funcionário,Operações
+7133.91,43,6,4.8,6,Analista de RH,Recursos Humanos
+5542.47,53,9,7.25,3,Funcionário,Tecnologia
+7347.74,46,0,0.0,6,Analista de RH,Administração
+5452.93,46,10,5.666666666666667,3,Funcionário,Recursos Humanos
+9471.4,45,8,4.428571428571429,6,Analista de RH,Tecnologia
+7697.47,42,10,6.0,6,Analista de RH,Tecnologia
+7589.97,65,9,5.875,6,Analista de RH,Operações
+8743.26,64,9,6.714285714285714,6,Analista de RH,Tecnologia
+4421.88,47,5,5.0,3,Funcionário,Administração
+6716.42,40,8,3.3333333333333335,6,Analista de RH,Recursos Humanos
+7146.75,26,8,4.666666666666667,6,Analista de RH,Recursos Humanos
+3373.74,61,0,0.0,3,Funcionário,Recursos Humanos
+9733.91,29,6,7.0,6,Analista de RH,Recursos Humanos
+7881.91,65,7,4.6,6,Analista de RH,Recursos Humanos
+6894.91,27,6,5.6,6,Analista de RH,Operações
+4705.47,40,10,4.0,3,Funcionário,Administração
+6779.75,30,8,4.666666666666667,6,Analista de RH,Tecnologia
+7688.97,30,9,5.125,6,Analista de RH,Recursos Humanos
+8091.47,54,10,2.75,6,Analista de RH,Administração
+5385.47,62,9,6.75,3,Funcionário,Operações
+8081.48,41,3,2.5,6,Analista de RH,Tecnologia
+5058.09,20,7,4.5,3,Funcionário,Recursos Humanos
+4087.88,39,4,2.0,3,Funcionário,Tecnologia
+9352.66,40,5,5.25,6,Analista de RH,Recursos Humanos
+4537.66,60,5,3.75,3,Funcionário,Tecnologia
+7768.47,60,9,5.0,6,Analista de RH,Administração
+9222.91,47,6,5.6,6,Analista de RH,Operações
+4575.82,37,10,3.888888888888889,3,Funcionário,Administração
+3634.88,47,4,4.0,3,Funcionário,Operações
+7001.91,50,6,5.0,6,Analista de RH,Administração
+4831.75,32,7,6.166666666666667,3,Funcionário,Administração
+3182.74,50,0,0.0,3,Funcionário,Tecnologia
+8111.66,38,5,4.25,6,Analista de RH,Tecnologia
+8983.26,50,8,3.7142857142857144,6,Analista de RH,Recursos Humanos
+4703.48,28,3,7.0,3,Funcionário,Administração
+8265.66,46,5,4.0,6,Analista de RH,Recursos Humanos
+4329.97,22,9,4.625,3,Funcionário,Operações
+3008.74,55,0,0.0,3,Funcionário,Operações
+4861.91,45,6,5.2,3,Funcionário,Operações
+8041.66,63,5,3.25,6,Analista de RH,Recursos Humanos
+9227.11,62,8,4.0,6,Analista de RH,Recursos Humanos
+8256.48,46,3,4.5,6,Analista de RH,Recursos Humanos
+9629.91,29,6,6.0,6,Analista de RH,Recursos Humanos
+5153.91,40,6,6.2,3,Funcionário,Tecnologia
+9031.09,47,7,6.0,6,Analista de RH,Tecnologia
+3337.74,55,0,0.0,3,Funcionário,Tecnologia
+7799.48,20,3,5.5,6,Analista de RH,Operações
+9680.82,61,11,6.888888888888889,6,Analista de RH,Recursos Humanos
+3611.63,43,2,4.0,3,Funcionário,Tecnologia
+7220.22,30,4,3.3333333333333335,6,Analista de RH,Administração
+4136.22,57,4,5.333333333333333,3,Funcionário,Administração
+8327.63,58,1,0.0,6,Analista de RH,Administração
+8985.91,61,6,4.4,6,Analista de RH,Administração
+7910.48,26,3,8.5,6,Analista de RH,Tecnologia
+3902.22,37,4,4.333333333333333,3,Funcionário,Administração
+3367.63,20,2,0.0,3,Funcionário,Recursos Humanos
+3607.63,54,2,0.0,3,Funcionário,Recursos Humanos
+4660.63,59,2,10.0,3,Funcionário,Tecnologia
+8417.22,36,4,4.333333333333333,6,Analista de RH,Operações
+9884.42,60,7,6.833333333333333,6,Analista de RH,Tecnologia
+4319.55,24,4,3.6666666666666665,3,Funcionário,Operações
+7789.68,26,8,3.857142857142857,6,Analista de RH,Recursos Humanos
+3336.74,62,0,0.0,3,Funcionário,Tecnologia
+5711.63,23,2,2.0,6,Analista de RH,Administração
+5091.22,62,5,7.333333333333333,3,Funcionário,Operações
+6471.63,57,2,0.0,6,Analista de RH,Tecnologia
+7543.48,46,3,6.0,6,Analista de RH,Operações
+7694.47,51,9,4.0,6,Analista de RH,Tecnologia
+4957.66,42,5,8.5,3,Funcionário,Recursos Humanos
+5170.48,58,3,7.5,3,Funcionário,Recursos Humanos
+4320.97,30,9,3.875,3,Funcionário,Tecnologia
+9549.54,21,8,7.142857142857143,6,Analista de RH,Recursos Humanos
+5319.63,20,3,9.0,3,Funcionário,Recursos Humanos
+7632.88,19,4,5.0,6,Analista de RH,Administração
+4638.63,24,3,9.0,3,Funcionário,Operações
+4030.63,55,1,0.0,3,Funcionário,Operações
+3081.74,55,0,0.0,3,Funcionário,Recursos Humanos
+3647.74,56,0,0.0,3,Funcionário,Operações
+8492.63,51,1,0.0,6,Analista de RH,Tecnologia
+4890.71,19,10,4.111111111111111,3,Funcionário,Administração
+9155.26,45,8,5.714285714285714,6,Analista de RH,Administração
+7979.66,49,5,3.25,6,Analista de RH,Operações
+5780.63,58,2,0.0,6,Analista de RH,Operações
+7570.71,52,10,5.111111111111111,6,Analista de RH,Administração
+3111.63,45,2,0.0,3,Funcionário,Operações
+4893.91,34,6,4.4,3,Funcionário,Administração
+5805.74,65,0,0.0,6,Analista de RH,Recursos Humanos
+9158.66,23,5,3.75,6,Analista de RH,Tecnologia
+4552.91,40,6,2.6,3,Funcionário,Tecnologia
+7466.48,29,3,5.0,6,Analista de RH,Recursos Humanos
+4723.49,36,10,4.555555555555555,3,Funcionário,Operações
+3341.63,45,1,0.0,3,Funcionário,Tecnologia
+4888.48,38,3,6.5,3,Funcionário,Operações
+7229.71,29,11,5.111111111111111,6,Analista de RH,Recursos Humanos
+4462.66,55,5,6.25,3,Funcionário,Administração
+9366.75,37,7,4.166666666666667,6,Analista de RH,Operações
+8025.47,29,9,4.25,6,Analista de RH,Recursos Humanos
+3479.48,29,3,4.0,3,Funcionário,Operações
+4896.91,31,7,6.2,3,Funcionário,Tecnologia
+9070.38,45,10,3.7777777777777777,6,Analista de RH,Administração
+6570.55,60,4,1.6666666666666667,6,Analista de RH,Administração
+4281.91,62,6,3.6,3,Funcionário,Administração
+4663.09,57,7,5.5,3,Funcionário,Administração
+8171.48,63,3,5.0,6,Analista de RH,Operações
+7966.54,33,8,5.142857142857143,6,Analista de RH,Operações
+3969.48,43,3,6.0,3,Funcionário,Recursos Humanos
+7412.97,57,9,5.125,6,Analista de RH,Administração
+7672.11,55,9,4.0,6,Analista de RH,Administração
+7546.75,65,7,5.666666666666667,6,Analista de RH,Tecnologia
+4896.47,51,9,7.25,3,Funcionário,Tecnologia
+8332.66,23,5,4.75,6,Analista de RH,Administração
+4694.75,59,7,6.166666666666667,3,Funcionário,Operações
+2567.63,24,2,0.0,3,Funcionário,Tecnologia
+8590.66,59,5,4.75,6,Analista de RH,Operações
+9084.48,51,3,5.0,6,Analista de RH,Operações
+4792.82,35,10,3.888888888888889,3,Funcionário,Recursos Humanos
+7683.48,34,3,6.5,6,Analista de RH,Recursos Humanos
+8389.74,41,0,0.0,6,Analista de RH,Recursos Humanos
+5778.63,22,1,0.0,6,Analista de RH,Tecnologia
+5764.63,39,1,0.0,6,Analista de RH,Operações
+7268.91,44,6,6.6,6,Analista de RH,Operações
+4510.97,30,9,4.875,3,Funcionário,Tecnologia
+6703.68,28,8,3.857142857142857,6,Analista de RH,Tecnologia
+3916.55,59,4,3.6666666666666665,3,Funcionário,Operações
+8346.88,46,4,6.0,6,Analista de RH,Tecnologia
+7656.91,50,6,3.0,6,Analista de RH,Administração
+5646.26,61,10,8.0,3,Funcionário,Tecnologia
+9013.47,49,9,2.75,6,Analista de RH,Recursos Humanos
+3985.66,54,5,3.75,3,Funcionário,Administração
+7336.49,32,10,4.555555555555555,6,Analista de RH,Administração
+4067.55,22,4,2.6666666666666665,3,Funcionário,Recursos Humanos
+4085.83,36,9,3.5714285714285716,3,Funcionário,Operações
+3892.63,62,1,0.0,3,Funcionário,Administração
+3841.74,60,0,0.0,3,Funcionário,Operações
+7195.6,51,10,4.333333333333333,6,Analista de RH,Operações
+4459.91,24,6,6.2,3,Funcionário,Tecnologia
+8289.66,55,5,3.5,6,Analista de RH,Administração
+9493.26,59,10,6.0,6,Analista de RH,Recursos Humanos
+4119.48,54,3,2.5,3,Funcionário,Tecnologia
+7810.42,23,7,6.333333333333333,6,Analista de RH,Recursos Humanos
+7905.63,37,2,9.0,6,Analista de RH,Recursos Humanos
+4642.22,20,4,5.333333333333333,3,Funcionário,Tecnologia
+6202.74,43,0,0.0,6,Analista de RH,Administração
+3862.74,53,1,0.0,3,Funcionário,Tecnologia
+3935.63,57,2,0.0,3,Funcionário,Recursos Humanos
+4342.91,64,6,3.6,3,Funcionário,Operações
+8316.91,58,6,3.8,6,Analista de RH,Recursos Humanos
+5461.48,44,3,9.0,3,Funcionário,Tecnologia
+5133.75,62,7,4.666666666666667,3,Funcionário,Operações
+5673.74,43,0,0.0,6,Analista de RH,Tecnologia
+5001.71,45,10,3.111111111111111,3,Funcionário,Tecnologia
+9061.6,32,10,5.333333333333333,6,Analista de RH,Tecnologia
+7304.97,30,9,5.125,6,Analista de RH,Operações
+4241.97,46,8,3.2857142857142856,3,Funcionário,Operações
+3992.48,46,3,2.5,3,Funcionário,Operações
+6939.97,20,9,4.625,6,Analista de RH,Tecnologia
+9541.47,50,9,4.25,6,Analista de RH,Administração
+4443.66,34,5,5.75,3,Funcionário,Tecnologia
+4053.22,30,4,5.333333333333333,3,Funcionário,Tecnologia
+7468.74,21,0,0.0,6,Analista de RH,Recursos Humanos
+4681.55,44,5,7.666666666666667,3,Funcionário,Operações
+4489.26,22,8,5.714285714285714,3,Funcionário,Administração
+7989.66,51,5,8.0,6,Analista de RH,Tecnologia
+9931.04,36,10,6.444444444444445,6,Analista de RH,Recursos Humanos
+7096.74,31,0,0.0,6,Analista de RH,Administração
+3544.88,33,4,3.0,3,Funcionário,Recursos Humanos
+8027.74,44,0,0.0,6,Analista de RH,Administração
+8498.26,63,8,6.714285714285714,6,Analista de RH,Administração
+4862.26,56,8,4.714285714285714,3,Funcionário,Administração
+4884.97,26,9,6.375,3,Funcionário,Recursos Humanos
+4047.48,55,4,5.5,3,Funcionário,Administração
+8591.66,34,6,4.75,6,Analista de RH,Recursos Humanos
+5462.66,60,5,7.25,3,Funcionário,Administração
+8083.63,46,1,0.0,6,Analista de RH,Operações
+8198.74,63,1,0.0,6,Analista de RH,Recursos Humanos
+3879.22,56,5,1.3333333333333333,3,Funcionário,Recursos Humanos
+3586.74,50,0,0.0,3,Funcionário,Operações
+8964.22,24,4,4.333333333333333,6,Analista de RH,Recursos Humanos
+3276.63,61,1,0.0,3,Funcionário,Tecnologia
+9130.97,46,9,5.125,6,Analista de RH,Recursos Humanos
+8608.71,41,10,6.111111111111111,6,Analista de RH,Operações
+6600.55,46,4,3.6666666666666665,6,Analista de RH,Tecnologia
+5480.97,33,9,5.625,3,Funcionário,Operações
+8321.42,27,7,7.333333333333333,6,Analista de RH,Operações
+8035.66,56,5,4.75,6,Analista de RH,Administração
+6175.88,52,5,3.0,6,Analista de RH,Tecnologia
+4404.66,57,5,6.0,3,Funcionário,Recursos Humanos
+4236.82,53,11,3.888888888888889,3,Funcionário,Operações
+4354.47,20,9,4.5,3,Funcionário,Recursos Humanos
+4723.48,37,3,6.0,3,Funcionário,Administração
+3757.74,21,0,0.0,3,Funcionário,Administração
+7464.91,65,6,7.0,6,Analista de RH,Administração
+4544.91,62,7,4.6,3,Funcionário,Operações
+4665.38,26,10,4.777777777777778,3,Funcionário,Recursos Humanos
+4697.15,47,10,5.222222222222222,3,Funcionário,Operações
+4409.48,26,3,7.0,3,Funcionário,Recursos Humanos
+6464.63,22,1,0.0,6,Analista de RH,Administração
+9110.66,62,5,7.25,6,Analista de RH,Recursos Humanos
+4659.26,21,8,2.7142857142857144,3,Funcionário,Tecnologia
+9044.09,42,7,6.0,6,Analista de RH,Recursos Humanos
+8226.91,40,6,6.4,6,Analista de RH,Administração
+3263.63,50,1,0.0,3,Funcionário,Operações
+3907.74,59,0,0.0,3,Funcionário,Administração
+9290.75,36,7,6.166666666666667,6,Analista de RH,Operações
+4409.97,41,8,4.285714285714286,3,Funcionário,Operações
+9739.97,20,9,6.625,6,Analista de RH,Administração
+8284.55,65,4,6.666666666666667,6,Analista de RH,Administração
+7978.74,56,0,0.0,6,Analista de RH,Tecnologia
+5332.04,25,10,6.444444444444445,3,Funcionário,Administração
+3489.63,45,1,0.0,3,Funcionário,Tecnologia
+4325.66,32,6,5.5,3,Funcionário,Tecnologia
+4288.48,32,4,6.0,3,Funcionário,Recursos Humanos
+5103.49,24,10,4.555555555555555,3,Funcionário,Tecnologia
+6659.22,45,4,5.333333333333333,6,Analista de RH,Administração
+4024.48,35,3,5.5,3,Funcionário,Tecnologia
+8877.63,24,2,9.0,6,Analista de RH,Recursos Humanos
+5270.71,45,11,6.111111111111111,3,Funcionário,Administração
+8627.63,43,1,0.0,6,Analista de RH,Operações
+8319.66,37,5,4.5,6,Analista de RH,Operações
+5070.55,43,4,7.666666666666667,3,Funcionário,Administração
+8530.91,21,6,6.0,6,Analista de RH,Administração
+5041.93,40,11,6.666666666666667,3,Funcionário,Operações
+7139.48,44,3,6.0,6,Analista de RH,Recursos Humanos
+9069.66,56,5,4.5,6,Analista de RH,Tecnologia
+4957.66,41,5,6.75,3,Funcionário,Administração
+5542.71,38,10,6.111111111111111,3,Funcionário,Recursos Humanos
+7867.91,48,7,6.6,6,Analista de RH,Administração
+4712.97,38,8,4.285714285714286,3,Funcionário,Recursos Humanos
+3241.63,45,3,1.0,3,Funcionário,Tecnologia
+7209.09,33,7,7.0,6,Analista de RH,Recursos Humanos
+8412.26,50,8,5.714285714285714,6,Analista de RH,Tecnologia
+8960.6,41,10,5.333333333333333,6,Analista de RH,Tecnologia
+4409.4,65,8,4.428571428571429,3,Funcionário,Recursos Humanos
+4973.42,51,7,6.333333333333333,3,Funcionário,Recursos Humanos
+4172.22,30,4,4.333333333333333,3,Funcionário,Tecnologia
+3635.74,29,0,0.0,3,Funcionário,Administração
+4697.48,63,3,5.5,3,Funcionário,Administração
+5108.26,36,8,4.714285714285714,3,Funcionário,Operações
+3515.74,42,0,0.0,3,Funcionário,Tecnologia
+4308.48,20,3,5.5,3,Funcionário,Recursos Humanos
+9947.26,62,10,5.0,6,Analista de RH,Operações
+4990.04,50,10,7.444444444444445,3,Funcionário,Administração
+5035.97,35,9,5.375,3,Funcionário,Tecnologia
+3903.66,48,6,1.5,3,Funcionário,Administração
+4753.55,23,4,5.666666666666667,3,Funcionário,Tecnologia
+6635.48,39,3,5.5,6,Analista de RH,Tecnologia
+6775.6,65,11,3.3333333333333335,6,Analista de RH,Operações
+3461.74,33,0,0.0,3,Funcionário,Recursos Humanos
+8965.22,66,4,3.3333333333333335,6,Analista de RH,Operações
+8654.22,61,4,4.333333333333333,6,Analista de RH,Tecnologia
+9070.66,30,6,4.0,6,Analista de RH,Operações
+7266.48,29,3,7.0,6,Analista de RH,Tecnologia
+4278.48,26,3,5.5,3,Funcionário,Administração
+3988.63,21,2,6.0,3,Funcionário,Tecnologia
+4562.55,45,4,4.666666666666667,3,Funcionário,Recursos Humanos
+3295.74,36,0,0.0,3,Funcionário,Operações
+9478.15,30,10,5.222222222222222,6,Analista de RH,Tecnologia
+3314.74,38,0,0.0,3,Funcionário,Tecnologia
+7957.63,28,2,10.0,6,Analista de RH,Recursos Humanos
+7311.48,50,3,7.0,6,Analista de RH,Administração
+3418.63,43,1,0.0,3,Funcionário,Tecnologia
+9673.48,28,3,8.5,6,Analista de RH,Recursos Humanos
+4443.11,21,9,5.0,3,Funcionário,Operações
+7921.48,31,3,6.5,6,Analista de RH,Administração
+5101.54,21,8,4.142857142857143,3,Funcionário,Operações
+8393.49,40,10,4.555555555555555,6,Analista de RH,Administração
+7456.54,66,8,5.142857142857143,6,Analista de RH,Operações
+7171.26,48,10,4.0,6,Analista de RH,Tecnologia
+6349.48,65,3,5.5,6,Analista de RH,Administração
+9364.15,38,10,6.222222222222222,6,Analista de RH,Recursos Humanos
+5230.47,60,9,6.75,3,Funcionário,Administração
+4510.91,19,6,5.8,3,Funcionário,Operações
+4457.48,44,3,4.5,3,Funcionário,Tecnologia
+4429.82,37,10,4.888888888888889,3,Funcionário,Operações
+4466.63,42,3,7.0,3,Funcionário,Operações
+4540.54,24,8,5.142857142857143,3,Funcionário,Operações
+7872.63,39,2,9.0,6,Analista de RH,Recursos Humanos
+4838.97,39,9,3.875,3,Funcionário,Administração
+8574.66,37,5,5.5,6,Analista de RH,Recursos Humanos
+4697.54,29,8,5.142857142857143,3,Funcionário,Recursos Humanos
+4034.66,25,5,5.0,3,Funcionário,Tecnologia
+3692.63,24,3,5.0,3,Funcionário,Recursos Humanos
+9866.97,33,9,6.375,6,Analista de RH,Tecnologia
+4638.63,32,2,7.0,3,Funcionário,Operações
+7161.47,64,9,3.75,6,Analista de RH,Tecnologia
+4618.22,39,4,4.333333333333333,3,Funcionário,Recursos Humanos
+4292.91,56,7,2.6,3,Funcionário,Operações
+5111.97,19,10,3.875,3,Funcionário,Operações
+7192.47,41,9,4.25,6,Analista de RH,Tecnologia
+4360.48,21,3,6.0,3,Funcionário,Administração
+9297.91,52,6,6.0,6,Analista de RH,Operações
+3712.63,43,2,5.0,3,Funcionário,Administração
+4269.42,27,8,4.833333333333333,3,Funcionário,Tecnologia
+4400.63,22,2,9.0,3,Funcionário,Operações
+8513.97,48,9,4.285714285714286,6,Analista de RH,Administração
+8826.55,38,4,5.666666666666667,6,Analista de RH,Operações
+3243.48,26,4,3.0,3,Funcionário,Tecnologia
+8179.15,25,10,3.2222222222222223,6,Analista de RH,Recursos Humanos
+8492.91,43,6,5.4,6,Analista de RH,Administração
+4596.63,35,2,6.0,3,Funcionário,Operações
+7448.63,56,3,2.0,6,Analista de RH,Tecnologia
+3500.74,52,0,0.0,3,Funcionário,Recursos Humanos
+4167.63,50,1,0.0,3,Funcionário,Tecnologia
+4806.63,47,3,9.0,3,Funcionário,Tecnologia
+5446.91,54,6,7.0,3,Funcionário,Tecnologia
+9622.91,45,6,6.0,6,Analista de RH,Recursos Humanos
+4489.88,40,4,6.0,3,Funcionário,Tecnologia
+4429.48,48,3,7.5,3,Funcionário,Recursos Humanos
+7793.48,47,3,6.5,6,Analista de RH,Tecnologia
+3902.63,36,1,0.0,3,Funcionário,Administração
+10030.4,41,8,6.428571428571429,6,Analista de RH,Recursos Humanos
+3361.74,61,0,0.0,3,Funcionário,Recursos Humanos
+3497.88,54,4,2.0,3,Funcionário,Tecnologia
+7257.26,21,8,5.714285714285714,6,Analista de RH,Operações
+9155.54,55,8,6.142857142857143,6,Analista de RH,Administração
+4645.66,36,5,7.75,3,Funcionário,Administração
+6005.63,65,1,0.0,6,Analista de RH,Recursos Humanos
+4200.66,38,5,5.0,3,Funcionário,Operações
+4807.09,55,8,4.0,3,Funcionário,Administração
+4501.09,53,7,5.5,3,Funcionário,Operações
+4877.47,51,9,4.75,3,Funcionário,Tecnologia
+3064.63,31,2,0.0,3,Funcionário,Operações
+10016.38,49,10,5.777777777777778,6,Analista de RH,Operações
+4652.82,28,11,3.888888888888889,3,Funcionário,Operações
+3937.63,25,2,4.0,3,Funcionário,Recursos Humanos
+4907.55,26,5,6.666666666666667,3,Funcionário,Administração
+2915.22,43,4,0.3333333333333333,3,Funcionário,Operações
+3406.22,26,4,2.3333333333333335,3,Funcionário,Tecnologia
+4254.47,59,9,4.25,3,Funcionário,Tecnologia
+7062.55,28,4,6.666666666666667,6,Analista de RH,Tecnologia
+8507.75,27,7,6.166666666666667,6,Analista de RH,Tecnologia
+3917.88,28,4,4.0,3,Funcionário,Tecnologia
+3764.63,60,1,0.0,3,Funcionário,Administração
+3620.63,42,1,0.0,3,Funcionário,Tecnologia
+9341.42,48,7,4.833333333333333,6,Analista de RH,Tecnologia
+4583.26,59,8,2.7142857142857144,3,Funcionário,Administração
+4768.66,41,5,8.0,3,Funcionário,Operações
+4347.66,22,5,2.5,3,Funcionário,Operações
+7827.63,30,3,2.0,6,Analista de RH,Recursos Humanos
+5242.66,62,5,8.0,3,Funcionário,Administração
+4674.63,59,2,7.0,3,Funcionário,Operações
+5343.97,28,10,5.125,3,Funcionário,Recursos Humanos
+4760.48,40,3,7.0,3,Funcionário,Operações
+7754.97,35,9,4.375,6,Analista de RH,Recursos Humanos
+3544.63,33,1,0.0,3,Funcionário,Administração
+8049.42,64,7,6.333333333333333,6,Analista de RH,Administração
+8031.48,61,3,8.5,6,Analista de RH,Operações
+6542.88,43,5,5.0,6,Analista de RH,Recursos Humanos
+7417.49,65,10,5.555555555555555,6,Analista de RH,Operações
+7286.48,29,3,4.5,6,Analista de RH,Tecnologia
+7036.66,36,5,4.75,6,Analista de RH,Tecnologia
+9558.09,47,7,5.5,6,Analista de RH,Administração
+6949.42,42,7,5.333333333333333,6,Analista de RH,Administração
+3435.74,46,0,0.0,3,Funcionário,Administração
+4813.15,49,10,5.222222222222222,3,Funcionário,Tecnologia
+5239.75,42,7,8.666666666666666,3,Funcionário,Recursos Humanos
+3795.66,61,5,3.0,3,Funcionário,Administração
+9312.66,35,5,4.75,6,Analista de RH,Recursos Humanos
+4967.54,65,8,5.142857142857143,3,Funcionário,Recursos Humanos
+3318.55,21,4,1.6666666666666667,3,Funcionário,Recursos Humanos
+8697.09,32,7,4.5,6,Analista de RH,Administração
+7901.63,64,3,9.0,6,Analista de RH,Operações
+9714.75,32,7,5.166666666666667,6,Analista de RH,Operações
+5517.68,50,8,6.857142857142857,3,Funcionário,Administração
+4427.55,62,4,4.666666666666667,3,Funcionário,Administração
+4168.63,59,2,7.0,3,Funcionário,Tecnologia
+7174.74,63,0,0.0,6,Analista de RH,Administração
+5033.63,51,2,9.0,3,Funcionário,Tecnologia
+4285.88,57,4,7.0,3,Funcionário,Tecnologia
+3477.63,25,1,0.0,3,Funcionário,Operações
+4717.66,21,5,4.25,3,Funcionário,Recursos Humanos
+8081.97,48,9,5.125,6,Analista de RH,Tecnologia
+2834.63,64,3,2.0,3,Funcionário,Recursos Humanos
+3978.66,46,5,4.25,3,Funcionário,Recursos Humanos
+3150.63,44,2,2.0,3,Funcionário,Tecnologia
+6079.74,47,0,0.0,6,Analista de RH,Recursos Humanos
+4887.83,24,9,4.571428571428571,3,Funcionário,Recursos Humanos
+8109.04,49,11,5.444444444444445,6,Analista de RH,Tecnologia
+5892.74,52,0,0.0,6,Analista de RH,Operações
+7427.66,43,6,5.5,6,Analista de RH,Recursos Humanos
+7030.91,42,6,4.0,6,Analista de RH,Tecnologia
+7371.91,21,6,4.8,6,Analista de RH,Tecnologia
+5250.66,58,5,7.75,3,Funcionário,Administração
+7127.55,60,4,6.666666666666667,6,Analista de RH,Tecnologia
+6154.63,32,1,0.0,6,Analista de RH,Operações
+8938.48,43,3,6.0,6,Analista de RH,Operações
+4398.49,38,10,4.555555555555555,3,Funcionário,Recursos Humanos
+7363.26,42,8,4.714285714285714,6,Analista de RH,Recursos Humanos
+4511.09,46,7,3.0,3,Funcionário,Tecnologia
+9403.09,29,7,6.0,6,Analista de RH,Operações
+7851.66,38,5,4.0,6,Analista de RH,Recursos Humanos
+4028.63,23,1,0.0,3,Funcionário,Operações
+4345.55,53,4,3.6666666666666665,3,Funcionário,Recursos Humanos
+6322.88,47,4,4.0,6,Analista de RH,Operações
+9145.6,43,10,4.333333333333333,6,Analista de RH,Recursos Humanos
+8239.63,44,1,0.0,6,Analista de RH,Administração
+7764.47,31,9,3.25,6,Analista de RH,Tecnologia
+7461.04,34,10,5.444444444444445,6,Analista de RH,Operações
+8101.93,63,11,5.666666666666667,6,Analista de RH,Recursos Humanos
+5326.83,35,9,5.571428571428571,3,Funcionário,Recursos Humanos
+7725.63,62,1,0.0,6,Analista de RH,Operações
+5372.91,24,6,8.2,3,Funcionário,Recursos Humanos
+5086.47,61,9,6.75,3,Funcionário,Administração
+7060.54,36,8,5.142857142857143,6,Analista de RH,Administração
+7120.26,56,10,3.0,6,Analista de RH,Tecnologia
+3633.48,32,3,2.0,3,Funcionário,Operações
+8200.63,61,1,0.0,6,Analista de RH,Administração
+4723.66,46,5,6.5,3,Funcionário,Operações
+8405.48,49,3,6.5,6,Analista de RH,Administração
+9559.93,47,10,4.666666666666667,6,Analista de RH,Operações
+7914.74,59,0,0.0,6,Analista de RH,Administração
+4428.97,50,8,5.285714285714286,3,Funcionário,Administração
+8942.93,39,10,6.666666666666667,6,Analista de RH,Recursos Humanos
+8048.66,62,5,5.5,6,Analista de RH,Administração
+7100.04,43,10,5.444444444444445,6,Analista de RH,Operações
+4096.97,56,8,3.2857142857142856,3,Funcionário,Tecnologia
+6804.48,56,3,0.5,6,Analista de RH,Recursos Humanos
+4892.75,65,7,6.666666666666667,3,Funcionário,Operações
+8339.63,41,3,3.0,6,Analista de RH,Administração
+4492.22,38,4,6.333333333333333,3,Funcionário,Operações
+7071.09,29,7,2.5,6,Analista de RH,Recursos Humanos
+4533.22,34,4,5.333333333333333,3,Funcionário,Tecnologia
+4556.68,57,9,4.857142857142857,3,Funcionário,Tecnologia
+9594.97,65,10,5.875,6,Analista de RH,Tecnologia
+4176.66,61,5,5.75,3,Funcionário,Tecnologia
+4472.47,60,9,4.0,3,Funcionário,Recursos Humanos
+5156.55,65,4,6.666666666666667,3,Funcionário,Operações
+7358.22,59,4,8.333333333333334,6,Analista de RH,Tecnologia
+5027.4,34,8,4.428571428571429,3,Funcionário,Administração
+5921.63,61,1,0.0,6,Analista de RH,Recursos Humanos
+4773.97,56,9,4.875,3,Funcionário,Operações
+3884.63,57,2,3.0,3,Funcionário,Administração
+4306.66,63,5,4.25,3,Funcionário,Tecnologia
+9457.48,42,3,9.5,6,Analista de RH,Tecnologia
+8198.63,52,1,0.0,6,Analista de RH,Administração
+9713.48,28,3,8.0,6,Analista de RH,Recursos Humanos
+5993.66,34,5,2.25,6,Analista de RH,Administração
+8053.48,30,3,6.0,6,Analista de RH,Operações
+4677.54,44,8,4.142857142857143,3,Funcionário,Operações
+6097.63,24,1,0.0,6,Analista de RH,Tecnologia
+3643.48,25,3,1.5,3,Funcionário,Administração
+5109.6,58,10,4.333333333333333,3,Funcionário,Tecnologia
+3403.74,25,0,0.0,3,Funcionário,Tecnologia
+5374.38,62,10,4.777777777777778,3,Funcionário,Administração
+3866.63,57,1,0.0,3,Funcionário,Recursos Humanos
+5606.82,54,10,5.888888888888889,3,Funcionário,Administração
+3749.74,27,1,0.0,3,Funcionário,Operações
+3437.48,38,3,3.5,3,Funcionário,Operações
+7151.66,35,5,6.25,6,Analista de RH,Tecnologia
+7476.97,53,10,3.625,6,Analista de RH,Administração
+4962.83,40,8,3.5714285714285716,3,Funcionário,Operações
+5565.47,60,10,6.5,3,Funcionário,Recursos Humanos
+4941.42,57,7,6.333333333333333,3,Funcionário,Recursos Humanos
+7099.91,53,6,5.6,6,Analista de RH,Recursos Humanos
+7285.63,58,2,0.0,6,Analista de RH,Administração
+7220.63,40,2,9.0,6,Analista de RH,Recursos Humanos
+6214.74,54,0,0.0,6,Analista de RH,Operações
+6255.63,37,2,6.0,6,Analista de RH,Tecnologia
+3541.74,21,0,0.0,3,Funcionário,Tecnologia
+9496.71,62,10,5.111111111111111,6,Analista de RH,Administração
+6960.4,64,9,4.428571428571429,6,Analista de RH,Administração
+4777.88,43,4,7.0,3,Funcionário,Tecnologia
+7853.42,28,7,3.8333333333333335,6,Analista de RH,Recursos Humanos
+7741.74,61,0,0.0,6,Analista de RH,Recursos Humanos
+6048.63,35,1,0.0,6,Analista de RH,Administração
+8436.63,32,1,0.0,6,Analista de RH,Tecnologia
+4332.42,27,7,4.333333333333333,3,Funcionário,Operações
+6056.63,64,2,0.0,6,Analista de RH,Tecnologia
+4471.97,36,9,4.875,3,Funcionário,Operações
+3868.55,61,5,2.6666666666666665,3,Funcionário,Recursos Humanos
+4319.48,63,3,6.0,3,Funcionário,Administração
+3557.63,21,2,4.0,3,Funcionário,Tecnologia
+5646.74,52,0,0.0,6,Analista de RH,Recursos Humanos
+5367.11,44,8,6.0,3,Funcionário,Recursos Humanos
+8145.42,38,7,6.333333333333333,6,Analista de RH,Tecnologia
+3449.63,53,2,4.0,3,Funcionário,Administração
+5930.63,24,2,3.0,6,Analista de RH,Operações
+3702.66,59,5,2.75,3,Funcionário,Administração
+4638.71,65,10,4.111111111111111,3,Funcionário,Recursos Humanos
+5841.74,19,1,0.0,6,Analista de RH,Operações
+4502.63,20,2,6.0,3,Funcionário,Tecnologia
+8720.47,56,9,4.75,6,Analista de RH,Tecnologia
+9459.54,36,8,5.142857142857143,6,Analista de RH,Tecnologia
+8611.88,37,4,4.0,6,Analista de RH,Administração
+4988.54,38,8,5.142857142857143,3,Funcionário,Tecnologia
+7058.6,34,10,3.3333333333333335,6,Analista de RH,Recursos Humanos
+4146.42,41,7,4.333333333333333,3,Funcionário,Tecnologia
+4886.6,38,10,6.333333333333333,3,Funcionário,Administração
+8420.74,36,0,0.0,6,Analista de RH,Recursos Humanos
+9236.6,48,10,6.333333333333333,6,Analista de RH,Operações
+6254.63,22,1,0.0,6,Analista de RH,Tecnologia
+4545.75,31,7,5.166666666666667,3,Funcionário,Operações
+7791.66,25,5,3.0,6,Analista de RH,Administração
+5522.09,50,7,6.5,3,Funcionário,Recursos Humanos
+7662.66,21,5,5.0,6,Analista de RH,Operações
+5244.63,62,2,10.0,3,Funcionário,Administração
+9396.97,62,9,6.125,6,Analista de RH,Operações
+4415.97,57,9,4.875,3,Funcionário,Recursos Humanos
+5461.26,37,8,6.714285714285714,3,Funcionário,Recursos Humanos
+6977.55,22,4,4.666666666666667,6,Analista de RH,Recursos Humanos
+8637.91,21,6,7.8,6,Analista de RH,Recursos Humanos
+3491.48,47,3,3.5,3,Funcionário,Operações
+9195.91,38,7,4.2,6,Analista de RH,Recursos Humanos
+4679.91,44,6,5.0,3,Funcionário,Operações
+5088.09,53,7,5.0,3,Funcionário,Operações
+3245.63,47,2,1.0,3,Funcionário,Tecnologia
+4650.15,57,10,5.222222222222222,3,Funcionário,Administração
+4332.91,39,6,3.0,3,Funcionário,Tecnologia
+9184.91,32,6,4.6,6,Analista de RH,Tecnologia
+4203.91,41,6,3.8,3,Funcionário,Tecnologia
+7650.66,52,5,4.5,6,Analista de RH,Tecnologia
+4438.48,35,3,7.0,3,Funcionário,Administração
+7442.48,46,3,5.5,6,Analista de RH,Tecnologia
+5215.97,50,9,4.375,3,Funcionário,Administração
+8228.48,52,3,2.0,6,Analista de RH,Administração
+6841.63,48,2,3.0,6,Analista de RH,Administração
+8392.09,51,7,3.5,6,Analista de RH,Operações
+5873.74,53,0,0.0,6,Analista de RH,Tecnologia
+7650.42,28,7,6.833333333333333,6,Analista de RH,Administração
+8730.6,59,10,5.333333333333333,6,Analista de RH,Operações
+4323.88,53,4,4.0,3,Funcionário,Administração
+3660.63,42,1,0.0,3,Funcionário,Operações
+7840.22,53,4,5.333333333333333,6,Analista de RH,Recursos Humanos
+8215.66,27,5,3.25,6,Analista de RH,Operações
+7612.88,21,4,5.0,6,Analista de RH,Recursos Humanos
+4204.88,60,4,3.0,3,Funcionário,Operações
+7272.26,36,8,3.7142857142857144,6,Analista de RH,Tecnologia
+8436.63,57,2,4.0,6,Analista de RH,Administração
+6753.74,24,1,0.0,6,Analista de RH,Administração
+4292.47,56,9,3.25,3,Funcionário,Tecnologia
+5086.75,53,7,5.666666666666667,3,Funcionário,Tecnologia
+3351.63,32,2,0.0,3,Funcionário,Administração
+8891.48,37,4,4.0,6,Analista de RH,Recursos Humanos
+4579.66,44,5,6.5,3,Funcionário,Tecnologia
+8681.97,37,9,5.625,6,Analista de RH,Operações
+4087.55,61,4,4.666666666666667,3,Funcionário,Administração
+3877.66,47,5,3.5,3,Funcionário,Operações
+6991.91,64,6,4.6,6,Analista de RH,Administração
+8355.71,63,10,7.111111111111111,6,Analista de RH,Administração
+7309.47,47,9,6.25,6,Analista de RH,Tecnologia
+6282.22,63,4,3.3333333333333335,6,Analista de RH,Operações
+8113.88,45,4,4.0,6,Analista de RH,Operações
+6790.97,37,9,2.875,6,Analista de RH,Tecnologia
+6737.63,57,1,0.0,6,Analista de RH,Administração
+4582.91,45,6,4.2,3,Funcionário,Administração
+7418.63,50,2,1.0,6,Analista de RH,Recursos Humanos
+5059.75,34,7,5.166666666666667,3,Funcionário,Administração
+8163.75,56,7,3.6666666666666665,6,Analista de RH,Operações
+4259.91,37,7,3.0,3,Funcionário,Administração
+7013.74,59,0,0.0,6,Analista de RH,Tecnologia
+7646.63,35,2,0.0,6,Analista de RH,Tecnologia
+9372.48,34,3,8.0,6,Analista de RH,Recursos Humanos
+4348.75,31,7,4.666666666666667,3,Funcionário,Recursos Humanos
+4026.48,27,4,3.5,3,Funcionário,Recursos Humanos
+9174.97,36,9,4.125,6,Analista de RH,Operações
+4198.91,22,6,4.6,3,Funcionário,Recursos Humanos
+6747.09,63,7,4.0,6,Analista de RH,Operações
+3755.91,19,6,2.6,3,Funcionário,Recursos Humanos
+5405.97,44,9,5.875,3,Funcionário,Administração
+6243.63,40,2,0.0,6,Analista de RH,Administração
+8054.71,37,10,5.111111111111111,6,Analista de RH,Administração
+7555.66,21,5,5.5,6,Analista de RH,Administração
+4283.42,32,7,3.8333333333333335,3,Funcionário,Operações
+8023.63,57,1,0.0,6,Analista de RH,Operações
+4176.63,58,2,4.0,3,Funcionário,Operações
+8415.91,53,7,5.2,6,Analista de RH,Operações
+4976.11,33,8,5.0,3,Funcionário,Administração
+7064.66,25,5,6.5,6,Analista de RH,Administração
+7772.54,34,9,4.142857142857143,6,Analista de RH,Administração
+8357.63,38,2,4.0,6,Analista de RH,Tecnologia
+8401.63,57,1,0.0,6,Analista de RH,Recursos Humanos
+8411.49,35,10,6.555555555555555,6,Analista de RH,Recursos Humanos
+3413.55,55,4,2.6666666666666665,3,Funcionário,Recursos Humanos
+3796.63,53,1,0.0,3,Funcionário,Tecnologia
+3450.66,41,5,2.25,3,Funcionário,Tecnologia
+8173.48,32,4,6.0,6,Analista de RH,Operações
+7360.63,29,2,1.0,6,Analista de RH,Administração
+8170.74,53,0,0.0,6,Analista de RH,Operações
+7152.49,44,10,3.5555555555555554,6,Analista de RH,Tecnologia
+4510.66,30,5,7.25,3,Funcionário,Administração
+3728.48,34,3,2.0,3,Funcionário,Operações
+3859.63,65,1,0.0,3,Funcionário,Administração
+9615.97,42,9,5.125,6,Analista de RH,Administração
+7089.63,23,2,3.0,6,Analista de RH,Recursos Humanos
+4915.66,49,6,5.25,3,Funcionário,Operações
+7267.63,65,2,10.0,6,Analista de RH,Tecnologia
+7693.71,35,10,4.111111111111111,6,Analista de RH,Operações
+3168.74,64,0,0.0,3,Funcionário,Tecnologia
+4013.48,50,3,3.5,3,Funcionário,Operações
+7594.88,45,4,2.0,6,Analista de RH,Administração
+8555.75,53,7,5.166666666666667,6,Analista de RH,Tecnologia
+4409.55,28,4,6.666666666666667,3,Funcionário,Administração
+3747.63,56,1,0.0,3,Funcionário,Tecnologia
+5004.48,24,3,9.0,3,Funcionário,Recursos Humanos
+7483.48,48,3,3.0,6,Analista de RH,Recursos Humanos
+7010.63,62,3,5.0,6,Analista de RH,Tecnologia
+4763.63,62,2,7.0,3,Funcionário,Operações
+4551.63,64,2,8.0,3,Funcionário,Recursos Humanos
+3900.63,29,2,6.0,3,Funcionário,Tecnologia
+9388.91,33,6,5.0,6,Analista de RH,Operações
+6980.91,41,6,4.8,6,Analista de RH,Operações
+3916.26,28,8,2.7142857142857144,3,Funcionário,Operações
+7928.97,33,9,5.625,6,Analista de RH,Administração
+8906.97,46,9,5.625,6,Analista de RH,Recursos Humanos
+4512.63,49,2,9.0,3,Funcionário,Administração
+3458.63,26,1,0.0,3,Funcionário,Tecnologia
+9755.4,40,8,5.428571428571429,6,Analista de RH,Administração
+6459.74,49,1,0.0,6,Analista de RH,Operações
+6176.74,41,0,0.0,6,Analista de RH,Recursos Humanos
+3608.63,64,1,0.0,3,Funcionário,Administração
+4431.55,62,4,6.666666666666667,3,Funcionário,Recursos Humanos
+4257.88,53,4,4.0,3,Funcionário,Tecnologia
+4307.83,20,8,4.571428571428571,3,Funcionário,Tecnologia
+7670.88,21,4,8.0,6,Analista de RH,Administração
+3757.48,25,4,1.0,3,Funcionário,Administração
+6961.91,19,6,4.6,6,Analista de RH,Operações
+4539.09,23,7,3.0,3,Funcionário,Tecnologia
+9042.47,36,9,5.25,6,Analista de RH,Tecnologia
+6908.42,41,7,4.333333333333333,6,Analista de RH,Tecnologia
+3619.63,65,2,3.0,3,Funcionário,Operações
+6289.63,60,1,0.0,6,Analista de RH,Administração
+8438.71,32,10,6.111111111111111,6,Analista de RH,Operações
+5371.47,65,9,5.25,3,Funcionário,Recursos Humanos
+8464.63,60,1,0.0,6,Analista de RH,Recursos Humanos
+3271.63,32,1,0.0,3,Funcionário,Tecnologia
+3794.48,46,3,5.5,3,Funcionário,Operações
+4685.88,21,4,6.0,3,Funcionário,Administração
+6591.63,31,3,3.0,6,Analista de RH,Recursos Humanos
+9823.48,61,4,8.5,6,Analista de RH,Recursos Humanos
+9655.88,37,4,8.0,6,Analista de RH,Recursos Humanos
+7715.91,23,6,6.6,6,Analista de RH,Tecnologia
+8804.63,30,2,5.0,6,Analista de RH,Recursos Humanos
+3490.74,64,0,0.0,3,Funcionário,Administração
+5210.47,55,9,4.25,3,Funcionário,Recursos Humanos
+3994.54,48,8,3.142857142857143,3,Funcionário,Recursos Humanos
+9555.48,51,3,7.5,6,Analista de RH,Operações
+8780.11,47,8,6.0,6,Analista de RH,Administração
+6916.47,59,9,4.5,6,Analista de RH,Tecnologia
+4188.91,27,6,5.0,3,Funcionário,Recursos Humanos
+4891.71,44,10,4.111111111111111,3,Funcionário,Administração
+7286.74,49,0,0.0,6,Analista de RH,Tecnologia
+8611.63,32,2,7.0,6,Analista de RH,Operações
+6535.74,32,0,0.0,6,Analista de RH,Operações
+8624.42,37,7,5.333333333333333,6,Analista de RH,Administração
+4841.91,28,6,6.0,3,Funcionário,Recursos Humanos
+8606.48,25,3,3.0,6,Analista de RH,Tecnologia
+4369.42,20,7,3.3333333333333335,3,Funcionário,Recursos Humanos
+8667.71,21,10,6.111111111111111,6,Analista de RH,Recursos Humanos
+5518.71,31,10,7.111111111111111,3,Funcionário,Administração
+7796.63,41,2,6.0,6,Analista de RH,Recursos Humanos
+3843.74,47,0,0.0,3,Funcionário,Recursos Humanos
+8830.11,57,8,4.0,6,Analista de RH,Operações
+7713.91,22,7,5.8,6,Analista de RH,Tecnologia
+5110.97,48,9,4.125,3,Funcionário,Administração
+9194.09,62,7,6.0,6,Analista de RH,Tecnologia
+8715.91,59,6,4.8,6,Analista de RH,Administração
+7240.66,58,5,3.25,6,Analista de RH,Tecnologia
+3806.48,38,3,4.0,3,Funcionário,Tecnologia
+3689.48,37,3,4.5,3,Funcionário,Operações
+9524.75,44,7,5.666666666666667,6,Analista de RH,Tecnologia
+8977.66,55,5,8.0,6,Analista de RH,Operações
+5039.49,28,10,5.555555555555555,3,Funcionário,Administração
+4652.75,63,8,6.666666666666667,3,Funcionário,Recursos Humanos
+4000.63,25,1,0.0,3,Funcionário,Tecnologia
+7879.63,22,1,0.0,6,Analista de RH,Administração
+4641.93,32,10,5.666666666666667,3,Funcionário,Administração
+7421.15,59,10,5.222222222222222,6,Analista de RH,Recursos Humanos
+8612.63,24,1,0.0,6,Analista de RH,Operações
+9995.04,58,10,7.444444444444445,6,Analista de RH,Operações
+7726.66,43,6,4.0,6,Analista de RH,Tecnologia
+7790.22,46,4,5.333333333333333,6,Analista de RH,Operações
+2791.63,50,2,1.0,3,Funcionário,Administração
+3543.74,29,0,0.0,3,Funcionário,Administração
+5233.97,28,9,5.125,3,Funcionário,Recursos Humanos
+3804.4,24,8,2.4285714285714284,3,Funcionário,Recursos Humanos
+6686.63,29,2,2.0,6,Analista de RH,Recursos Humanos
+6561.26,62,8,3.7142857142857144,6,Analista de RH,Administração
+2967.74,23,0,0.0,3,Funcionário,Tecnologia
+3564.74,58,0,0.0,3,Funcionário,Administração
+3956.48,25,3,6.0,3,Funcionário,Operações
+8945.48,30,3,5.0,6,Analista de RH,Recursos Humanos
+8648.97,50,10,4.875,6,Analista de RH,Tecnologia
+8108.47,28,9,5.0,6,Analista de RH,Tecnologia
+7110.74,21,0,0.0,6,Analista de RH,Recursos Humanos
+4695.4,32,9,3.4285714285714284,3,Funcionário,Recursos Humanos
+3747.48,39,3,4.0,3,Funcionário,Recursos Humanos
+3624.63,34,1,0.0,3,Funcionário,Recursos Humanos
+8929.91,62,6,4.6,6,Analista de RH,Operações
+4042.91,32,6,4.4,3,Funcionário,Operações
+8338.42,30,7,5.833333333333333,6,Analista de RH,Operações
+7724.97,64,10,6.375,6,Analista de RH,Operações
+8709.22,29,4,2.3333333333333335,6,Analista de RH,Tecnologia
+6212.48,55,3,3.5,6,Analista de RH,Recursos Humanos
+7957.91,58,6,4.0,6,Analista de RH,Operações
+2963.63,24,2,0.0,3,Funcionário,Tecnologia
+4439.04,32,10,4.444444444444445,3,Funcionário,Recursos Humanos
+5043.66,47,5,6.0,3,Funcionário,Tecnologia
+3256.63,52,1,0.0,3,Funcionário,Operações
+4525.22,28,4,4.333333333333333,3,Funcionário,Administração
+3624.63,32,1,0.0,3,Funcionário,Operações
+7488.47,23,9,7.5,6,Analista de RH,Administração
+4962.91,40,6,5.6,3,Funcionário,Administração
+7164.66,32,6,6.5,6,Analista de RH,Administração
+7260.6,33,10,4.333333333333333,6,Analista de RH,Administração
+4498.55,37,4,4.666666666666667,3,Funcionário,Recursos Humanos
+7927.26,24,10,5.0,6,Analista de RH,Administração
+4517.68,63,8,2.857142857142857,3,Funcionário,Recursos Humanos
+3872.63,39,2,5.0,3,Funcionário,Tecnologia
+4867.66,61,6,5.75,3,Funcionário,Recursos Humanos
+8039.97,53,9,6.625,6,Analista de RH,Tecnologia
+9342.47,64,9,5.0,6,Analista de RH,Recursos Humanos
+8687.63,35,2,8.0,6,Analista de RH,Operações
+4426.66,40,5,5.0,3,Funcionário,Operações
+4756.91,32,6,7.0,3,Funcionário,Operações
+4790.75,34,7,5.666666666666667,3,Funcionário,Recursos Humanos
+7562.88,39,4,7.0,6,Analista de RH,Operações
+3767.74,40,0,0.0,3,Funcionário,Recursos Humanos
+4581.38,35,11,4.777777777777778,3,Funcionário,Tecnologia
+4182.66,38,5,3.0,3,Funcionário,Tecnologia
+5838.63,47,1,0.0,6,Analista de RH,Administração
+4891.91,52,6,5.8,3,Funcionário,Recursos Humanos
+5278.91,35,6,7.4,3,Funcionário,Administração
+8374.47,61,9,6.0,6,Analista de RH,Tecnologia
+8666.55,26,4,6.666666666666667,6,Analista de RH,Administração
+3777.63,58,1,0.0,3,Funcionário,Tecnologia
+7939.22,22,4,2.3333333333333335,6,Analista de RH,Operações
+4466.09,20,7,5.5,3,Funcionário,Tecnologia
+9176.04,49,10,4.444444444444445,6,Analista de RH,Recursos Humanos
+7433.47,52,9,4.0,6,Analista de RH,Administração
+7052.63,38,3,8.0,6,Analista de RH,Tecnologia
+4576.22,19,4,5.333333333333333,3,Funcionário,Operações
+5674.15,32,10,6.222222222222222,3,Funcionário,Tecnologia
+5711.15,22,10,6.222222222222222,3,Funcionário,Administração
+2896.63,36,2,1.0,3,Funcionário,Tecnologia
+8244.48,21,3,5.5,6,Analista de RH,Administração
+9539.93,59,10,4.666666666666667,6,Analista de RH,Recursos Humanos
+7294.91,62,6,5.4,6,Analista de RH,Tecnologia
+4981.47,26,9,6.75,3,Funcionário,Recursos Humanos
+5427.75,21,7,7.666666666666667,3,Funcionário,Operações
+8263.48,23,3,4.0,6,Analista de RH,Recursos Humanos
+7699.88,32,4,2.0,6,Analista de RH,Operações
+5924.63,60,1,0.0,6,Analista de RH,Administração
+6382.48,54,4,4.0,6,Analista de RH,Recursos Humanos
+4579.47,58,9,2.5,3,Funcionário,Administração
+9603.4,58,8,4.428571428571429,6,Analista de RH,Administração
+7878.91,35,6,7.0,6,Analista de RH,Tecnologia
+4092.91,31,6,3.2,3,Funcionário,Administração
+5498.63,63,2,10.0,3,Funcionário,Administração
+7711.42,54,7,7.333333333333333,6,Analista de RH,Recursos Humanos
+3522.74,60,0,0.0,3,Funcionário,Recursos Humanos
+7118.63,63,1,0.0,6,Analista de RH,Operações
+4537.66,50,5,6.75,3,Funcionário,Administração
+8365.63,35,1,0.0,6,Analista de RH,Operações
+3232.74,35,0,0.0,3,Funcionário,Tecnologia
+4880.48,40,3,6.5,3,Funcionário,Administração
+5108.75,33,7,6.666666666666667,3,Funcionário,Tecnologia
+4184.97,21,8,4.285714285714286,3,Funcionário,Operações
+8677.91,45,6,3.4,6,Analista de RH,Administração
+7519.22,19,4,3.3333333333333335,6,Analista de RH,Administração
+5644.74,56,1,0.0,6,Analista de RH,Recursos Humanos
+7105.48,41,3,6.5,6,Analista de RH,Operações
+4763.48,46,3,7.0,3,Funcionário,Tecnologia
+5865.74,21,0,0.0,6,Analista de RH,Tecnologia
+7182.88,33,5,5.0,6,Analista de RH,Operações
+4675.66,31,5,7.0,3,Funcionário,Recursos Humanos
+3899.63,19,1,0.0,3,Funcionário,Recursos Humanos
+8789.48,59,3,3.5,6,Analista de RH,Operações
+4703.55,32,4,5.666666666666667,3,Funcionário,Tecnologia
+5344.38,50,10,4.777777777777778,3,Funcionário,Recursos Humanos
+4139.63,53,1,0.0,3,Funcionário,Administração
+5061.26,60,8,6.714285714285714,3,Funcionário,Operações
+4098.63,47,1,0.0,3,Funcionário,Recursos Humanos
+4389.54,34,9,5.142857142857143,3,Funcionário,Operações
+5496.74,34,1,0.0,6,Analista de RH,Operações
+7359.74,41,0,0.0,6,Analista de RH,Tecnologia
+5038.49,30,10,3.5555555555555554,3,Funcionário,Tecnologia
+9687.75,55,7,6.666666666666667,6,Analista de RH,Recursos Humanos
+4905.47,55,9,4.5,3,Funcionário,Operações
+4159.88,42,4,5.0,3,Funcionário,Tecnologia
+3948.63,53,3,5.0,3,Funcionário,Operações
+3275.63,52,1,0.0,3,Funcionário,Operações
+5033.22,59,4,8.333333333333334,3,Funcionário,Tecnologia
+3801.74,66,1,0.0,3,Funcionário,Administração
+3082.74,42,0,0.0,3,Funcionário,Recursos Humanos
+7563.63,43,1,0.0,6,Analista de RH,Administração
+3765.63,23,1,0.0,3,Funcionário,Tecnologia
+7281.48,22,3,5.0,6,Analista de RH,Recursos Humanos
+4554.47,22,9,5.0,3,Funcionário,Operações
+4504.91,23,7,5.4,3,Funcionário,Operações
+3853.63,53,2,3.0,3,Funcionário,Administração
+8824.97,20,9,4.875,6,Analista de RH,Administração
+4286.88,19,4,6.0,3,Funcionário,Recursos Humanos
+7570.42,55,7,1.8333333333333333,6,Analista de RH,Operações
+4403.48,59,3,5.0,3,Funcionário,Recursos Humanos
+4187.66,60,5,5.25,3,Funcionário,Recursos Humanos
+4636.91,19,7,6.6,3,Funcionário,Recursos Humanos
+4020.54,28,8,3.142857142857143,3,Funcionário,Operações
+8070.66,37,5,4.5,6,Analista de RH,Administração
+7272.42,23,8,3.8333333333333335,6,Analista de RH,Operações
+4737.91,46,6,7.2,3,Funcionário,Operações
+8496.63,63,1,0.0,6,Analista de RH,Administração
+9099.91,39,6,6.0,6,Analista de RH,Operações
+4481.91,55,6,5.0,3,Funcionário,Tecnologia
+8501.09,22,7,5.5,6,Analista de RH,Tecnologia
+7163.26,34,8,3.7142857142857144,6,Analista de RH,Operações
+2996.74,41,1,0.0,3,Funcionário,Tecnologia
+7557.63,49,2,3.0,6,Analista de RH,Tecnologia
+7642.63,45,2,3.0,6,Analista de RH,Administração
+4731.66,27,5,4.0,3,Funcionário,Operações
+7403.63,48,2,0.0,6,Analista de RH,Administração
+8594.91,50,7,6.0,6,Analista de RH,Recursos Humanos
+5188.09,56,7,6.5,3,Funcionário,Operações
+7406.66,64,5,7.0,6,Analista de RH,Administração
+8303.63,52,2,4.0,6,Analista de RH,Tecnologia
+8063.48,52,3,5.5,6,Analista de RH,Operações
+4675.91,33,7,6.2,3,Funcionário,Recursos Humanos
+8914.54,64,9,4.142857142857143,6,Analista de RH,Administração
+6686.74,54,1,0.0,6,Analista de RH,Recursos Humanos
+8514.15,63,10,4.222222222222222,6,Analista de RH,Recursos Humanos
+8796.22,52,4,5.333333333333333,6,Analista de RH,Tecnologia
+8825.66,53,5,4.75,6,Analista de RH,Administração
+8111.48,35,4,7.0,6,Analista de RH,Operações
+4875.48,43,4,6.0,3,Funcionário,Tecnologia
+3627.63,27,1,0.0,3,Funcionário,Administração
+9606.42,30,7,6.333333333333333,6,Analista de RH,Administração
+6951.15,55,10,4.222222222222222,6,Analista de RH,Operações
+5699.74,43,0,0.0,6,Analista de RH,Recursos Humanos
+5182.66,47,5,6.0,3,Funcionário,Administração
+8645.63,53,2,0.0,6,Analista de RH,Operações
+7259.66,25,6,6.25,6,Analista de RH,Administração
+6404.63,50,2,4.0,6,Analista de RH,Operações
+9568.55,27,4,6.666666666666667,6,Analista de RH,Operações
+4663.97,49,9,5.625,3,Funcionário,Operações
+4899.75,49,7,4.666666666666667,3,Funcionário,Operações
+5005.15,54,10,3.2222222222222223,3,Funcionário,Tecnologia
+5987.63,28,1,0.0,6,Analista de RH,Recursos Humanos
+8155.91,54,6,4.4,6,Analista de RH,Recursos Humanos
+5691.74,31,0,0.0,6,Analista de RH,Operações
+7258.48,27,3,1.5,6,Analista de RH,Administração
+8111.74,27,0,0.0,6,Analista de RH,Tecnologia
+4322.42,20,7,4.833333333333333,3,Funcionário,Operações
+5700.74,28,1,0.0,6,Analista de RH,Tecnologia
+9714.26,27,8,6.714285714285714,6,Analista de RH,Tecnologia
+6071.63,27,1,0.0,6,Analista de RH,Recursos Humanos
+4336.55,48,5,4.666666666666667,3,Funcionário,Administração
+8869.91,42,6,6.8,6,Analista de RH,Tecnologia
+4535.48,58,3,8.0,3,Funcionário,Operações
+7731.48,59,4,5.0,6,Analista de RH,Recursos Humanos
+8851.47,52,9,5.0,6,Analista de RH,Operações
+4233.66,41,5,3.0,3,Funcionário,Administração
+4906.54,63,9,7.142857142857143,3,Funcionário,Recursos Humanos
+8652.66,25,5,3.25,6,Analista de RH,Administração
+4600.42,57,7,4.833333333333333,3,Funcionário,Administração
+8666.97,64,8,4.285714285714286,6,Analista de RH,Recursos Humanos
+3945.42,50,7,3.3333333333333335,3,Funcionário,Recursos Humanos
+6409.55,39,4,4.666666666666667,6,Analista de RH,Administração
+4683.49,63,10,5.555555555555555,3,Funcionário,Operações
+9915.54,41,8,7.142857142857143,6,Analista de RH,Tecnologia
+7757.48,23,3,4.5,6,Analista de RH,Administração
+4969.04,38,11,6.444444444444445,3,Funcionário,Operações
+3429.63,38,1,0.0,3,Funcionário,Operações
+3271.63,42,2,1.0,3,Funcionário,Tecnologia
+7833.97,33,8,4.285714285714286,6,Analista de RH,Recursos Humanos
+6396.63,40,1,0.0,6,Analista de RH,Tecnologia
+8200.48,56,3,3.5,6,Analista de RH,Recursos Humanos
+4123.91,20,6,3.0,3,Funcionário,Recursos Humanos
+4771.26,19,8,4.714285714285714,3,Funcionário,Operações
+4073.48,59,3,5.5,3,Funcionário,Tecnologia
+9038.83,21,8,5.571428571428571,6,Analista de RH,Administração
+7706.47,53,9,5.75,6,Analista de RH,Administração
+5914.63,29,3,0.0,6,Analista de RH,Administração
+4942.47,46,10,4.5,3,Funcionário,Administração
+7950.91,30,6,5.0,6,Analista de RH,Operações
+8822.47,48,10,3.5,6,Analista de RH,Operações
+7515.71,34,10,4.111111111111111,6,Analista de RH,Tecnologia
+4466.26,51,8,3.7142857142857144,3,Funcionário,Operações
+4241.54,61,8,4.142857142857143,3,Funcionário,Recursos Humanos
+4460.48,41,3,6.5,3,Funcionário,Recursos Humanos
+4624.66,45,5,5.25,3,Funcionário,Recursos Humanos
+8379.42,51,7,5.833333333333333,6,Analista de RH,Recursos Humanos
+4351.66,32,5,4.25,3,Funcionário,Tecnologia
+4394.47,52,9,4.25,3,Funcionário,Administração
+7468.66,55,5,6.25,6,Analista de RH,Tecnologia
+4686.71,47,11,5.111111111111111,3,Funcionário,Recursos Humanos
+3594.48,41,3,3.5,3,Funcionário,Administração
+6593.48,21,3,5.5,6,Analista de RH,Tecnologia
+4023.54,41,8,3.142857142857143,3,Funcionário,Recursos Humanos
+3715.55,59,5,2.6666666666666665,3,Funcionário,Recursos Humanos
+4698.66,55,5,5.0,3,Funcionário,Administração
+4221.48,31,3,4.0,3,Funcionário,Tecnologia
+3217.74,65,0,0.0,3,Funcionário,Tecnologia
+4569.48,32,4,8.0,3,Funcionário,Operações
+3454.74,47,0,0.0,3,Funcionário,Recursos Humanos
+3674.48,61,3,3.0,3,Funcionário,Tecnologia
+7161.15,34,10,5.222222222222222,6,Analista de RH,Tecnologia
+5820.75,35,7,8.666666666666666,3,Funcionário,Operações
+5392.63,25,2,2.0,6,Analista de RH,Tecnologia
+8525.22,55,4,5.333333333333333,6,Analista de RH,Recursos Humanos
+4163.97,51,9,3.875,3,Funcionário,Recursos Humanos
+7881.63,44,2,0.0,6,Analista de RH,Administração
+4088.66,42,5,4.0,3,Funcionário,Tecnologia
+8168.68,21,8,4.857142857142857,6,Analista de RH,Administração
+5186.63,26,2,0.0,6,Analista de RH,Recursos Humanos
+7875.42,37,7,4.833333333333333,6,Analista de RH,Operações
+7537.63,27,2,1.0,6,Analista de RH,Operações
+5006.26,30,10,4.0,3,Funcionário,Tecnologia
+8541.26,43,9,4.714285714285714,6,Analista de RH,Recursos Humanos
+3458.74,32,1,0.0,3,Funcionário,Recursos Humanos
+4153.63,28,2,8.0,3,Funcionário,Operações
+6643.74,62,0,0.0,6,Analista de RH,Tecnologia
+8467.66,40,5,5.75,6,Analista de RH,Operações
+7774.55,49,4,9.666666666666666,6,Analista de RH,Administração
+3445.63,36,1,0.0,3,Funcionário,Recursos Humanos
+4292.09,52,7,3.5,3,Funcionário,Recursos Humanos
+5144.75,50,7,5.666666666666667,3,Funcionário,Administração
+7760.55,22,4,1.6666666666666667,6,Analista de RH,Operações
+4868.97,27,9,3.875,3,Funcionário,Operações
+7655.63,42,2,0.0,6,Analista de RH,Administração
+4669.66,28,5,4.75,3,Funcionário,Recursos Humanos
+4963.66,34,5,6.75,3,Funcionário,Administração
+4926.97,42,9,4.875,3,Funcionário,Administração
+7862.74,62,1,0.0,6,Analista de RH,Operações
+4378.63,43,2,7.0,3,Funcionário,Operações
+4965.75,39,7,6.666666666666667,3,Funcionário,Tecnologia
+7704.15,50,10,6.222222222222222,6,Analista de RH,Administração
+3460.74,43,0,0.0,3,Funcionário,Tecnologia
+5873.48,43,3,3.0,6,Analista de RH,Operações
+4743.09,30,7,4.0,3,Funcionário,Recursos Humanos
+3070.63,63,2,2.0,3,Funcionário,Recursos Humanos
+7212.66,34,5,5.25,6,Analista de RH,Operações
+3574.55,24,5,3.6666666666666665,3,Funcionário,Tecnologia
+8395.6,53,10,5.333333333333333,6,Analista de RH,Tecnologia
+9575.75,33,7,5.666666666666667,6,Analista de RH,Tecnologia
+8265.47,28,9,5.25,6,Analista de RH,Administração
+9543.48,22,3,8.5,6,Analista de RH,Tecnologia
+9117.55,23,4,4.666666666666667,6,Analista de RH,Operações
+7476.09,30,8,6.0,6,Analista de RH,Operações
+4402.97,21,8,5.285714285714286,3,Funcionário,Tecnologia
+4902.22,38,4,5.333333333333333,3,Funcionário,Operações
+6861.88,39,4,6.0,6,Analista de RH,Tecnologia
+3774.48,24,3,2.0,3,Funcionário,Recursos Humanos
+9201.55,49,4,7.666666666666667,6,Analista de RH,Tecnologia
+3704.74,42,0,0.0,3,Funcionário,Recursos Humanos
+7276.68,38,8,3.857142857142857,6,Analista de RH,Recursos Humanos
+7222.42,60,7,3.8333333333333335,6,Analista de RH,Recursos Humanos
+4131.91,53,6,4.2,3,Funcionário,Tecnologia
+3468.63,27,2,0.0,3,Funcionário,Administração
+8255.91,30,6,3.8,6,Analista de RH,Tecnologia
+8093.47,44,9,5.25,6,Analista de RH,Tecnologia
+7241.55,55,4,3.6666666666666665,6,Analista de RH,Operações
+5133.54,59,9,5.142857142857143,3,Funcionário,Administração
+6970.74,33,1,0.0,6,Analista de RH,Recursos Humanos
+3422.63,22,2,1.0,3,Funcionário,Administração
+4698.63,37,2,8.0,3,Funcionário,Operações
+7094.48,54,4,4.5,6,Analista de RH,Operações
+4858.68,33,8,6.857142857142857,3,Funcionário,Recursos Humanos
+3387.48,32,3,3.5,3,Funcionário,Operações
+9428.97,53,9,5.875,6,Analista de RH,Operações
+6846.63,49,1,0.0,6,Analista de RH,Administração
+9073.54,30,8,3.142857142857143,6,Analista de RH,Recursos Humanos
+7593.48,23,3,4.5,6,Analista de RH,Administração
+3919.48,65,3,4.5,3,Funcionário,Recursos Humanos
+4879.42,22,7,5.833333333333333,3,Funcionário,Operações
+8313.68,32,8,3.857142857142857,6,Analista de RH,Tecnologia
+4102.91,51,6,4.8,3,Funcionário,Operações
+4630.97,58,9,4.285714285714286,3,Funcionário,Tecnologia
+4018.88,22,4,5.0,3,Funcionário,Tecnologia
+9034.42,52,7,4.333333333333333,6,Analista de RH,Operações
+8823.47,31,10,6.25,6,Analista de RH,Recursos Humanos
+4559.91,49,6,4.8,3,Funcionário,Recursos Humanos
+3915.74,51,0,0.0,3,Funcionário,Tecnologia
+4663.66,31,6,5.75,3,Funcionário,Recursos Humanos
+4259.91,20,6,5.2,3,Funcionário,Administração
+9272.63,27,2,9.0,6,Analista de RH,Recursos Humanos
+5187.47,45,9,4.75,3,Funcionário,Recursos Humanos
+7293.26,56,8,6.714285714285714,6,Analista de RH,Tecnologia
+4729.88,34,4,5.0,3,Funcionário,Operações
+7183.74,62,0,0.0,6,Analista de RH,Operações
+4402.66,39,5,3.0,3,Funcionário,Recursos Humanos
+9384.48,40,3,6.5,6,Analista de RH,Operações
+8481.88,64,4,4.0,6,Analista de RH,Tecnologia
+4798.54,41,9,6.142857142857143,3,Funcionário,Recursos Humanos
+7331.91,32,7,6.6,6,Analista de RH,Administração
+3887.63,30,1,0.0,3,Funcionário,Administração
+4996.75,64,7,4.166666666666667,3,Funcionário,Tecnologia
+6897.66,35,5,6.0,6,Analista de RH,Tecnologia
+4207.63,33,1,0.0,3,Funcionário,Operações
+8173.48,42,3,3.0,6,Analista de RH,Recursos Humanos
+5123.47,48,9,6.0,3,Funcionário,Tecnologia
+8395.04,28,10,4.444444444444445,6,Analista de RH,Operações
+7475.63,65,2,7.0,6,Analista de RH,Tecnologia
+6845.48,28,3,3.0,6,Analista de RH,Administração
+4985.75,22,7,4.666666666666667,3,Funcionário,Administração
+4088.63,43,2,0.0,3,Funcionário,Operações
+9193.55,25,4,7.666666666666667,6,Analista de RH,Administração
+8389.22,46,4,3.3333333333333335,6,Analista de RH,Operações
+4672.97,47,9,4.125,3,Funcionário,Administração
+4619.88,58,5,8.0,3,Funcionário,Administração
+4126.63,20,1,0.0,3,Funcionário,Tecnologia
+5321.97,51,9,5.375,3,Funcionário,Operações
+4549.48,47,3,7.5,3,Funcionário,Recursos Humanos
+4516.63,40,2,7.0,3,Funcionário,Tecnologia
+7648.88,61,4,7.0,6,Analista de RH,Tecnologia
+6972.66,57,5,3.75,6,Analista de RH,Administração
+8567.47,28,9,5.25,6,Analista de RH,Operações
+4078.63,31,1,0.0,3,Funcionário,Administração
+8196.97,39,9,3.375,6,Analista de RH,Operações
+7418.63,30,1,0.0,6,Analista de RH,Recursos Humanos
+6189.88,54,4,3.0,6,Analista de RH,Tecnologia
+4388.97,37,8,5.285714285714286,3,Funcionário,Recursos Humanos
+7537.55,44,4,2.6666666666666665,6,Analista de RH,Administração
+4129.63,61,2,0.0,3,Funcionário,Recursos Humanos
+7934.26,44,10,5.0,6,Analista de RH,Administração
+8658.66,19,6,6.0,6,Analista de RH,Operações
+7026.88,36,5,5.0,6,Analista de RH,Operações
+9438.66,45,5,5.5,6,Analista de RH,Administração
+3787.74,34,0,0.0,3,Funcionário,Recursos Humanos
+4974.91,61,6,5.2,3,Funcionário,Administração
+9239.38,35,10,4.777777777777778,6,Analista de RH,Administração
+7162.26,26,10,3.0,6,Analista de RH,Administração
+5062.91,51,6,6.6,3,Funcionário,Tecnologia
+4946.04,51,10,4.444444444444445,3,Funcionário,Recursos Humanos
+8120.91,40,6,3.2,6,Analista de RH,Administração
+8046.88,20,4,4.0,6,Analista de RH,Recursos Humanos
+5267.91,48,7,6.8,3,Funcionário,Recursos Humanos
+5369.47,60,9,6.25,3,Funcionário,Administração
+9384.22,19,4,7.333333333333333,6,Analista de RH,Administração
+7516.42,42,7,5.333333333333333,6,Analista de RH,Recursos Humanos
+3329.74,31,0,0.0,3,Funcionário,Administração
+7716.48,22,3,6.0,6,Analista de RH,Administração
+4523.75,49,7,5.666666666666667,3,Funcionário,Operações
+5007.91,51,6,6.4,3,Funcionário,Recursos Humanos
+9374.6,28,11,5.333333333333333,6,Analista de RH,Recursos Humanos
+8976.66,57,5,4.25,6,Analista de RH,Operações
+4799.63,58,2,7.0,3,Funcionário,Operações
+3368.63,34,1,0.0,3,Funcionário,Operações
+9343.4,33,9,4.428571428571429,6,Analista de RH,Administração
+3131.74,21,0,0.0,3,Funcionário,Administração
+3207.74,53,0,0.0,3,Funcionário,Administração
+8571.09,58,8,4.5,6,Analista de RH,Administração
+5136.22,20,4,6.333333333333333,3,Funcionário,Tecnologia
+4208.91,27,7,5.0,3,Funcionário,Recursos Humanos
+4228.66,19,5,4.25,3,Funcionário,Tecnologia
+4927.42,57,7,4.333333333333333,3,Funcionário,Operações
+4359.97,23,9,4.125,3,Funcionário,Operações
+5223.97,50,9,4.375,3,Funcionário,Operações
+9372.47,27,9,5.5,6,Analista de RH,Administração
+7937.63,51,3,4.0,6,Analista de RH,Tecnologia
+4078.63,40,1,0.0,3,Funcionário,Operações
+8893.47,28,9,4.0,6,Analista de RH,Operações
+5384.6,38,10,5.333333333333333,3,Funcionário,Operações
+4640.71,51,10,3.111111111111111,3,Funcionário,Administração
+6949.48,38,3,6.0,6,Analista de RH,Administração
+7954.97,33,9,3.875,6,Analista de RH,Recursos Humanos
+3669.88,39,4,3.0,3,Funcionário,Administração
+4074.4,43,8,3.4285714285714284,3,Funcionário,Tecnologia
+8348.22,63,4,7.333333333333333,6,Analista de RH,Operações
+4525.42,58,7,4.333333333333333,3,Funcionário,Tecnologia
+8143.22,29,4,8.333333333333334,6,Analista de RH,Tecnologia
+4377.09,32,7,4.5,3,Funcionário,Administração
+3719.63,23,2,4.0,3,Funcionário,Recursos Humanos
+5259.97,44,9,7.875,3,Funcionário,Recursos Humanos
+5321.04,22,10,5.444444444444445,3,Funcionário,Administração
+5626.47,53,9,8.75,3,Funcionário,Recursos Humanos
+6398.48,30,3,1.5,6,Analista de RH,Administração
+4709.47,54,10,5.0,3,Funcionário,Tecnologia
+5052.09,46,7,6.5,3,Funcionário,Administração
+4871.97,37,9,4.285714285714286,3,Funcionário,Recursos Humanos
+7540.91,49,6,3.4,6,Analista de RH,Recursos Humanos
+3416.63,31,2,4.0,3,Funcionário,Administração
+4643.66,28,5,7.5,3,Funcionário,Tecnologia
+4520.48,23,3,5.5,3,Funcionário,Recursos Humanos
+7755.63,56,3,5.0,6,Analista de RH,Operações
+6201.74,30,0,0.0,6,Analista de RH,Tecnologia
+6725.91,62,6,4.6,6,Analista de RH,Administração
+6580.48,50,3,4.5,6,Analista de RH,Recursos Humanos
+4474.48,52,4,6.0,3,Funcionário,Operações
+7317.4,47,9,6.428571428571429,6,Analista de RH,Tecnologia
+7417.63,50,1,0.0,6,Analista de RH,Tecnologia
+3984.48,32,4,4.5,3,Funcionário,Tecnologia
+3775.42,24,7,2.8333333333333335,3,Funcionário,Operações
+4821.22,50,4,5.333333333333333,3,Funcionário,Administração
+4642.91,40,6,4.8,3,Funcionário,Recursos Humanos
+7127.48,55,3,6.5,6,Analista de RH,Tecnologia
+7375.66,56,5,6.25,6,Analista de RH,Administração
+8208.15,26,10,6.222222222222222,6,Analista de RH,Tecnologia
+4277.91,60,6,2.0,3,Funcionário,Tecnologia
+7357.4,30,8,3.4285714285714284,6,Analista de RH,Operações
+4739.48,41,3,6.5,3,Funcionário,Tecnologia
+4123.63,50,1,0.0,3,Funcionário,Tecnologia
+6698.63,25,1,0.0,6,Analista de RH,Administração
+6646.42,32,7,2.8333333333333335,6,Analista de RH,Recursos Humanos
+3996.48,26,3,4.0,3,Funcionário,Operações
+7111.55,52,4,5.666666666666667,6,Analista de RH,Operações
+3529.63,34,1,0.0,3,Funcionário,Operações
+5025.48,24,3,8.5,3,Funcionário,Recursos Humanos
+6931.66,25,5,5.0,6,Analista de RH,Administração
+8217.48,19,3,3.5,6,Analista de RH,Operações
+4623.68,56,8,4.857142857142857,3,Funcionário,Tecnologia
+4892.26,51,11,5.0,3,Funcionário,Operações
+8638.97,22,8,5.285714285714286,6,Analista de RH,Recursos Humanos
+8972.68,58,8,3.857142857142857,6,Analista de RH,Operações
+8811.91,57,7,5.6,6,Analista de RH,Tecnologia
+6372.63,34,1,0.0,6,Analista de RH,Administração
+5080.91,54,6,6.8,3,Funcionário,Administração
+7448.91,32,7,6.4,6,Analista de RH,Administração
+3203.48,44,3,2.0,3,Funcionário,Recursos Humanos
+8046.91,52,7,4.4,6,Analista de RH,Tecnologia
+8444.48,44,3,5.5,6,Analista de RH,Administração
+4664.91,44,6,5.8,3,Funcionário,Operações
+3977.63,53,1,0.0,3,Funcionário,Administração
+5025.4,62,8,4.428571428571429,3,Funcionário,Operações
+6037.63,60,1,0.0,6,Analista de RH,Operações
+3572.55,65,4,3.6666666666666665,3,Funcionário,Operações
+3602.63,45,2,0.0,3,Funcionário,Recursos Humanos
+4424.55,57,4,5.666666666666667,3,Funcionário,Operações
+3988.63,44,2,4.0,3,Funcionário,Tecnologia
+8062.74,61,0,0.0,6,Analista de RH,Administração
+7956.63,29,2,0.0,6,Analista de RH,Tecnologia
+5180.97,35,9,6.125,3,Funcionário,Operações
+3782.63,40,2,2.0,3,Funcionário,Administração
+9622.47,45,9,5.25,6,Analista de RH,Recursos Humanos
+4572.97,45,9,2.875,3,Funcionário,Recursos Humanos
+7583.11,61,9,6.0,6,Analista de RH,Tecnologia
+7110.09,28,8,4.0,6,Analista de RH,Operações
+9496.66,19,5,7.0,6,Analista de RH,Recursos Humanos
+7820.91,55,6,5.0,6,Analista de RH,Administração
+8704.48,35,3,5.5,6,Analista de RH,Administração
+4623.91,52,6,5.0,3,Funcionário,Recursos Humanos
+7035.22,21,4,6.333333333333333,6,Analista de RH,Administração
+4646.47,39,10,6.0,3,Funcionário,Tecnologia
+4640.97,63,9,4.875,3,Funcionário,Administração
+4194.63,19,1,0.0,3,Funcionário,Recursos Humanos
+4109.48,25,3,5.0,3,Funcionário,Operações
+6700.88,60,4,5.0,6,Analista de RH,Recursos Humanos
+6239.74,36,0,0.0,6,Analista de RH,Operações
+3984.63,27,2,3.0,3,Funcionário,Administração
+3813.63,24,2,6.0,3,Funcionário,Administração
+5479.91,40,6,7.0,3,Funcionário,Tecnologia
+6561.42,55,7,3.3333333333333335,6,Analista de RH,Tecnologia
+8537.4,39,9,5.428571428571429,6,Analista de RH,Administração
+3619.63,40,2,0.0,3,Funcionário,Recursos Humanos
+9596.88,44,5,7.0,6,Analista de RH,Tecnologia
+3642.63,52,1,0.0,3,Funcionário,Tecnologia
+4801.48,31,3,6.5,3,Funcionário,Recursos Humanos
+9213.88,23,4,6.0,6,Analista de RH,Administração
+5979.63,39,1,0.0,6,Analista de RH,Operações
+8055.63,63,2,3.0,6,Analista de RH,Recursos Humanos
+5180.97,35,9,5.625,3,Funcionário,Operações
+4701.47,46,9,5.25,3,Funcionário,Administração
+2946.74,52,1,0.0,3,Funcionário,Recursos Humanos
+6613.63,50,1,0.0,6,Analista de RH,Administração
+8168.74,39,0,0.0,6,Analista de RH,Administração
+5738.63,34,1,0.0,6,Analista de RH,Administração
+3706.63,56,1,0.0,3,Funcionário,Administração
+4250.63,50,2,8.0,3,Funcionário,Recursos Humanos
+4845.91,33,6,5.6,3,Funcionário,Recursos Humanos
+8440.47,22,9,3.75,6,Analista de RH,Recursos Humanos
+4376.82,37,11,3.888888888888889,3,Funcionário,Tecnologia
+6227.63,48,2,6.0,6,Analista de RH,Recursos Humanos
+4677.63,58,2,9.0,3,Funcionário,Tecnologia
+3727.55,37,4,3.6666666666666665,3,Funcionário,Recursos Humanos
+3689.63,44,3,6.0,3,Funcionário,Administração
+9092.48,65,3,6.0,6,Analista de RH,Recursos Humanos
+4631.97,24,8,5.285714285714286,3,Funcionário,Administração
+4125.49,62,11,2.5555555555555554,3,Funcionário,Operações
+5112.97,47,9,5.625,3,Funcionário,Administração
+8627.66,55,6,4.0,6,Analista de RH,Administração
+4368.09,57,7,5.0,3,Funcionário,Tecnologia
+4125.63,64,3,6.0,3,Funcionário,Operações
+9547.91,28,6,5.0,6,Analista de RH,Tecnologia
+8172.26,28,8,3.7142857142857144,6,Analista de RH,Operações
+4139.63,58,1,0.0,3,Funcionário,Recursos Humanos
+4267.91,60,6,5.4,3,Funcionário,Tecnologia
+3451.63,37,1,0.0,3,Funcionário,Recursos Humanos
+8248.48,43,3,7.0,6,Analista de RH,Recursos Humanos
+7918.63,26,2,9.0,6,Analista de RH,Operações
+4339.42,54,7,1.8333333333333333,3,Funcionário,Administração
+8315.74,61,0,0.0,6,Analista de RH,Administração
+5235.47,52,10,5.25,3,Funcionário,Tecnologia
+4731.09,44,7,4.0,3,Funcionário,Operações
+8571.75,31,7,6.166666666666667,6,Analista de RH,Administração
+8500.38,33,10,5.777777777777778,6,Analista de RH,Recursos Humanos
+4875.66,45,5,5.25,3,Funcionário,Operações
+4547.75,27,7,6.166666666666667,3,Funcionário,Operações
+7375.6,19,10,6.333333333333333,6,Analista de RH,Recursos Humanos
+8111.74,40,0,0.0,6,Analista de RH,Operações
+8501.48,20,3,5.5,6,Analista de RH,Administração
+3097.74,39,0,0.0,3,Funcionário,Recursos Humanos
+7591.63,57,2,6.0,6,Analista de RH,Recursos Humanos
+8193.66,30,5,6.25,6,Analista de RH,Operações
+4696.26,34,8,4.714285714285714,3,Funcionário,Tecnologia
+4859.66,26,5,4.5,3,Funcionário,Recursos Humanos
+3918.63,29,2,6.0,3,Funcionário,Administração
+4668.91,41,6,6.6,3,Funcionário,Operações
+4093.63,37,1,0.0,3,Funcionário,Administração
+9155.63,63,2,6.0,6,Analista de RH,Administração
+7987.66,45,5,6.75,6,Analista de RH,Operações
+7900.75,26,7,4.166666666666667,6,Analista de RH,Tecnologia
+7346.63,61,1,0.0,6,Analista de RH,Recursos Humanos
+8466.83,63,8,5.571428571428571,6,Analista de RH,Recursos Humanos
+8364.66,30,5,6.5,6,Analista de RH,Tecnologia
+4725.75,22,7,3.6666666666666665,3,Funcionário,Tecnologia
+4802.75,57,7,7.166666666666667,3,Funcionário,Recursos Humanos
+3823.74,38,0,0.0,3,Funcionário,Recursos Humanos
+8923.97,37,10,4.375,6,Analista de RH,Administração
+7423.66,36,5,4.5,6,Analista de RH,Administração
+7812.09,31,7,5.5,6,Analista de RH,Operações
+6252.63,62,1,0.0,6,Analista de RH,Operações
+4540.22,59,4,7.333333333333333,3,Funcionário,Recursos Humanos
+7727.63,23,3,2.0,6,Analista de RH,Recursos Humanos
+5236.42,33,8,5.833333333333333,3,Funcionário,Tecnologia
+6474.74,24,0,0.0,6,Analista de RH,Operações
+4304.97,52,8,4.285714285714286,3,Funcionário,Operações
+4240.48,43,4,4.5,3,Funcionário,Operações
+9238.91,58,6,4.2,6,Analista de RH,Tecnologia
+3911.63,48,1,0.0,3,Funcionário,Administração
+4702.91,37,6,6.6,3,Funcionário,Tecnologia
+8389.97,20,9,3.125,6,Analista de RH,Operações
+3348.74,55,0,0.0,3,Funcionário,Administração
+8485.63,43,1,0.0,6,Analista de RH,Operações
+3471.48,36,3,2.5,3,Funcionário,Tecnologia
+4400.75,24,7,5.666666666666667,3,Funcionário,Tecnologia
+7923.75,34,8,4.666666666666667,6,Analista de RH,Tecnologia
+6648.91,32,6,4.8,6,Analista de RH,Administração
+7310.82,36,11,5.888888888888889,6,Analista de RH,Administração
+4017.22,47,4,3.3333333333333335,3,Funcionário,Tecnologia
+6072.63,65,2,3.0,6,Analista de RH,Operações
+7397.48,54,3,5.0,6,Analista de RH,Recursos Humanos
+7385.88,36,4,5.0,6,Analista de RH,Operações
+4162.88,57,4,6.0,3,Funcionário,Operações
+3999.66,63,6,4.0,3,Funcionário,Administração
+3367.74,42,0,0.0,3,Funcionário,Operações
+5500.97,22,9,5.625,3,Funcionário,Recursos Humanos
+4193.63,52,2,0.0,3,Funcionário,Operações
+4664.83,43,9,3.5714285714285716,3,Funcionário,Recursos Humanos
+8039.74,25,0,0.0,6,Analista de RH,Administração
+6615.63,36,2,3.0,6,Analista de RH,Operações
+8700.55,19,4,4.666666666666667,6,Analista de RH,Operações
+6158.63,55,2,1.0,6,Analista de RH,Operações
+5095.4,41,8,4.428571428571429,3,Funcionário,Tecnologia
+4813.54,61,8,5.142857142857143,3,Funcionário,Recursos Humanos
+9690.15,56,10,4.222222222222222,6,Analista de RH,Recursos Humanos
+5053.42,59,7,5.333333333333333,3,Funcionário,Operações
+3350.74,54,1,0.0,3,Funcionário,Operações
+4433.48,36,3,5.5,3,Funcionário,Recursos Humanos
+3809.74,62,0,0.0,3,Funcionário,Operações
+7657.91,39,6,4.0,6,Analista de RH,Operações
+3735.91,21,6,2.4,3,Funcionário,Recursos Humanos
+4590.47,21,9,5.75,3,Funcionário,Administração
+4870.47,57,9,6.25,3,Funcionário,Operações
+4283.48,39,3,5.5,3,Funcionário,Administração
+7386.91,23,6,8.4,6,Analista de RH,Tecnologia
+3765.63,25,1,0.0,3,Funcionário,Administração
+6683.11,59,8,4.0,6,Analista de RH,Tecnologia
+8288.63,56,3,8.0,6,Analista de RH,Administração
+6760.55,44,4,4.666666666666667,6,Analista de RH,Recursos Humanos
+4102.48,27,3,5.5,3,Funcionário,Operações
+6157.74,28,0,0.0,6,Analista de RH,Tecnologia
+6857.63,39,2,0.0,6,Analista de RH,Administração
+3686.63,43,2,2.0,3,Funcionário,Tecnologia
+9071.26,41,10,6.0,6,Analista de RH,Administração
+4847.91,59,6,6.2,3,Funcionário,Administração
+8788.91,43,6,5.0,6,Analista de RH,Tecnologia
+7687.63,50,2,5.0,6,Analista de RH,Recursos Humanos
+3968.42,34,7,3.8333333333333335,3,Funcionário,Operações
+8453.91,23,7,5.6,6,Analista de RH,Operações
+4509.91,58,6,5.4,3,Funcionário,Administração
+8480.66,42,5,4.0,6,Analista de RH,Operações
+9400.42,55,7,6.333333333333333,6,Analista de RH,Tecnologia
+10122.47,41,9,7.0,6,Analista de RH,Tecnologia
+3719.48,57,3,3.0,3,Funcionário,Administração
+5397.38,64,10,6.777777777777778,3,Funcionário,Administração
+7080.88,39,4,5.0,6,Analista de RH,Administração
+7479.91,31,7,7.2,6,Analista de RH,Administração
+8222.63,36,2,4.0,6,Analista de RH,Operações
+3098.74,49,0,0.0,3,Funcionário,Tecnologia
+10039.63,54,2,10.0,6,Analista de RH,Operações
+6132.63,50,2,2.0,6,Analista de RH,Operações
+4149.91,36,6,3.0,3,Funcionário,Recursos Humanos
+9095.93,52,10,4.666666666666667,6,Analista de RH,Recursos Humanos
+3900.48,26,3,5.0,3,Funcionário,Operações
+4653.38,24,10,3.7777777777777777,3,Funcionário,Administração
+7927.91,60,6,2.0,6,Analista de RH,Operações
+4752.88,46,4,7.0,3,Funcionário,Recursos Humanos
+7463.97,40,10,4.875,6,Analista de RH,Tecnologia
+5428.91,56,6,7.0,3,Funcionário,Tecnologia
+3909.66,62,5,2.75,3,Funcionário,Recursos Humanos
+5900.63,26,2,4.0,6,Analista de RH,Operações
+7372.88,20,4,5.0,6,Analista de RH,Recursos Humanos
+7335.74,23,1,0.0,6,Analista de RH,Recursos Humanos
+8666.66,41,5,3.5,6,Analista de RH,Operações
+8718.48,52,3,4.0,6,Analista de RH,Recursos Humanos
+5190.97,51,10,6.625,3,Funcionário,Operações
+4953.49,20,10,5.555555555555555,3,Funcionário,Tecnologia
+9228.22,41,4,5.333333333333333,6,Analista de RH,Recursos Humanos
+3306.48,41,3,2.5,3,Funcionário,Administração
+4522.63,41,2,8.0,3,Funcionário,Recursos Humanos
+4664.93,65,10,3.6666666666666665,3,Funcionário,Administração
+4241.48,31,4,4.0,3,Funcionário,Administração
+4436.91,42,6,6.0,3,Funcionário,Tecnologia
+4180.55,21,4,3.6666666666666665,3,Funcionário,Recursos Humanos
+5609.47,39,9,6.75,3,Funcionário,Recursos Humanos
+3894.74,48,0,0.0,3,Funcionário,Tecnologia
+9243.26,36,10,4.0,6,Analista de RH,Tecnologia
+3026.74,22,0,0.0,3,Funcionário,Operações
+5027.66,26,5,6.75,3,Funcionário,Tecnologia
+5389.42,21,7,6.333333333333333,3,Funcionário,Tecnologia
+8373.55,29,5,5.666666666666667,6,Analista de RH,Recursos Humanos
+8644.63,45,2,6.0,6,Analista de RH,Recursos Humanos
+4368.48,30,3,4.0,3,Funcionário,Operações
+8216.91,55,6,5.6,6,Analista de RH,Operações
+7962.22,60,4,5.333333333333333,6,Analista de RH,Operações
+4280.66,24,5,3.5,3,Funcionário,Recursos Humanos
+5008.47,51,9,3.75,3,Funcionário,Operações
+4717.91,55,6,3.2,3,Funcionário,Operações
+3776.74,66,0,0.0,3,Funcionário,Administração
+6854.91,54,6,4.0,6,Analista de RH,Operações
+3719.63,60,1,0.0,3,Funcionário,Administração
+7706.26,45,10,5.0,6,Analista de RH,Tecnologia
+7014.63,33,1,0.0,6,Analista de RH,Recursos Humanos
+3860.63,65,2,0.0,3,Funcionário,Operações
+5745.74,65,0,0.0,6,Analista de RH,Tecnologia
+3247.63,43,1,0.0,3,Funcionário,Operações
+6326.74,50,1,0.0,6,Analista de RH,Administração
+8820.97,54,9,5.375,6,Analista de RH,Tecnologia
+3494.63,51,1,0.0,3,Funcionário,Tecnologia
+5447.97,54,9,6.375,3,Funcionário,Operações
+3327.63,55,2,0.0,3,Funcionário,Administração
+8335.63,23,1,0.0,6,Analista de RH,Operações
+4384.75,53,8,2.6666666666666665,3,Funcionário,Recursos Humanos
+6985.75,65,8,5.666666666666667,6,Analista de RH,Recursos Humanos
+8742.66,50,6,4.5,6,Analista de RH,Administração
+3938.48,32,3,2.0,3,Funcionário,Administração
+6200.63,53,2,5.0,6,Analista de RH,Operações
+4215.88,28,5,5.0,3,Funcionário,Operações
+7915.91,52,6,3.4,6,Analista de RH,Tecnologia
+4765.47,54,9,3.0,3,Funcionário,Administração
+7034.74,37,1,0.0,6,Analista de RH,Tecnologia
+7992.93,44,10,5.666666666666667,6,Analista de RH,Administração
+5339.93,45,10,4.666666666666667,3,Funcionário,Administração
+4453.47,62,9,3.75,3,Funcionário,Recursos Humanos
+4802.66,37,5,5.25,3,Funcionário,Recursos Humanos
+8347.88,65,4,2.0,6,Analista de RH,Operações
+7923.47,19,9,2.5,6,Analista de RH,Operações
+6704.63,19,1,0.0,6,Analista de RH,Administração
+8349.93,21,10,4.666666666666667,6,Analista de RH,Tecnologia
+2596.63,60,2,1.0,3,Funcionário,Recursos Humanos
+4584.91,53,6,4.8,3,Funcionário,Operações
+4841.82,45,10,3.888888888888889,3,Funcionário,Recursos Humanos
+6324.63,52,1,0.0,6,Analista de RH,Tecnologia
+7139.26,37,11,5.0,6,Analista de RH,Tecnologia
+4190.75,47,7,4.666666666666667,3,Funcionário,Operações
+7351.42,48,7,3.3333333333333335,6,Analista de RH,Operações
+3424.63,34,1,0.0,3,Funcionário,Administração
+9017.47,31,9,3.75,6,Analista de RH,Tecnologia
+4132.66,30,5,1.75,3,Funcionário,Operações
+9000.42,47,7,4.833333333333333,6,Analista de RH,Tecnologia
+7687.88,40,5,4.0,6,Analista de RH,Operações
+8796.83,39,8,3.5714285714285716,6,Analista de RH,Administração
+8118.83,49,8,4.571428571428571,6,Analista de RH,Administração
+6694.48,65,4,7.0,6,Analista de RH,Administração
+5102.68,47,8,6.857142857142857,3,Funcionário,Administração
+3898.74,57,0,0.0,3,Funcionário,Recursos Humanos
+7108.26,19,8,4.714285714285714,6,Analista de RH,Tecnologia
+5357.15,61,10,5.222222222222222,3,Funcionário,Tecnologia
+4526.97,27,9,4.125,3,Funcionário,Operações
+4661.48,28,3,7.0,3,Funcionário,Administração
+9173.04,23,10,4.444444444444445,6,Analista de RH,Tecnologia
+8280.63,29,1,0.0,6,Analista de RH,Tecnologia
+4751.15,60,10,5.222222222222222,3,Funcionário,Tecnologia
+6651.88,21,4,5.0,6,Analista de RH,Administração
+8567.63,41,1,0.0,6,Analista de RH,Operações
+3878.48,34,3,5.5,3,Funcionário,Administração
+9295.88,41,4,8.0,6,Analista de RH,Administração
+4239.91,49,6,4.4,3,Funcionário,Recursos Humanos
+5139.6,64,10,4.333333333333333,3,Funcionário,Recursos Humanos
+7720.47,23,9,3.75,6,Analista de RH,Tecnologia
+4961.91,27,7,6.4,3,Funcionário,Administração
+8380.74,54,0,0.0,6,Analista de RH,Operações
+4776.82,25,11,4.888888888888889,3,Funcionário,Operações
+4906.47,64,9,5.75,3,Funcionário,Operações
+3332.63,29,3,0.0,3,Funcionário,Recursos Humanos
+5014.15,50,10,5.222222222222222,3,Funcionário,Recursos Humanos
+3498.63,63,2,1.0,3,Funcionário,Administração
+9397.15,65,10,4.222222222222222,6,Analista de RH,Administração
+7227.66,47,5,4.25,6,Analista de RH,Recursos Humanos
+4787.66,46,5,7.25,3,Funcionário,Recursos Humanos
+7063.26,30,8,3.7142857142857144,6,Analista de RH,Operações
+4332.91,43,6,2.2,3,Funcionário,Operações
+4415.22,27,4,7.333333333333333,3,Funcionário,Administração
+6883.75,27,7,2.6666666666666665,6,Analista de RH,Tecnologia
+4765.42,38,7,5.333333333333333,3,Funcionário,Operações
+3264.48,37,3,3.0,3,Funcionário,Operações
+4771.66,35,5,5.5,3,Funcionário,Tecnologia
+3425.74,42,0,0.0,3,Funcionário,Administração
+3347.63,27,2,4.0,3,Funcionário,Administração
+7800.88,23,4,7.0,6,Analista de RH,Operações
+7903.91,35,6,5.2,6,Analista de RH,Administração
+9484.42,30,7,6.833333333333333,6,Analista de RH,Tecnologia
+3169.63,25,2,2.0,3,Funcionário,Tecnologia
+4740.97,51,8,5.285714285714286,3,Funcionário,Administração
+8879.26,64,10,4.0,6,Analista de RH,Administração
+4875.66,30,5,6.75,3,Funcionário,Operações
+9545.91,41,7,5.8,6,Analista de RH,Operações
+4986.91,46,6,7.2,3,Funcionário,Tecnologia
+9038.4,44,8,3.4285714285714284,6,Analista de RH,Recursos Humanos
+9132.63,32,2,8.0,6,Analista de RH,Tecnologia
+3572.63,36,2,4.0,3,Funcionário,Tecnologia
+5540.11,62,9,7.0,3,Funcionário,Tecnologia
+4608.91,39,7,6.2,3,Funcionário,Administração
+8634.68,28,8,3.857142857142857,6,Analista de RH,Administração
+5244.26,45,8,4.714285714285714,3,Funcionário,Recursos Humanos
+4217.91,56,7,4.4,3,Funcionário,Recursos Humanos
+7858.63,36,2,3.0,6,Analista de RH,Tecnologia
+5052.22,34,5,6.333333333333333,3,Funcionário,Recursos Humanos
+4234.11,41,8,3.0,3,Funcionário,Tecnologia
+4254.09,38,7,5.0,3,Funcionário,Recursos Humanos
+8211.93,40,10,4.666666666666667,6,Analista de RH,Administração
+7225.47,40,9,4.25,6,Analista de RH,Recursos Humanos
+5252.68,33,8,6.857142857142857,3,Funcionário,Tecnologia
+9621.75,29,7,5.666666666666667,6,Analista de RH,Recursos Humanos
+6972.63,62,2,2.0,6,Analista de RH,Administração
+3699.74,43,0,0.0,3,Funcionário,Administração
+3820.63,47,3,6.0,3,Funcionário,Recursos Humanos
+7602.42,29,7,5.833333333333333,6,Analista de RH,Administração
+4456.48,21,3,7.0,3,Funcionário,Administração
+8147.63,49,2,6.0,6,Analista de RH,Operações
+10382.6,47,10,7.333333333333333,6,Analista de RH,Recursos Humanos
+2538.63,20,2,0.0,3,Funcionário,Recursos Humanos
+4218.55,28,5,5.666666666666667,3,Funcionário,Tecnologia
+4751.91,65,7,4.2,3,Funcionário,Administração
+8029.91,55,6,4.8,6,Analista de RH,Tecnologia
+8417.88,61,4,7.0,6,Analista de RH,Administração
+3674.74,54,0,0.0,3,Funcionário,Recursos Humanos
+4224.91,61,6,5.4,3,Funcionário,Operações
+3517.74,43,0,0.0,3,Funcionário,Operações
+9240.91,56,6,4.8,6,Analista de RH,Recursos Humanos
+9978.91,32,6,7.4,6,Analista de RH,Administração
+4230.66,64,5,5.75,3,Funcionário,Operações
+8647.63,48,3,10.0,6,Analista de RH,Administração
+9131.97,50,9,5.375,6,Analista de RH,Recursos Humanos
+3433.74,40,0,0.0,3,Funcionário,Operações
+5469.47,25,9,5.5,3,Funcionário,Recursos Humanos
+5461.91,31,6,6.8,3,Funcionário,Recursos Humanos
+4344.63,52,2,7.0,3,Funcionário,Administração
+4220.55,62,4,2.6666666666666665,3,Funcionário,Tecnologia
+4600.66,48,5,4.75,3,Funcionário,Recursos Humanos
+7108.68,59,8,4.857142857142857,6,Analista de RH,Recursos Humanos
+8848.63,62,2,8.0,6,Analista de RH,Tecnologia
+4398.88,50,5,7.0,3,Funcionário,Administração
+7343.97,60,9,4.625,6,Analista de RH,Administração
+8979.22,33,4,6.333333333333333,6,Analista de RH,Operações
+8371.22,40,4,5.333333333333333,6,Analista de RH,Operações
+5330.97,53,8,5.285714285714286,3,Funcionário,Recursos Humanos
+9013.66,55,5,4.0,6,Analista de RH,Administração
+9647.54,35,8,5.142857142857143,6,Analista de RH,Tecnologia
+4580.97,43,8,4.285714285714286,3,Funcionário,Operações
+3645.74,37,0,0.0,3,Funcionário,Operações
+3556.63,59,3,4.0,3,Funcionário,Administração
+4834.11,29,9,5.0,3,Funcionário,Operações
+7601.04,59,10,4.444444444444445,6,Analista de RH,Tecnologia
+4723.6,41,10,3.3333333333333335,3,Funcionário,Tecnologia
+8764.91,33,6,4.0,6,Analista de RH,Tecnologia
+8483.66,19,5,1.25,6,Analista de RH,Administração
+7628.74,27,0,0.0,6,Analista de RH,Tecnologia
+4062.22,43,4,4.333333333333333,3,Funcionário,Tecnologia
+8337.63,54,2,10.0,6,Analista de RH,Operações
+4216.75,34,8,3.6666666666666665,3,Funcionário,Tecnologia
+4481.38,44,10,4.777777777777778,3,Funcionário,Administração
+4588.91,27,6,4.2,3,Funcionário,Operações
+6473.91,39,7,2.4,6,Analista de RH,Recursos Humanos
+4253.91,45,6,4.0,3,Funcionário,Operações
+9119.91,25,6,6.8,6,Analista de RH,Tecnologia
+4864.63,35,2,9.0,3,Funcionário,Operações
+3705.74,34,0,0.0,3,Funcionário,Tecnologia
+7257.63,45,1,0.0,6,Analista de RH,Administração
+3198.74,52,1,0.0,3,Funcionário,Administração
+6848.63,58,1,0.0,6,Analista de RH,Administração
+7214.48,30,4,5.0,6,Analista de RH,Recursos Humanos
+8198.66,35,5,2.75,6,Analista de RH,Recursos Humanos
+8437.38,46,10,5.777777777777778,6,Analista de RH,Administração
+5050.4,46,9,4.428571428571429,3,Funcionário,Recursos Humanos
+5193.42,53,7,5.333333333333333,3,Funcionário,Tecnologia
+4756.04,30,10,5.444444444444445,3,Funcionário,Operações
+7847.74,37,0,0.0,6,Analista de RH,Administração
+7619.48,26,3,2.0,6,Analista de RH,Administração
+6633.74,25,0,0.0,6,Analista de RH,Operações
+6339.74,35,0,0.0,6,Analista de RH,Operações
+7498.42,35,7,3.3333333333333335,6,Analista de RH,Administração
+4813.09,43,7,5.5,3,Funcionário,Administração
+4804.66,25,5,5.5,3,Funcionário,Operações
+5579.66,51,5,8.25,3,Funcionário,Recursos Humanos
+3901.74,53,0,0.0,3,Funcionário,Recursos Humanos
+4817.66,33,5,6.25,3,Funcionário,Operações
+7740.42,23,7,3.8333333333333335,6,Analista de RH,Recursos Humanos
+4425.91,44,6,5.6,3,Funcionário,Recursos Humanos
+4000.91,21,6,4.4,3,Funcionário,Recursos Humanos
+9731.26,62,10,5.0,6,Analista de RH,Tecnologia
+8280.91,64,6,5.4,6,Analista de RH,Operações
+4798.63,19,2,8.0,3,Funcionário,Operações
+4384.55,61,4,3.6666666666666665,3,Funcionário,Administração
+7495.22,29,4,5.333333333333333,6,Analista de RH,Tecnologia
+4738.55,56,4,4.666666666666667,3,Funcionário,Operações
+3329.74,57,0,0.0,3,Funcionário,Tecnologia
+6657.63,56,1,0.0,6,Analista de RH,Administração
+6082.63,29,1,0.0,6,Analista de RH,Recursos Humanos
+9068.75,38,7,3.6666666666666665,6,Analista de RH,Administração
+4359.42,53,7,3.8333333333333335,3,Funcionário,Tecnologia
+7681.55,50,4,8.666666666666666,6,Analista de RH,Operações
+3830.91,57,6,3.0,3,Funcionário,Administração
+4249.91,42,6,3.6,3,Funcionário,Administração
+4315.97,53,9,2.875,3,Funcionário,Administração
+3057.74,54,0,0.0,3,Funcionário,Tecnologia
+5375.83,52,9,5.571428571428571,3,Funcionário,Tecnologia
+4718.91,58,6,6.4,3,Funcionário,Administração
+4726.97,63,9,4.285714285714286,3,Funcionário,Tecnologia
+5913.74,48,1,0.0,6,Analista de RH,Tecnologia
+8728.91,50,6,4.2,6,Analista de RH,Administração
+7069.15,26,10,5.222222222222222,6,Analista de RH,Administração
+4634.15,48,10,4.222222222222222,3,Funcionário,Tecnologia
+4470.22,40,4,6.333333333333333,3,Funcionário,Operações
+7233.66,50,6,4.25,6,Analista de RH,Tecnologia
+8882.91,31,6,5.2,6,Analista de RH,Recursos Humanos
+9448.97,65,9,5.625,6,Analista de RH,Recursos Humanos
+4888.97,20,9,4.125,3,Funcionário,Administração
+3899.63,19,1,0.0,3,Funcionário,Operações
+8369.93,57,10,2.6666666666666665,6,Analista de RH,Operações
+7134.75,64,7,6.166666666666667,6,Analista de RH,Tecnologia
+3466.63,38,1,0.0,3,Funcionário,Recursos Humanos
+4505.15,41,10,4.222222222222222,3,Funcionário,Operações
+3281.74,21,0,0.0,3,Funcionário,Tecnologia
+7238.74,46,0,0.0,6,Analista de RH,Recursos Humanos
+8212.22,44,5,8.333333333333334,6,Analista de RH,Operações
+4018.63,19,1,0.0,3,Funcionário,Tecnologia
+3734.63,36,2,6.0,3,Funcionário,Administração
+9673.68,43,8,5.857142857142857,6,Analista de RH,Administração
+7344.15,35,10,5.222222222222222,6,Analista de RH,Recursos Humanos
+4680.63,45,2,6.0,3,Funcionário,Operações
+4716.48,19,3,6.0,3,Funcionário,Tecnologia
+4213.55,58,4,5.666666666666667,3,Funcionário,Operações
+9263.26,46,11,5.0,6,Analista de RH,Operações
+7589.48,48,3,2.0,6,Analista de RH,Administração
+4231.48,57,3,4.5,3,Funcionário,Administração
+9540.68,23,8,5.857142857142857,6,Analista de RH,Operações
+8949.97,55,9,7.285714285714286,6,Analista de RH,Operações
+5048.66,46,5,6.75,3,Funcionário,Administração
+5475.48,26,3,9.0,3,Funcionário,Recursos Humanos
+5379.15,27,10,6.222222222222222,3,Funcionário,Operações
+8033.63,65,2,7.0,6,Analista de RH,Recursos Humanos
+7725.74,29,1,0.0,6,Analista de RH,Tecnologia
+3465.63,31,1,0.0,3,Funcionário,Recursos Humanos
+4890.47,53,10,3.75,3,Funcionário,Recursos Humanos
+4644.47,41,9,6.0,3,Funcionário,Tecnologia
+5270.82,44,10,4.888888888888889,3,Funcionário,Operações
+6904.11,20,8,5.0,6,Analista de RH,Operações
+6717.74,55,0,0.0,6,Analista de RH,Operações
+8796.55,50,4,5.666666666666667,6,Analista de RH,Administração
+7021.82,57,10,4.888888888888889,6,Analista de RH,Administração
+6871.63,41,1,0.0,6,Analista de RH,Tecnologia
+3702.22,29,4,4.333333333333333,3,Funcionário,Operações
+6776.88,33,4,6.0,6,Analista de RH,Administração
+6583.63,60,1,0.0,6,Analista de RH,Recursos Humanos
+3406.74,47,0,0.0,3,Funcionário,Administração
+8667.42,37,7,6.333333333333333,6,Analista de RH,Tecnologia
+4661.22,60,5,4.333333333333333,3,Funcionário,Administração
+3746.48,40,4,1.5,3,Funcionário,Recursos Humanos
+6763.48,38,3,5.0,6,Analista de RH,Recursos Humanos
+4919.91,34,7,6.8,3,Funcionário,Tecnologia
+3911.48,46,3,3.5,3,Funcionário,Recursos Humanos
+8923.48,44,3,5.5,6,Analista de RH,Operações
+7748.26,26,11,5.0,6,Analista de RH,Administração
+4498.63,39,2,7.0,3,Funcionário,Tecnologia
+3322.88,32,4,2.0,3,Funcionário,Operações
+4755.48,40,3,5.5,3,Funcionário,Recursos Humanos
+3346.74,31,0,0.0,3,Funcionário,Recursos Humanos
+3979.75,37,7,3.1666666666666665,3,Funcionário,Recursos Humanos
+3406.63,42,1,0.0,3,Funcionário,Operações
+4743.47,58,9,3.5,3,Funcionário,Operações
+10138.68,40,8,6.857142857142857,6,Analista de RH,Operações
+7688.22,25,4,6.333333333333333,6,Analista de RH,Tecnologia
+9054.91,59,6,4.6,6,Analista de RH,Tecnologia
+3740.74,57,1,0.0,3,Funcionário,Operações
+3409.74,22,0,0.0,3,Funcionário,Administração
+6863.97,47,10,4.625,6,Analista de RH,Tecnologia
+5636.74,46,0,0.0,6,Analista de RH,Recursos Humanos
+4306.66,36,5,2.75,3,Funcionário,Tecnologia
+6483.63,21,1,0.0,6,Analista de RH,Tecnologia
+4552.91,22,6,3.6,3,Funcionário,Tecnologia
+8867.97,65,8,5.285714285714286,6,Analista de RH,Administração
+7211.6,31,11,5.333333333333333,6,Analista de RH,Tecnologia
+6858.63,26,2,7.0,6,Analista de RH,Recursos Humanos
+4462.66,53,5,5.75,3,Funcionário,Operações
+4883.63,64,2,10.0,3,Funcionário,Recursos Humanos
+3917.74,42,0,0.0,3,Funcionário,Operações
+5195.26,54,10,5.0,3,Funcionário,Recursos Humanos
+7804.91,42,6,6.0,6,Analista de RH,Operações
+4590.6,31,11,3.3333333333333335,3,Funcionário,Administração
+3933.63,43,3,5.0,3,Funcionário,Administração
+5942.66,38,5,2.25,6,Analista de RH,Administração
+4169.63,21,1,0.0,3,Funcionário,Tecnologia
+7069.22,23,4,6.333333333333333,6,Analista de RH,Recursos Humanos
+9242.38,32,10,4.777777777777778,6,Analista de RH,Recursos Humanos
+6161.63,29,1,0.0,6,Analista de RH,Administração
+4538.66,63,5,6.0,3,Funcionário,Recursos Humanos
+3326.63,49,1,0.0,3,Funcionário,Operações
+8548.38,31,10,4.777777777777778,6,Analista de RH,Operações
+8471.11,42,8,6.0,6,Analista de RH,Recursos Humanos
+4873.26,42,9,4.714285714285714,3,Funcionário,Recursos Humanos
+9430.4,64,9,4.428571428571429,6,Analista de RH,Recursos Humanos
+6060.63,24,2,0.0,6,Analista de RH,Recursos Humanos
+7687.75,65,7,5.166666666666667,6,Analista de RH,Recursos Humanos
+6135.63,58,1,0.0,6,Analista de RH,Administração
+7921.97,43,10,5.375,6,Analista de RH,Administração
+4860.68,39,8,4.857142857142857,3,Funcionário,Tecnologia
+4664.66,41,6,6.75,3,Funcionário,Operações
+4025.66,55,5,5.0,3,Funcionário,Tecnologia
+4051.88,26,4,4.0,3,Funcionário,Recursos Humanos
+8334.15,32,11,6.222222222222222,6,Analista de RH,Recursos Humanos
+4772.15,63,11,4.222222222222222,3,Funcionário,Operações
+3228.63,35,2,0.0,3,Funcionário,Operações
+3747.22,45,4,2.3333333333333335,3,Funcionário,Recursos Humanos
+4662.75,23,7,5.666666666666667,3,Funcionário,Recursos Humanos
+4557.63,24,2,6.0,3,Funcionário,Recursos Humanos
+7945.26,64,8,6.714285714285714,6,Analista de RH,Recursos Humanos
+4539.91,48,6,4.0,3,Funcionário,Operações
+8377.74,64,0,0.0,6,Analista de RH,Operações
+9228.09,63,7,7.0,6,Analista de RH,Operações
+7875.63,32,3,9.0,6,Analista de RH,Operações
+3414.74,40,0,0.0,3,Funcionário,Operações
+8511.88,35,4,8.0,6,Analista de RH,Tecnologia
+3848.48,54,3,4.5,3,Funcionário,Tecnologia
+3270.63,65,3,0.0,3,Funcionário,Operações
+5281.42,38,7,6.333333333333333,3,Funcionário,Administração
+6775.48,33,3,6.0,6,Analista de RH,Tecnologia
+7028.4,48,8,3.4285714285714284,6,Analista de RH,Recursos Humanos
+3256.63,58,2,4.0,3,Funcionário,Tecnologia
+3651.91,41,6,2.4,3,Funcionário,Tecnologia
+8441.48,25,3,7.5,6,Analista de RH,Operações
+9838.97,44,9,6.625,6,Analista de RH,Tecnologia
+7212.63,61,2,4.0,6,Analista de RH,Tecnologia
+7185.63,59,2,2.0,6,Analista de RH,Tecnologia
+8173.66,27,5,6.25,6,Analista de RH,Tecnologia
+4411.63,61,2,6.0,3,Funcionário,Tecnologia
+7008.63,31,1,0.0,6,Analista de RH,Operações
+8095.47,48,9,6.75,6,Analista de RH,Recursos Humanos
+6958.74,38,1,0.0,6,Analista de RH,Administração
+7151.97,54,9,4.125,6,Analista de RH,Operações
+4856.63,51,3,7.0,3,Funcionário,Tecnologia
+7641.04,62,10,6.444444444444445,6,Analista de RH,Operações
+5190.97,53,10,5.125,3,Funcionário,Recursos Humanos
+3568.63,53,2,0.0,3,Funcionário,Administração
+9460.26,26,8,5.714285714285714,6,Analista de RH,Recursos Humanos
+7304.6,37,10,4.333333333333333,6,Analista de RH,Recursos Humanos
+5049.63,31,2,9.0,3,Funcionário,Tecnologia
+6510.63,21,2,0.0,6,Analista de RH,Operações
+4875.47,43,9,5.5,3,Funcionário,Recursos Humanos
+3590.74,53,0,0.0,3,Funcionário,Recursos Humanos
+4449.71,63,10,4.111111111111111,3,Funcionário,Operações
+4652.68,38,8,3.857142857142857,3,Funcionário,Recursos Humanos
+4524.63,49,3,9.0,3,Funcionário,Tecnologia
+7795.97,37,9,5.375,6,Analista de RH,Administração
+6844.55,61,4,2.6666666666666665,6,Analista de RH,Recursos Humanos
+3388.74,44,0,0.0,3,Funcionário,Administração
+7419.4,58,8,4.428571428571429,6,Analista de RH,Operações
+4532.22,28,5,5.333333333333333,3,Funcionário,Tecnologia
+6815.63,20,2,6.0,6,Analista de RH,Tecnologia
+6134.63,44,2,0.0,6,Analista de RH,Tecnologia
+4918.97,42,9,5.875,3,Funcionário,Tecnologia
+3608.63,51,1,0.0,3,Funcionário,Administração
+7885.97,22,9,5.375,6,Analista de RH,Recursos Humanos
+8873.66,34,5,4.5,6,Analista de RH,Administração
+9110.68,50,8,4.857142857142857,6,Analista de RH,Recursos Humanos
+6622.48,42,3,3.0,6,Analista de RH,Administração
+8653.91,47,6,3.6,6,Analista de RH,Tecnologia
+4263.66,35,5,5.25,3,Funcionário,Administração
+3662.63,65,1,0.0,3,Funcionário,Tecnologia
+3103.74,44,0,0.0,3,Funcionário,Tecnologia
+9159.66,38,5,5.75,6,Analista de RH,Recursos Humanos
+4774.22,21,4,7.333333333333333,3,Funcionário,Administração
+5277.47,64,9,5.5,3,Funcionário,Recursos Humanos
+3297.63,53,1,0.0,3,Funcionário,Operações
+7167.63,22,3,4.0,6,Analista de RH,Administração
+6155.55,33,4,3.6666666666666665,6,Analista de RH,Tecnologia
+8033.4,35,8,4.428571428571429,6,Analista de RH,Tecnologia
+8193.97,48,9,3.625,6,Analista de RH,Administração
+7341.83,30,8,4.571428571428571,6,Analista de RH,Operações
+6360.63,33,1,0.0,6,Analista de RH,Tecnologia
+5358.48,42,3,8.5,3,Funcionário,Administração
+4602.49,24,10,5.555555555555555,3,Funcionário,Administração
+8076.47,33,9,4.5,6,Analista de RH,Operações
+4624.63,20,3,7.0,3,Funcionário,Tecnologia
+7144.48,64,4,7.0,6,Analista de RH,Administração
+4610.66,25,5,5.0,3,Funcionário,Operações
+6292.63,48,2,2.0,6,Analista de RH,Tecnologia
+6911.63,56,2,0.0,6,Analista de RH,Administração
+4271.91,40,6,5.0,3,Funcionário,Tecnologia
+8211.04,28,10,4.444444444444445,6,Analista de RH,Operações
+7168.54,44,8,5.142857142857143,6,Analista de RH,Tecnologia
+4291.66,22,6,5.25,3,Funcionário,Administração
+7901.88,59,4,4.0,6,Analista de RH,Operações
+7018.63,33,2,0.0,6,Analista de RH,Operações
+4251.09,62,8,4.5,3,Funcionário,Tecnologia
+8869.55,63,5,4.666666666666667,6,Analista de RH,Tecnologia
+6898.97,25,9,4.875,6,Analista de RH,Recursos Humanos
+4678.47,35,9,4.25,3,Funcionário,Tecnologia
+7167.63,48,3,1.0,6,Analista de RH,Recursos Humanos
+7706.91,32,6,5.4,6,Analista de RH,Tecnologia
+8992.04,30,11,7.444444444444445,6,Analista de RH,Tecnologia
+3772.48,43,3,5.0,3,Funcionário,Operações
+7833.48,30,3,5.0,6,Analista de RH,Administração
+7019.74,62,0,0.0,6,Analista de RH,Tecnologia
+3334.63,20,2,0.0,3,Funcionário,Recursos Humanos
+7875.75,19,7,4.166666666666667,6,Analista de RH,Operações
+4986.6,51,10,5.333333333333333,3,Funcionário,Recursos Humanos
+7636.88,56,5,3.0,6,Analista de RH,Recursos Humanos
+9408.66,36,5,4.75,6,Analista de RH,Tecnologia
+10036.48,38,3,9.5,6,Analista de RH,Operações
+8822.4,47,8,6.428571428571429,6,Analista de RH,Recursos Humanos
+6620.63,43,1,0.0,6,Analista de RH,Tecnologia
+7900.11,31,8,6.0,6,Analista de RH,Recursos Humanos
+4702.83,33,8,5.571428571428571,3,Funcionário,Administração
+8405.22,54,4,4.333333333333333,6,Analista de RH,Operações
+9633.09,40,7,6.5,6,Analista de RH,Recursos Humanos
+7719.63,58,1,0.0,6,Analista de RH,Recursos Humanos
+8476.66,25,5,5.75,6,Analista de RH,Operações
+5937.48,43,4,2.5,6,Analista de RH,Tecnologia
+3969.48,39,3,6.0,3,Funcionário,Administração
+3896.63,29,1,0.0,3,Funcionário,Operações
+6432.74,50,1,0.0,6,Analista de RH,Recursos Humanos
+8297.63,26,1,0.0,6,Analista de RH,Administração
+9011.11,40,8,5.0,6,Analista de RH,Tecnologia
+6772.22,39,4,4.333333333333333,6,Analista de RH,Operações
+6819.54,56,8,4.142857142857143,6,Analista de RH,Operações
+5239.48,32,3,8.5,3,Funcionário,Administração
+5398.91,44,6,7.2,3,Funcionário,Operações
+4700.47,24,10,4.25,3,Funcionário,Recursos Humanos
+6528.63,59,1,0.0,6,Analista de RH,Operações
+8062.38,42,10,5.777777777777778,6,Analista de RH,Recursos Humanos
+4397.66,54,6,2.75,3,Funcionário,Operações
+4416.4,59,8,5.428571428571429,3,Funcionário,Operações
+6794.68,22,8,4.857142857142857,6,Analista de RH,Recursos Humanos
+9660.68,23,8,6.857142857142857,6,Analista de RH,Recursos Humanos
+5279.97,23,9,4.625,3,Funcionário,Recursos Humanos
+6973.63,53,2,4.0,6,Analista de RH,Recursos Humanos
+8034.22,43,4,5.333333333333333,6,Analista de RH,Recursos Humanos
+4649.47,42,9,6.0,3,Funcionário,Administração
+5177.66,61,5,6.0,3,Funcionário,Operações
+4003.22,30,4,1.3333333333333333,3,Funcionário,Administração
+6111.55,66,4,3.6666666666666665,6,Analista de RH,Recursos Humanos
+3834.74,65,1,0.0,3,Funcionário,Operações
