@@ -3,19 +3,6 @@ from statistics import mean
 import pandas as pd
 
 
-def aggregate_metrics(metrics_list):
-    keys = metrics_list[0].keys()
-
-    results = {}
-    for key in keys:
-        values = [metrics[key] for metrics in metrics_list]
-
-        if isinstance(values[0], (int, float)):
-            results[key] = round(mean(values), 3)
-
-    return results
-
-
 def aggregate_experiment_results(experiment_results):
     grouped_results = {}
 
@@ -53,3 +40,16 @@ def aggregate_experiment_results(experiment_results):
         })
 
     return pd.DataFrame(utility_rows), pd.DataFrame(attack_rows)
+
+
+def aggregate_metrics(metrics_list):
+    keys = metrics_list[0].keys()
+
+    results = {}
+    for key in keys:
+        values = [metrics[key] for metrics in metrics_list]
+
+        if isinstance(values[0], (int, float)):
+            results[key] = round(mean(values), 3)
+
+    return results
