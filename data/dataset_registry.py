@@ -1,47 +1,81 @@
-import re
+import json
 from pathlib import Path
 
-from config import DATASETS_DIR
 from .loader import load_data
 
 
-def _dataset_name(path):
-    if path.name == "baseline.csv":
-        return "baseline"
-
-    return path.stem.replace("dp_", "")
+BASELINE_FILE = "baseline.csv"
+METADATA_FILE = "metadata.json"
 
 
-def _dataset_sort_key(path):
-    if path.name == "baseline.csv":
-        return (0, 0.0)
 
-    match = re.match(r"dp_eps_(.+)\.csv$", path.name)
-    if match:
-        return (1, float(match.group(1)))
+def load_dataset_bundle( dataset_name: str, dataset_version: str,):
 
-    return (2, path.name)
+    dataset_path = _resolve_dataset_directory(
+        dataset_name= dataset_name,
+        dataset_version= dataset_version,
+    )
 
-
-def discover_dataset_files(dataset_version):
-    dataset_dir = Path(DATASETS_DIR) / dataset_version
-    dataset_files = [dataset_dir / "baseline.csv"]
-    dataset_files.extend(dataset_dir.glob("dp_eps_*.csv"))
-    return [path for path in sorted(dataset_files, key=_dataset_sort_key) if path.exists()]
-
-
-def load_registered_datasets(dataset_version, active_datasets=None):
-    dataset_files = discover_dataset_files(dataset_version)
-    selected_names = set(active_datasets) if active_datasets is not None else None
-
-    names = []
     datasets = []
-    for path in dataset_files:
-        name = _dataset_name(path)
-        if selected_names is not None and name not in selected_names:
-            continue
+    dataset_names = []
 
-        names.append(name)
-        datasets.append(load_data(path))
+    baseline = dataset_path / BASELINE_FILE
 
-    return datasets, names
+    if not baseline.exists():
+        raise FileNotFoundError(
+            f"Baseline não encontrado: {baseline}"
+        )
+
+    datasets.append(load_data(baseline))
+    dataset_names.append("baseline")
+
+    for file in _discover_dp_files(dataset_path):
+
+        datasets.append(load_data(file))
+        dataset_names.append(file.stem)
+
+    metadata = _load_metadata(dataset_path)
+
+    return {
+        "dataset_path": dataset_path,
+        "dataset_version": dataset_version,
+        "metadata": metadata,
+        "datasets": datasets,
+        "dataset_names": dataset_names,
+    }
+
+
+def _resolve_dataset_directory( dataset_name: str, dataset_version: str,):
+
+    dataset_path = (
+        Path("data/datasets")
+        / dataset_name
+        / dataset_version
+    )
+
+    if not dataset_path.exists():
+        raise FileNotFoundError(
+            f"Dataset não encontrado: {dataset_path}"
+        )
+
+    return dataset_path
+
+
+def _discover_dp_files(dataset_path: Path):
+
+    return sorted(
+        dataset_path.glob("dp_eps_*.csv")
+    )
+
+
+def _load_metadata(dataset_path: Path):
+
+    metadata_file = dataset_path / METADATA_FILE
+
+    if not metadata_file.exists():
+        raise FileNotFoundError(
+            f"Metadata não encontrado: {metadata_file}"
+        )
+
+    with open(metadata_file, encoding="utf-8") as f:
+        return json.load(f)
