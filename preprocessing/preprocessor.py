@@ -1,44 +1,74 @@
-from sklearn.preprocessing import OneHotEncoder
+
 from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder
 
-def build_preprocessor(df):
-    """
-    Preprocessor fixo do experimento.
 
-    - As colunas são derivadas explicitamente do dataset fornecido.
-    - O objetivo é manter o mesmo protocolo mesmo com degradação estrutural dos dados.
-    """
+def build_preprocessor(df, preprocessing_config):
 
-    target = "salario"
+    preprocessing = preprocessing_config
 
-    categorical_cols = [
-        col for col in ["cargo", "setor"]
-        if col in df.columns
+    categorical_columns = [
+        column
+        for column in preprocessing.categorical_columns
+        if column in df.columns
     ]
 
-    numerical_cols = [
-        col for col in ["idade", "tempo_na_empresa", "nota_media"]
-        if col in df.columns
+    numerical_columns = [
+        column
+        for column in preprocessing.numerical_columns
+        if column in df.columns
     ]
 
-    if not categorical_cols and not numerical_cols:
-        raise ValueError("Nenhuma feature válida encontrada para o experimento.")
+    if not categorical_columns and not numerical_columns:
+        raise ValueError(
+            "Nenhuma coluna configurada para preprocessamento foi encontrada."
+        )
 
-    return ColumnTransformer(
+    categorical_pipeline = Pipeline(
+        steps=[
+            (
+                "imputer",
+                SimpleImputer(
+                    strategy=preprocessing.impute_categorical,
+                ),
+            ),
+            (
+                "encoder",
+                OneHotEncoder(
+                    drop=preprocessing.one_hot_drop,
+                    handle_unknown=preprocessing.handle_unknown,
+                ),
+            ),
+        ]
+    )
+
+    numerical_pipeline = Pipeline(
+        steps=[
+            (
+                "imputer",
+                SimpleImputer(
+                    strategy=preprocessing.impute_numeric,
+                ),
+            ),
+        ]
+    )
+
+    preprocessor = ColumnTransformer(
         transformers=[
             (
                 "categorical",
-                OneHotEncoder(
-                    drop="first",
-                    handle_unknown='ignore'
-                ),
-                categorical_cols
+                categorical_pipeline,
+                categorical_columns,
             ),
             (
                 "numerical",
-                "passthrough",
-                numerical_cols
+                numerical_pipeline,
+                numerical_columns,
             ),
         ],
-        remainder="drop"
+        remainder="drop",
     )
+
+    return preprocessor
