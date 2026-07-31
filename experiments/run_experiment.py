@@ -1,61 +1,102 @@
+from time import perf_counter
+
+from tqdm import tqdm
+
 from attacks import extract_attack_features
 from core.experiment_result import ExperimentResult
-from .model_runner import run_model
-from .attack_runner import run_attacks
+
+from .attack_runner import evaluate_attack, run_attack
+from .utility_runner import compute_utility_metrics
 
 
 def run_machine_learning_experiments(
+    *,
     model_runner,
     model_name,
-    datasets,
-    dataset_names,
-    seeds,
-    test_sizes,
+    prepared_dataset,
+    task_type,
+    seed,
+    test_size,
 ):
+    stages = [
+        "Training",
+        "Metrics",
+        "Attack",
+    ]
 
-    """
-    Protocolo experimental padrão do projeto.
+    with tqdm(
+        total=len(stages),
+        desc=f"{model_name:18}",
+        bar_format="{desc} |{bar}| {n_fmt}/{total_fmt} [{elapsed}]",
+        leave=False,
+    ) as progress:
 
-    Este método:
-    - Chama os métodos responsáveis pelo experimento da aplicação
-    - organiza os resultados brutos por execução
+        progress.set_postfix(
+            dataset=prepared_dataset.name,
+            seed=seed,
+            test=f"{test_size:.2f}",
+            stage="Training",
+        )
 
-    NÃO:
-    - altera datasets
-    - aplica DP
-    - agrega métricas
-    """
+        model_start = perf_counter()
 
-    experiment_results = []
+        prediction_result = model_runner(
+            prepared_dataset=prepared_dataset,
+            task_type=task_type,
+            seed=seed,
+        )
 
-    for name, df in zip(dataset_names, datasets):
+        model_time = perf_counter() - model_start
 
-        for seed in seeds:
-            for test_size in test_sizes:
+        progress.update()
 
-                model_metrics_values = run_model(
-                    df=df,
-                    model_runner=lambda **kwargs: model_runner(
-                        **kwargs,
-                        seed=seed,
-                        test_size=test_size
-                    )
-                )
+        progress.set_postfix(
+            dataset=prepared_dataset.name,
+            seed=seed,
+            test=f"{test_size:.2f}",
+            stage="Metrics",
+        )
 
-                attack_features = extract_attack_features(model_metrics_values)
-                attack_metrics_values = run_attacks(attack_features=attack_features)
+        utility_metrics = compute_utility_metrics(prediction_result)
+        attack_features = extract_attack_features(utility_metrics)
 
-                experiment_results.append(
-                    ExperimentResult(
-                        utility_metrics=model_metrics_values,
-                        attack_metrics=attack_metrics_values,
-                        metadata={
-                            "model_name": model_name,
-                            "dataset": name,
-                            "seed": seed,
-                            "test_size": test_size,
-                        },
-                    )
-                )
+        progress.update()
 
-    return experiment_results
+        progress.set_postfix(
+            dataset=prepared_dataset.name,
+            seed=seed,
+            test=f"{test_size:.2f}",
+            stage="Attack",
+        )
+
+        attack_start = perf_counter()
+
+        attack_output = run_attack(attack_features)
+
+        attack_time = perf_counter() - attack_start
+
+        attack_metrics = evaluate_attack(attack_output)
+
+        progress.update()
+
+    print(
+        f"{model_name:18}"
+        f" | Dataset={prepared_dataset.name}"
+        f" | Seed={seed}"
+        f" | Test={test_size:.2f}"
+        f" | Model={model_time:.2f}s"
+        f" | Attack={attack_time:.2f}s"
+    )
+
+    return [
+        ExperimentResult(
+            utility_metrics=utility_metrics,
+            attack_metrics=attack_metrics,
+            metadata={
+                "model_name": model_name,
+                "dataset": prepared_dataset.name,
+                "seed": seed,
+                "test_size": test_size,
+            },
+        )
+    ]

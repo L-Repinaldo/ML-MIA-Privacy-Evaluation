@@ -1,50 +1,131 @@
 from datetime import datetime
+import gc
 
 from artifacts import (
     build_artifact_metadata,
     build_experiment_id,
     persist_experiment_artifacts,
 )
-from data.dataset_registry import load_registered_datasets
+
+from core.dataset_preparation import prepare_dataset
+from core.experiment_validation import validate_experiment_config
+from core.runtime import configure_runtime
+
+from data.dataset_registry import load_dataset_bundle
+from data.sample_dataset import sample_dataset_bundle
+
 from experiments.aggregation import aggregate_experiment_results
 from experiments.run_experiment import run_machine_learning_experiments
 
 
 class ExperimentalPipeline:
+
     def __init__(self, experiment_config):
         self.experiment_config = experiment_config
 
     def run(self):
-        self._configure_warnings()
 
-        datasets, dataset_names = load_registered_datasets(
+        configure_runtime()
+
+        validate_experiment_config(self.experiment_config)
+
+        dataset_bundle = load_dataset_bundle(
+            dataset_name=self.experiment_config.dataset_name,
             dataset_version=self.experiment_config.dataset_version,
-            active_datasets=self.experiment_config.active_datasets,
+        )
+
+        dataset_bundle = sample_dataset_bundle(
+            dataset_bundle,
+            sample_size=self.experiment_config.sample_size,
+            random_state=42,
         )
 
         experiment_results = []
 
+        for dataset_name, df in zip(
+            dataset_bundle["dataset_names"],
+            dataset_bundle["datasets"],
+        ):
+
+            for seed in self.experiment_config.seeds:
+
+                for test_size in self.experiment_config.test_sizes:
+
+                    prepared_dataset = prepare_dataset(
+                        name=dataset_name,
+                        df=df,
+                        target=self.experiment_config.target,
+                        task_type=self.experiment_config.task_type,
+                        preprocessing_config=self.experiment_config.preprocessing,
+                        seed=seed,
+                        test_size=test_size,
+                    )
+
+                    experiment_results.extend(
+                        self._run_experiments(
+                            prepared_dataset=prepared_dataset,
+                            seed=seed,
+                            test_size=test_size,
+                        )
+                    )
+
+                    del prepared_dataset
+                    gc.collect()
+
+        df_utility, df_attack = aggregate_experiment_results(
+            experiment_results
+        )
+
+        return self._persist_results(
+            df_utility,
+            df_attack,
+            dataset_bundle,
+        )
+
+    def _run_experiments(
+        self,
+        *,
+        prepared_dataset,
+        seed,
+        test_size,
+    ):
+        experiment_results = []
+
         for model_name, runner in self.experiment_config.active_models:
-            print(f"\n{'='*40}")
-            print(f"{model_name} execution")
-            print(f"{'='*40}")
 
             experiment_results.extend(
                 run_machine_learning_experiments(
                     model_runner=runner,
                     model_name=model_name,
-                    datasets=datasets,
-                    dataset_names=dataset_names,
-                    seeds=self.experiment_config.seeds,
-                    test_sizes=self.experiment_config.test_sizes,
+                    prepared_dataset=prepared_dataset,
+                    task_type=self.experiment_config.task_type,
+                    seed=seed,
+                    test_size=test_size,
                 )
             )
 
-        df_utility, df_attack = aggregate_experiment_results(experiment_results)
+
+        return experiment_results
+
+    def _persist_results(self, df_utility, df_attack, dataset_bundle):
 
         timestamp = datetime.now()
+
         experiment_id = build_experiment_id(timestamp)
-        artifact_metadata = build_artifact_metadata(self.experiment_config, timestamp)
+
+        artifact_metadata = build_artifact_metadata(
+            self.experiment_config,
+            timestamp,
+        )
+
+        artifact_metadata.update(
+            {
+                "resolved_dataset_version": dataset_bundle["dataset_version"],
+                "target": self.experiment_config.target,
+                "task_type": self.experiment_config.task_type,
+            }
+        )
+
         artifact_path = persist_experiment_artifacts(
             experiment_id=experiment_id,
             df_utility=df_utility,
@@ -58,17 +139,3 @@ class ExperimentalPipeline:
             "utility_metrics": df_utility,
             "attack_metrics": df_attack,
         }
-
-    def _configure_warnings(self):
-        import warnings
-
-        warnings.filterwarnings(
-            "ignore",
-            message="Found unknown categories in columns",
-            category=UserWarning,
-            module="sklearn.preprocessing._encoders"
-        )
-        warnings.filterwarnings(
-            "ignore",
-            message="`sklearn.utils.parallel.delayed` should be used"
-        )
