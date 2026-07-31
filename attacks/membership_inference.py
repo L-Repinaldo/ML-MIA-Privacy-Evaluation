@@ -2,13 +2,14 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
+MAX_SAMPLES = 100000
 
 def run_membership_inference_attack(target_outputs):
 
     train_abs_error = target_outputs['train_abs_error']
     test_abs_error  = target_outputs['test_abs_error']
 
-    n = min(len(train_abs_error), len(test_abs_error))
+    n = min(len(train_abs_error), len(test_abs_error), MAX_SAMPLES)
 
     train_sample = np.random.choice(train_abs_error, n, replace=False)
     test_sample  = np.random.choice(test_abs_error, n, replace=False)
@@ -36,6 +37,6 @@ def run_membership_inference_attack(target_outputs):
 # Train attack model
 # -----------------------------
 def train_attack_model(attack_X, attack_y):
-    clf = RandomForestClassifier(n_estimators=100, random_state=42)
+    clf = RandomForestClassifier(n_estimators=50, random_state=42, n_jobs=-1,   max_depth=10)
     clf.fit(attack_X, attack_y)
     return clf
