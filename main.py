@@ -1,5 +1,5 @@
 from config import get_experiment_config
-from core.experimental_pipeline import ExperimentalPipeline
+from src.core.experimental_pipeline import ExperimentalPipeline
 
 
 def main():
