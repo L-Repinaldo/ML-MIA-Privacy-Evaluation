@@ -1,9 +1,9 @@
-from core.experiment_config import (
+from src.core.experiment_config import (
     ExperimentConfig,
     PreprocessingConfig,
 )
 
-from model import (
+from src.model import (
     run_xgboost,
     run_random_forest,
     run_linear_regression,
