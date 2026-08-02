@@ -48,7 +48,7 @@ def load_dataset_bundle( dataset_name: str, dataset_version: str,):
 def _resolve_dataset_directory( dataset_name: str, dataset_version: str,):
 
     dataset_path = (
-        Path("data/datasets")
+        Path("src/data/datasets")
         / dataset_name
         / dataset_version
     )
