@@ -12,7 +12,3 @@ def evaluate_attack(attack_output):
         y_pred=attack_output["y_pred"],
     )
 
-
-def run_attacks(attack_features):
-    """Compatibility wrapper for the previous orchestration API."""
-    return evaluate_attack(run_attack(attack_features))

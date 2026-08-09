@@ -22,19 +22,25 @@ class PreprocessingConfig:
     impute_categorical: str | None = "most_frequent"
 
 @dataclass
+class TaskConfig:
+
+    task_type: str  
+    target: str
+    active_models: list[tuple[str, Callable]] = field(default_factory=list)
+
+
+@dataclass
 class ExperimentConfig:
 
     dataset_name: str
 
     dataset_version: str
 
-    target: str
-
     sample_size: int
 
     preprocessing: PreprocessingConfig
 
-    task_type: str = "regression"
+    tasks: list[TaskConfig] = field(default_factory=list)
 
     seeds: list[int] = field(
         default_factory=lambda: [42, 123, 999]
@@ -44,10 +50,6 @@ class ExperimentConfig:
         default_factory=lambda: [0.2]
     )
 
-    active_models: list[tuple[str, Callable]] = field(
-        default_factory=list
-    )
-
     active_datasets: list[str] | None = None
 
     @property
@@ -55,5 +57,6 @@ class ExperimentConfig:
 
         return [
             name
-            for name, _ in self.active_models
+            for task in self.tasks
+            for name, _ in task.active_models
         ]
