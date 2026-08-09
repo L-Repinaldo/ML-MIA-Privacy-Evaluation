@@ -1,10 +1,11 @@
 from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
 
 from .common import run_supervised_model
 
 
-
-def run_linear_regression(
+def run_linear_or_logistic_regression(
     prepared_dataset,
     *,
     task_type="regression",
@@ -21,7 +22,11 @@ def _build_model(*, task_type, seed):
     if task_type == "regression":
         return LinearRegression()
 
-    return LogisticRegression(
-        max_iter=1000,
-        random_state=seed,
+    return make_pipeline(
+        StandardScaler(with_mean=False),  
+        LogisticRegression(
+            max_iter=2000,  
+            solver='saga',  
+            random_state=seed,
+        )
     )

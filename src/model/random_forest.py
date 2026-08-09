@@ -26,7 +26,7 @@ def _build_model(*, task_type, seed):
         "max_features": "sqrt",
         "bootstrap": True,
         "random_state": seed,
-        "n_jobs": 4,
+        "n_jobs": 2,  
     }
 
     model_class = (
