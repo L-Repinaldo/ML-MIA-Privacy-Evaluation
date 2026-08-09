@@ -37,9 +37,7 @@ def summary(utility_df):
 
 
 def mean_absolute_error(utility_df):
-    """
-    Compara Train e Test simultaneamente.
-    """
+   
     df = utility_df.melt(
         id_vars=["model", "dataset", "epsilon"],
         value_vars=["train_mae", "test_mae"],
@@ -71,9 +69,7 @@ def mean_absolute_error(utility_df):
 
 
 def utility_by_model(utility_df):
-    """
-    Um gráfico por modelo mostrando Train e Test.
-    """
+   
     df = utility_df.melt(
         id_vars=["model", "dataset", "epsilon"],
         value_vars=["train_mae", "test_mae"],
@@ -110,9 +106,7 @@ def utility_by_model(utility_df):
 
 
 def generalization_gap(utility_df):
-    """
-    Gap de generalização ao longo do ε.
-    """
+
     fig = px.line(
         utility_df,
         x="epsilon",
