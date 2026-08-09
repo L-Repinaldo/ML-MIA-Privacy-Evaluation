@@ -39,6 +39,7 @@ def build_preprocessor(df, preprocessing_config):
                 OneHotEncoder(
                     drop=preprocessing.one_hot_drop,
                     handle_unknown=preprocessing.handle_unknown,
+                    sparse_output=True,  
                 ),
             ),
         ]
@@ -69,6 +70,7 @@ def build_preprocessor(df, preprocessing_config):
             ),
         ],
         remainder="drop",
+        sparse_threshold=0.3,  
     )
 
     return preprocessor
