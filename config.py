@@ -1,12 +1,13 @@
 from src.core.experiment_config import (
     ExperimentConfig,
     PreprocessingConfig,
+    TaskConfig,
 )
 
 from src.model import (
     run_xgboost,
     run_random_forest,
-    run_linear_regression,
+    run_linear_or_logistic_regression,
 )
 
 
@@ -18,21 +19,38 @@ def get_experiment_config():
 
         dataset_version="enem_2025 - v-2026-07-21_23-19-59",
 
-        target="Q005",
-
         sample_size=300_000,
+
+        tasks=[
+            TaskConfig(
+                task_type="classification",
+                target="TP_SEXO",
+                active_models=[
+                    ("XGBoost", run_xgboost),
+                    ("Random Forest", run_random_forest),
+                    ("Logistic Regression", run_linear_or_logistic_regression),
+                ]
+            ),
+            TaskConfig(
+                task_type="regression",
+                target="Q005",
+                active_models=[
+                    ("XGBoost", run_xgboost),
+                    ("Random Forest", run_random_forest),
+                    ("Linear Regression", run_linear_or_logistic_regression),
+                ]
+            ),
+        ],
 
         preprocessing=PreprocessingConfig(
         
            categorical_columns=[
-                "TP_SEXO",
                 "SG_UF_PROVA",
                 "Q001",
                 "Q002",
                 "Q003",
                 "Q004",
                 "Q006",
-                "Q007",
                 "Q008",
                 "Q009",
                 "Q010",
@@ -63,15 +81,5 @@ def get_experiment_config():
            ], 
 
         ),
-
-        active_models=[
-
-            ("XGBoost", run_xgboost),
-
-            ("Random Forest", run_random_forest),
-
-            ("Linear Regression", run_linear_regression),
-
-        ],
 
     )
