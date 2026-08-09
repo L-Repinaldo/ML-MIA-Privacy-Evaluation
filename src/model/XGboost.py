@@ -29,7 +29,7 @@ def _build_model(*, task_type, seed):
         "reg_alpha": 0.0,
         "reg_lambda": 5.0,
         "tree_method": "hist",
-        "n_jobs": -1,
+        "n_jobs": 4, 
         "random_state": seed,
         "verbosity": 0,
     }
