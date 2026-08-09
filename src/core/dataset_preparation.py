@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from time import perf_counter
+import gc
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -42,13 +43,13 @@ def prepare_dataset(
     if target not in df.columns:
         raise ValueError(f"Target '{target}' não encontrada.")
 
-    preprocessor = build_preprocessor(
-        df=df,
-        preprocessing_config=preprocessing_config,
-    )
-
     X = df.drop(columns=[target])
     y = df[target]
+
+    preprocessor = build_preprocessor(
+        df=X,
+        preprocessing_config=preprocessing_config,
+    )
 
     t0 = perf_counter()
 
@@ -57,9 +58,11 @@ def prepare_dataset(
         y,
         test_size=test_size,
         random_state=seed,
+        shuffle=True,  
     )
 
-    print(f"Split: {perf_counter() - t0:.3f}s")
+    del X, y
+    gc.collect()
 
     t1 = perf_counter()
 

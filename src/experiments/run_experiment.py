@@ -17,6 +17,7 @@ def run_machine_learning_experiments(
     task_type,
     seed,
     test_size,
+    target,
 ):
     stages = [
         "Training",
@@ -57,8 +58,8 @@ def run_machine_learning_experiments(
             stage="Metrics",
         )
 
-        utility_metrics = compute_utility_metrics(prediction_result)
-        attack_features = extract_attack_features(utility_metrics)
+        utility_metrics = compute_utility_metrics(prediction_result, task_type=task_type)
+        attack_features = extract_attack_features(utility_metrics, task_type= task_type)
 
         progress.update()
 
@@ -97,6 +98,8 @@ def run_machine_learning_experiments(
                 "dataset": prepared_dataset.name,
                 "seed": seed,
                 "test_size": test_size,
+                "task_type": task_type,
+                "target": target,
             },
         )
     ]

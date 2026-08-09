@@ -47,34 +47,44 @@ class ExperimentalPipeline:
             dataset_bundle["datasets"],
         ):
 
-            for seed in self.experiment_config.seeds:
+            for task_config in self.experiment_config.tasks:
 
-                for test_size in self.experiment_config.test_sizes:
+                for seed in self.experiment_config.seeds:
 
-                    prepared_dataset = prepare_dataset(
-                        name=dataset_name,
-                        df=df,
-                        target=self.experiment_config.target,
-                        task_type=self.experiment_config.task_type,
-                        preprocessing_config=self.experiment_config.preprocessing,
-                        seed=seed,
-                        test_size=test_size,
-                    )
+                    for test_size in self.experiment_config.test_sizes:
 
-                    experiment_results.extend(
-                        self._run_experiments(
-                            prepared_dataset=prepared_dataset,
+                        prepared_dataset = prepare_dataset(
+                            name=dataset_name,
+                            df=df,
+                            target=task_config.target,
+                            task_type=task_config.task_type,
+                            preprocessing_config=self.experiment_config.preprocessing,
                             seed=seed,
                             test_size=test_size,
                         )
-                    )
 
-                    del prepared_dataset
-                    gc.collect()
+                        experiment_results.extend(
+                            self._run_experiments(
+                                prepared_dataset=prepared_dataset,
+                                task_config=task_config,
+                                seed=seed,
+                                test_size=test_size,
+                                target=task_config.target,
+                            )
+                        )
+
+                        del prepared_dataset
+                        gc.collect()
+
+            del df
+            gc.collect()
 
         df_utility, df_attack = aggregate_experiment_results(
             experiment_results
         )
+
+        del experiment_results
+        gc.collect()
 
         return self._persist_results(
             df_utility,
@@ -86,24 +96,28 @@ class ExperimentalPipeline:
         self,
         *,
         prepared_dataset,
+        task_config,
         seed,
         test_size,
-    ):
+        target,
+    ) -> list:
         experiment_results = []
 
-        for model_name, runner in self.experiment_config.active_models:
+        for model_name, runner in task_config.active_models:
 
             experiment_results.extend(
                 run_machine_learning_experiments(
                     model_runner=runner,
                     model_name=model_name,
                     prepared_dataset=prepared_dataset,
-                    task_type=self.experiment_config.task_type,
+                    task_type=task_config.task_type,
                     seed=seed,
                     test_size=test_size,
+                    target=target,
                 )
             )
 
+            gc.collect()
 
         return experiment_results
 
@@ -121,8 +135,10 @@ class ExperimentalPipeline:
         artifact_metadata.update(
             {
                 "resolved_dataset_version": dataset_bundle["dataset_version"],
-                "target": self.experiment_config.target,
-                "task_type": self.experiment_config.task_type,
+                "targets": {
+                    task.task_type: task.target
+                    for task in self.experiment_config.tasks
+                },
             }
         )
 
