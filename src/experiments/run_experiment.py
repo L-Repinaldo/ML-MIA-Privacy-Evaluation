@@ -2,7 +2,10 @@ from time import perf_counter
 
 from tqdm import tqdm
 
-from src.attacks import extract_attack_features
+from src.attacks import (
+    extract_attack_features,
+    run_shadow_model_membership_inference_attack,
+)
 from src.core.experiment_result import ExperimentResult
 
 from .attack_runner import evaluate_attack, run_attack
@@ -18,12 +21,15 @@ def run_machine_learning_experiments(
     seed,
     test_size,
     target,
+    shadow_config=None,
 ):
     stages = [
         "Training",
         "Metrics",
         "Attack",
     ]
+
+    attack_metrics = {}
 
     with tqdm(
         total=len(stages),
@@ -76,7 +82,25 @@ def run_machine_learning_experiments(
 
         attack_time = perf_counter() - attack_start
 
-        attack_metrics = evaluate_attack(attack_output)
+        attack_metrics["loss_confidence"] = evaluate_attack(attack_output)
+
+        shadow_attack_time = 0.0
+        if shadow_config is not None and shadow_config.enabled:
+            shadow_attack_start = perf_counter()
+
+            shadow_metrics = run_shadow_model_membership_inference_attack(
+                model_runner=model_runner,
+                task_type=task_type,
+                X_pool=prepared_dataset.X_train,
+                y_pool=prepared_dataset.y_train,
+                target_prediction_result=prediction_result,
+                shadow_config=shadow_config,
+                seed=seed,
+            )
+
+            attack_metrics["shadow_model"] = shadow_metrics
+
+            shadow_attack_time = perf_counter() - shadow_attack_start
 
         progress.update()
 
@@ -87,6 +111,7 @@ def run_machine_learning_experiments(
         f" | Test={test_size:.2f}"
         f" | Model={model_time:.2f}s"
         f" | Attack={attack_time:.2f}s"
+        f" | Shadow={shadow_attack_time:.2f}s"
     )
 
     return [

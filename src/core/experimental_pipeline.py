@@ -114,6 +114,7 @@ class ExperimentalPipeline:
                     seed=seed,
                     test_size=test_size,
                     target=target,
+                    shadow_config=self.experiment_config.shadow_attack,
                 )
             )
 

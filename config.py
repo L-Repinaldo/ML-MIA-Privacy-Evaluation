@@ -1,6 +1,7 @@
 from src.core.experiment_config import (
     ExperimentConfig,
     PreprocessingConfig,
+    ShadowAttackConfig,
     TaskConfig,
 )
 
@@ -80,6 +81,35 @@ def get_experiment_config():
                 "TP_NACIONALIDADE",
            ], 
 
+        ),
+
+        shadow_attack=ShadowAttackConfig(
+            enabled=True,
+            n_shadow_models=5,
+            member_fraction=0.5,
+            attack_test_size=0.3,
+            attack_features=[
+                "probabilities",
+                "confidence",
+                "entropy",
+                "loss",
+            ],
+            attack_model={
+                "type": "xgboost",
+                "n_estimators": 300,
+                "max_depth": 4,
+                "learning_rate": 0.1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "min_child_weight": 1,
+                "gamma": 0.0,
+                "reg_alpha": 0.0,
+                "reg_lambda": 1.0,
+                "tree_method": "hist",
+                "n_jobs": 4,
+                "random_state": 42,
+                "verbosity": 0,
+            },
         ),
 
     )

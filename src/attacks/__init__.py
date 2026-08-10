@@ -1,2 +1,3 @@
 from .feature_extraction import extract_attack_features
 from .membership_inference import run_membership_inference_attack
+from .shadow_membership_inference import run_shadow_model_membership_inference_attack
