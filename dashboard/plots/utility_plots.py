@@ -1,140 +1,173 @@
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+from plots.common import apply_epsilon_axis
 
-def summary(utility_df):
-    gap_summary = (
-        _gap_summary(utility_df)
-        .sort_values("generalization_gap")
+SUMMARY_METRIC_LABELS = {
+    "test_acc": "Test Accuracy",
+    "test_precision": "Test Precision",
+    "test_recall": "Test Recall",
+    "test_f1": "Test F1",
+    "test_mae": "Test MAE",
+    "test_r2_score": "Test R²",
+    "generalization_gap_%": "Generalization Gap (%)",
+}
+
+METRIC_LABELS = {
+    "test_precision": "Precision",
+    "test_recall": "Recall",
+    "test_f1": "F1",
+}
+
+
+def accuracy(utility_df):
+    fig = px.line(
+        utility_df,
+        x="epsilon",
+        y="test_acc",
+        color="model",
+        markers=True,
+        title="Accuracy no teste por ε",
+        labels={
+            "epsilon": "ε",
+            "test_acc": "Accuracy",
+        },
+    )
+    apply_epsilon_axis(fig)
+    fig.update_layout(hovermode="x unified", legend_title="Modelo")
+    return fig
+
+
+def precision_recall_f1(utility_df):
+    value_columns = [col for col in METRIC_LABELS if col in utility_df.columns]
+    if not value_columns:
+        return None
+
+    id_vars = [col for col in ["model", "epsilon", "epsilon_label"] if col in utility_df.columns]
+
+    df = utility_df.melt(
+        id_vars=id_vars,
+        value_vars=value_columns,
+        var_name="metric",
+        value_name="value",
+    )
+    df["metric_label"] = df["metric"].map(METRIC_LABELS)
+
+    fig = px.line(
+        df,
+        x="epsilon",
+        y="value",
+        color="model",
+        facet_col="metric_label",
+        facet_col_wrap=3,
+        markers=True,
+        title="Precision, Recall e F1 por ε",
+        labels={
+            "epsilon": "ε",
+            "value": "Score",
+        },
     )
 
-    fig = go.Figure(
-        data=[
-            go.Table(
-                header=dict(
-                    values=[
-                        "Modelo",
-                        "Gap Médio (%)",
-                        "Train MAE",
-                        "Test MAE",
-                    ]
-                ),
-                cells=dict(
-                    values=[
-                        gap_summary["model"],
-                        gap_summary["generalization_gap"],
-                        gap_summary["train_mae"],
-                        gap_summary["test_mae"],
-                    ]
-                ),
-            )
-        ]
+    apply_epsilon_axis(fig)
+    fig.for_each_annotation(
+        lambda a: a.update(text=a.text.split("=")[-1])
     )
-
-    fig.update_layout(height=300)
-
+    fig.update_layout(hovermode="x unified", legend_title="Modelo")
     return fig
 
 
 def mean_absolute_error(utility_df):
-   
-    df = utility_df.melt(
-        id_vars=["model", "dataset", "epsilon"],
-        value_vars=["train_mae", "test_mae"],
-        var_name="split",
-        value_name="mae",
-    )
-
+    """MAE no teste por ε (regressão). Menor é melhor."""
     fig = px.line(
-        df,
+        utility_df,
         x="epsilon",
-        y="mae",
+        y="test_mae",
         color="model",
-        line_dash="split",
         markers=True,
-        title="Train vs Test MAE",
+        title="MAE no teste por ε",
         labels={
             "epsilon": "ε",
-            "mae": "MAE",
-            "split": "Conjunto",
+            "test_mae": "MAE (teste)",
         },
     )
-
-    fig.update_layout(
-        legend_title="Modelo / Conjunto",
-        hovermode="x unified",
-    )
-
+    apply_epsilon_axis(fig)
+    fig.update_layout(hovermode="x unified", legend_title="Modelo")
     return fig
 
 
-def utility_by_model(utility_df):
-   
-    df = utility_df.melt(
-        id_vars=["model", "dataset", "epsilon"],
-        value_vars=["train_mae", "test_mae"],
-        var_name="split",
-        value_name="mae",
-    )
-
+def regression_r2(utility_df):
+    """R² no teste por ε (regressão). Maior é melhor."""
     fig = px.line(
-        df,
+        utility_df,
         x="epsilon",
-        y="mae",
-        color="split",
-        facet_col="model",
-        facet_col_wrap=2,
+        y="test_r2_score",
+        color="model",
         markers=True,
-        title="Evolução da Utilidade por Modelo",
+        title="R² no teste por ε",
         labels={
             "epsilon": "ε",
-            "mae": "MAE",
-            "split": "Conjunto",
+            "test_r2_score": "R²",
         },
     )
-
-    fig.for_each_annotation(
-        lambda a: a.update(text=a.text.split("=")[-1])
-    )
-
-    fig.update_layout(
-        hovermode="x unified",
-        legend_title="Conjunto",
-    )
-
+    apply_epsilon_axis(fig)
+    fig.update_layout(hovermode="x unified", legend_title="Modelo")
     return fig
 
 
 def generalization_gap(utility_df):
-
     fig = px.line(
         utility_df,
         x="epsilon",
         y="generalization_gap_%",
         color="model",
         markers=True,
-        title="Generalization Gap",
+        title="Generalization Gap por ε",
         labels={
             "epsilon": "ε",
             "generalization_gap_%": "Gap (%)",
         },
     )
-
-    fig.update_layout(
-        hovermode="x unified",
-    )
-
+    apply_epsilon_axis(fig)
+    fig.update_layout(hovermode="x unified", legend_title="Modelo")
     return fig
 
 
-def _gap_summary(utility_df):
-    return (
+def summary(utility_df):
+    """Tabela-resumo com as métricas numéricas presentes no artifact."""
+    metric_columns = [
+        col for col in SUMMARY_METRIC_LABELS
+        if col in utility_df.columns and utility_df[col].notna().any()
+    ]
+
+    aggregations = {
+        col: (col, "mean")
+        for col in metric_columns
+    }
+
+    summary_df = (
         utility_df
         .groupby("model", as_index=False)
-        .agg(
-            generalization_gap=("generalization_gap_%", "mean"),
-            train_mae=("train_mae", "mean"),
-            test_mae=("test_mae", "mean"),
-        )
+        .agg(**aggregations)
         .round(3)
     )
+
+    header = ["Modelo"] + [SUMMARY_METRIC_LABELS[col] for col in metric_columns]
+
+    rows = [summary_df["model"].astype(str)]
+    for col in metric_columns:
+        rows.append([
+            "" if pd.isna(value) else value
+            for value in summary_df[col].tolist()
+        ])
+
+    fig = go.Figure(
+        data=[
+            go.Table(
+                header=dict(values=header),
+                cells=dict(values=rows),
+            )
+        ]
+    )
+    fig.update_layout(height=60 + 30 * max(len(summary_df), 1))
+    return fig
