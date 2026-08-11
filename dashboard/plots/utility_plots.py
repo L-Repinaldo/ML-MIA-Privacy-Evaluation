@@ -134,7 +134,6 @@ def generalization_gap(utility_df):
 
 
 def summary(utility_df):
-    """Tabela-resumo com as métricas numéricas presentes no artifact."""
     metric_columns = [
         col for col in SUMMARY_METRIC_LABELS
         if col in utility_df.columns and utility_df[col].notna().any()
@@ -169,5 +168,5 @@ def summary(utility_df):
             )
         ]
     )
-    fig.update_layout(height=60 + 30 * max(len(summary_df), 1))
+    fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
     return fig

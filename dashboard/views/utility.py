@@ -93,7 +93,6 @@ def _is_classification(selected_task, df):
         return True
     if selected_task == "regression":
         return False
-    # artifact legado sem task_type: detecta pela métrica disponível
     return "test_acc" in df.columns and df["test_acc"].notna().any()
 
 
