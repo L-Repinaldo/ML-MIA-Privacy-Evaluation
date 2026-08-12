@@ -34,7 +34,7 @@ def get_experiment_config():
             ),
             TaskConfig(
                 task_type="regression",
-                target="Q005",
+                target="Q005", #Incluindo você, quantas pessoas moram atualmente em sua residência?
                 active_models=[
                     ("XGBoost", run_xgboost),
                     ("Random Forest", run_random_forest),
