@@ -136,10 +136,7 @@ def member_vs_non_member(attack_metrics):
 
 
 def attack_comparison(attack_metrics):
-    """Compare advantage do Shadow Model vs Loss/Confidence (mesmo combo).
 
-    Retorna None quando um dos ataques não está presente.
-    """
     if "attack_type" not in attack_metrics.columns:
         return None
 

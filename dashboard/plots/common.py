@@ -38,7 +38,7 @@ def get_epsilon_datasets(results_df):
 
 
 def apply_epsilon_axis(fig):
-    """Aplica o eixo ε em ordem de privacidade (baseline → ε maior)."""
+
     tickvals = sorted(EPSILON_LABELS)
     fig.update_xaxes(
         tickmode="array",
@@ -50,12 +50,7 @@ def apply_epsilon_axis(fig):
 
 
 def _utility_metric_for_task(utility_df, task):
-    """Métrica de utilidade representativa da tarefa.
-
-    classification → test_acc (maior = melhor)
-    regression     → test_mae (menor = melhor)
-    Fallback para artifacts legados sem task_type.
-    """
+    
     if task == "classification":
         return "test_acc", True
     if task == "regression":
@@ -76,20 +71,12 @@ def _relative_utility_loss(metric_value, baseline_value, higher_is_better):
         return np.nan
 
     if higher_is_better:
-        # perda relativa quando maior é melhor (ex.: accuracy)
         return (baseline_value - metric_value) / baseline_value
-    # perda relativa quando menor é melhor (ex.: MAE)
     return (metric_value - baseline_value) / baseline_value
 
 
 def build_tradeoff_points(utility_results, attack_results):
-    """Monta pontos de trade-off privacidade × utilidade.
-
-    Agrupa por (modelo, tarefa) e, para cada dataset DP, calcula a perda
-    relativa de utilidade vs o baseline e associa as métricas de cada tipo
-    de ataque MIA. Cada combinação (modelo, tarefa, dataset, attack_type)
-    gera um ponto. Combinações sem ataque são omitidas (não inventadas).
-    """
+   
     utility_df = utility_results.copy()
     attack_df = attack_results.copy()
 

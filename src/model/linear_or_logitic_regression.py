@@ -9,7 +9,7 @@ def run_linear_or_logistic_regression(
     prepared_dataset,
     *,
     task_type="regression",
-    seed=42,
+    seed=42, 
 ):
     return run_supervised_model(
         prepared_dataset=prepared_dataset,
@@ -25,7 +25,7 @@ def _build_model(*, task_type, seed):
     return make_pipeline(
         StandardScaler(with_mean=False),  
         LogisticRegression(
-            max_iter=2000,  
+            max_iter=5000,  
             solver='saga',  
             random_state=seed,
         )

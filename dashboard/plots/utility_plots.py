@@ -78,7 +78,7 @@ def precision_recall_f1(utility_df):
 
 
 def mean_absolute_error(utility_df):
-    """MAE no teste por ε (regressão). Menor é melhor."""
+
     fig = px.line(
         utility_df,
         x="epsilon",
@@ -97,7 +97,7 @@ def mean_absolute_error(utility_df):
 
 
 def regression_r2(utility_df):
-    """R² no teste por ε (regressão). Maior é melhor."""
+
     fig = px.line(
         utility_df,
         x="epsilon",

@@ -2,12 +2,7 @@ import plotly.express as px
 
 
 def plot_privacy_utility_tradeoff(tradeoff_df):
-    """Trade-off privacidade × utilidade para uma (tarefa, ataque).
-
-    X = perda relativa de utilidade vs baseline (valores reais).
-    Y = advantage do ataque (valores reais, sem truncamento de negativos).
-    Linha de referência em advantage = 0.
-    """
+    
     plot_df = tradeoff_df.dropna(subset=["utility_loss", "advantage"]).copy()
     if plot_df.empty:
         return None

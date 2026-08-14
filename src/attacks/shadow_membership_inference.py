@@ -20,7 +20,7 @@ def _feature_names_regression():
 
 
 def build_classification_features(proba, y_true_encoded):
-   
+       
     proba = np.asarray(proba, dtype=np.float64)
     if proba.ndim != 2:
         raise ValueError("proba deve ser uma matriz 2D (n, n_classes).")
