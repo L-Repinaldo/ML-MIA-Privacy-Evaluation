@@ -7,6 +7,8 @@ from .loader import load_data
 BASELINE_FILE = "baseline.csv"
 METADATA_FILE = "metadata.json"
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
 
 
 def load_dataset_bundle( dataset_name: str, dataset_version: str,):
@@ -48,7 +50,7 @@ def load_dataset_bundle( dataset_name: str, dataset_version: str,):
 def _resolve_dataset_directory( dataset_name: str, dataset_version: str,):
 
     dataset_path = (
-        Path("src/data/datasets")
+        Path(f"{PROJECT_ROOT}/src/data/datasets")
         / dataset_name
         / dataset_version
     )
