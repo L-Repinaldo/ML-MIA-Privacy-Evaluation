@@ -35,15 +35,42 @@ def persist_utility_artifact(experiment_id, metadata, utility_metrics, input_lea
     return artifact_dir
 
 
-def load_utility_artifact(artifact_path):
+def _load_metadata(artifact_path):
+    with open(artifact_path / "metadata.json", encoding="utf-8") as metadata_file:
+                metadata = json.load(metadata_file)
+
+    return metadata
+
+
+def load_utility_leakage_input(artifact_path):
     artifact_path = Path(artifact_path)
 
-    with open(artifact_path / "metadata.json", encoding="utf-8") as metadata_file:
-        metadata = json.load(metadata_file)
+    metadata= _load_metadata(artifact_path)
 
     leakage_input = pd.read_pickle(artifact_path / "leakage_input.pkl")
 
-    return metadata, leakage_input
+    return leakage_input, metadata
+
+
+def load_leakage_artifact(artifact_path):
+    artifact_path= Path(artifact_path)
+
+    metadata= _load_metadata(artifact_path)
+
+    attack_data= pd.read_csv(artifact_path / "attack_metrics.csv")
+
+    return attack_data, metadata
+
+
+
+
+def load_utility_artifact(artifact_path):
+    artifact_path = Path(artifact_path)
+
+    metadata= _load_metadata(artifact_path)
+    utility_data= pd.read_csv(artifact_path / "utility_metrics.csv")
+
+    return utility_data, metadata
 
 
 def persist_membership_attack_artifact(

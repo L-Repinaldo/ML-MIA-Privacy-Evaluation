@@ -36,12 +36,12 @@ def load_dataset_bundle( dataset_name: str, dataset_version: str,):
         datasets.append(load_data(file))
         dataset_names.append(file.stem)
 
-    metadata = _load_metadata(dataset_path)
+    #metadata = _load_metadata(dataset_path)
 
     return {
         "dataset_path": dataset_path,
         "dataset_version": dataset_version,
-        "metadata": metadata,
+        #"metadata": metadata,
         "datasets": datasets,
         "dataset_names": dataset_names,
     }
