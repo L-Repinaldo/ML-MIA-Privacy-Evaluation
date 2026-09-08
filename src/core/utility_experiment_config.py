@@ -1,5 +1,4 @@
-from dataclasses import dataclass, field
-from typing import Callable
+from dataclasses import dataclass
 
 from src.core.dataset_config import DatasetConfig
 from src.core.preprocessing_config import PreprocessingConfig
@@ -12,6 +11,6 @@ class UtilityExperimentConfig:
 
     preprocessing: PreprocessingConfig
 
-    tasks: list[TaskConfig] = field(default_factory=list)
+    task: TaskConfig
 
     active_datasets: list[str] | None = None
