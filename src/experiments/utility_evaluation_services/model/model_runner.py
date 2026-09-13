@@ -74,23 +74,6 @@ def execute_model( prepared_features, model_spec ):
             model=model_spec.model_type
         )
 
-    else:
-        result = PredictionResult(
-
-            y_train_true=y_train,
-            y_train_pred=y_train_pred,
-
-            y_validation_true= y_validation,
-            y_validation_pred= y_validation_pred,
-
-            y_test_true=y_test,
-            y_test_pred=y_test_pred,
-
-            model=model_spec.model_type
-        )
-
-    del X_train, X_test, X_validation, y_train, y_test, y_train_pred, y_validation, y_test_pred, y_validation_pred
-    if task_type == "classification":
-        del train_proba, test_proba, validation_proba
+    del X_train, X_test, X_validation, y_train, y_test, y_train_pred, y_validation, y_test_pred, y_validation_pred, train_proba, test_proba, validation_proba
 
     return result

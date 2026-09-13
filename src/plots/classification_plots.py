@@ -1,15 +1,10 @@
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
 
 def plot_classifications_results(df):
-    # ============================================================
-    # PREPARAÇÃO
-    # ============================================================
 
-    # Remove caracteres '*' caso tenham vindo do CSV
-    df.columns = df.columns.str.replace("*", "", regex=False)
+    # PREPARAÇÃO
 
     for column in [
         "test_acc",
@@ -18,9 +13,6 @@ def plot_classifications_results(df):
         "train_precision",
         "validation_precision",
         "test_precision",
-        "train_recall",
-        "validation_recall",
-        "test_recall",
         "train_f1",
         "validation_f1",
         "test_f1",
@@ -28,8 +20,6 @@ def plot_classifications_results(df):
     ]:
         df[column] = pd.to_numeric(df[column], errors="coerce")
 
-
-    # Ordem desejada dos datasets
     dataset_order = [
         "baseline",
         "dp_eps_0.1",
@@ -46,8 +36,6 @@ def plot_classifications_results(df):
 
     df = df.sort_values("dataset")
 
-
-    # Nome mais legível
     dataset_labels = {
         "baseline": "Baseline",
         "dp_eps_0.1": "ε = 0.1",
@@ -56,276 +44,220 @@ def plot_classifications_results(df):
         "dp_eps_2.0": "ε = 2.0",
     }
 
+    x_labels = [
+        dataset_labels[x]
+        for x in df["dataset"]
+    ]
 
-    # ============================================================
     # 1. ACCURACY — TRAIN / VALIDATION / TEST
-    # ============================================================
 
     plt.figure(figsize=(10, 6))
 
     plt.plot(
-        df["dataset"],
+        x_labels,
         df["train_acc"],
         marker="o",
         label="Train",
     )
 
     plt.plot(
-        df["dataset"],
+        x_labels,
         df["validation_acc"],
         marker="o",
         label="Validation",
     )
 
     plt.plot(
-        df["dataset"],
+        x_labels,
         df["test_acc"],
         marker="o",
         label="Test",
     )
 
-    plt.xticks(
-        range(len(df)),
-        [dataset_labels[x] for x in df["dataset"]],
-    )
-
     plt.ylabel("Accuracy")
     plt.xlabel("Dataset")
     plt.title("Accuracy por conjunto de dados")
+
     plt.legend()
     plt.grid(True, alpha=0.3)
-
     plt.tight_layout()
     plt.show()
 
+    # 2. GENERALIZATION GAP TABLE
 
-    # ============================================================
-    # 2. MÉTRICAS DE TESTE
-    # ============================================================
-
-    metrics = {
-        "test_acc": "Accuracy",
-        "test_precision": "Precision",
-        "test_recall": "Recall",
-        "test_f1": "F1",
-    }
-
-    plt.figure(figsize=(10, 6))
-
-    for column, label in metrics.items():
-        plt.plot(
-            df["dataset"],
-            df[column],
-            marker="o",
-            label=label,
-        )
-
-    plt.xticks(
-        range(len(df)),
-        [dataset_labels[x] for x in df["dataset"]],
-    )
-
-    plt.ylabel("Score")
-    plt.xlabel("Dataset")
-    plt.title("Métricas de teste")
-    plt.legend()
-    plt.grid(True, alpha=0.3)
-
-    plt.tight_layout()
-    plt.show()
-
-
-    # ============================================================
-    # 3. GENERALIZATION GAP
-    # ============================================================
-
-    plt.figure(figsize=(10, 6))
-
-    plt.plot(
-        df["dataset"],
-        df["generalization_gap"],
-        marker="o",
-    )
-
-    plt.xticks(
-        range(len(df)),
-        [dataset_labels[x] for x in df["dataset"]],
-    )
-
-    plt.ylabel("Generalization Gap (%)")
-    plt.xlabel("Dataset")
-    plt.title("Generalization Gap")
-    plt.grid(True, alpha=0.3)
-
-    plt.tight_layout()
-    plt.show()
-
-
-    # ============================================================
-    # 4. PRECISION / RECALL / F1 — TESTE
-    # ============================================================
-
-    test_metrics = [
-        "test_precision",
-        "test_recall",
-        "test_f1",
-    ]
-
-    metric_labels = {
-        "test_precision": "Precision",
-        "test_recall": "Recall",
-        "test_f1": "F1",
-    }
-
-    plt.figure(figsize=(10, 6))
-
-    for metric in test_metrics:
-        plt.plot(
-            df["dataset"],
-            df[metric],
-            marker="o",
-            label=metric_labels[metric],
-        )
-
-    plt.xticks(
-        range(len(df)),
-        [dataset_labels[x] for x in df["dataset"]],
-    )
-
-    plt.ylabel("Score")
-    plt.xlabel("Dataset")
-    plt.title("Precision, Recall e F1 no conjunto de teste")
-    plt.legend()
-    plt.grid(True, alpha=0.3)
-
-    plt.tight_layout()
-    plt.show()
-
-
-    # ============================================================
-    # 5. DIFERENÇA EM RELAÇÃO À BASELINE
-    # ============================================================
-
-    baseline = df.loc[
-        df["dataset"] == "baseline"
-    ].iloc[0]
-
-    privacy_df = df[
-        df["dataset"] != "baseline"
+    generalization_df = df[
+        [
+            "dataset",
+            "generalization_gap",
+        ]
     ].copy()
 
-    privacy_df["accuracy_delta"] = (
-        privacy_df["test_acc"] - baseline["test_acc"]
+    generalization_df["dataset"] = generalization_df["dataset"].map(
+        dataset_labels
     )
 
-    privacy_df["precision_delta"] = (
-        privacy_df["test_precision"] - baseline["test_precision"]
+    generalization_df = generalization_df.rename(
+        columns={
+            "dataset": "Dataset",
+            "generalization_gap": "Generalization Gap (p.p.)",
+        }
     )
 
-    privacy_df["recall_delta"] = (
-        privacy_df["test_recall"] - baseline["test_recall"]
+    fig, ax = plt.subplots(figsize=(8, 3))
+
+    ax.axis("off")
+
+    table = ax.table(
+        cellText=generalization_df.round(3).values,
+        colLabels=generalization_df.columns,
+        cellLoc="center",
+        loc="center",
     )
 
-    privacy_df["f1_delta"] = (
-        privacy_df["test_f1"] - baseline["test_f1"]
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    table.scale(1, 1.8)
+
+    ax.set_title(
+        "Generalization Gap por conjunto de dados",
+        pad=20,
     )
-
-    plt.figure(figsize=(10, 6))
-
-    plt.plot(
-        privacy_df["dataset"],
-        privacy_df["accuracy_delta"],
-        marker="o",
-        label="Accuracy",
-    )
-
-    plt.plot(
-        privacy_df["dataset"],
-        privacy_df["precision_delta"],
-        marker="o",
-        label="Precision",
-    )
-
-    plt.plot(
-        privacy_df["dataset"],
-        privacy_df["recall_delta"],
-        marker="o",
-        label="Recall",
-    )
-
-    plt.plot(
-        privacy_df["dataset"],
-        privacy_df["f1_delta"],
-        marker="o",
-        label="F1",
-    )
-
-    plt.axhline(0, linestyle="--")
-
-    plt.xticks(
-        range(len(privacy_df)),
-        [dataset_labels[x] for x in privacy_df["dataset"]],
-    )
-
-    plt.ylabel("Δ em relação à baseline")
-    plt.xlabel("Dataset")
-    plt.title("Variação das métricas em relação à baseline")
-    plt.legend()
-    plt.grid(True, alpha=0.3)
 
     plt.tight_layout()
     plt.show()
 
+    # 3. TRAIN SUMMARY TABLE
 
-    # ============================================================
-    # 6. HEATMAP NUMÉRICO DAS MÉTRICAS
-    # ============================================================
+    summary_df = df[
+        [
+            "dataset",
+            "train_acc",
+            "train_precision",
+            "train_f1",
+        ]
+    ].copy()
 
-    metric_columns = [
-        "test_acc",
-        "test_precision",
-        "test_recall",
-        "test_f1",
-    ]
+    summary_df["dataset"] = summary_df["dataset"].map(dataset_labels)
 
-    heatmap_df = df[
-        ["dataset"] + metric_columns
-    ].set_index("dataset")
-
-    heatmap_df.index = [
-        dataset_labels[x]
-        for x in heatmap_df.index
-    ]
-
-    plt.figure(figsize=(9, 5))
-
-    plt.imshow(
-        heatmap_df,
-        aspect="auto",
+    summary_df = summary_df.rename(
+        columns={
+            "dataset": "Dataset",
+            "train_acc": "Accuracy",
+            "train_precision": "Precision",
+            "train_f1": "F1",
+        }
     )
 
-    plt.xticks(
-        range(len(metric_columns)),
-        ["Accuracy", "Precision", "Recall", "F1"],
+    fig, ax = plt.subplots(figsize=(12, 4))
+
+    ax.axis("off")
+
+    table = ax.table(
+        cellText=summary_df.round(3).values,
+        colLabels=summary_df.columns,
+        cellLoc="center",
+        loc="center",
     )
 
-    plt.yticks(
-        range(len(heatmap_df)),
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    table.scale(1, 1.8)
+
+    ax.set_title(
+        "Resumo das métricas de classificação — Treino",
+        pad=20,
     )
 
-    plt.colorbar(label="Score")
+    plt.tight_layout()
+    plt.show()
 
-    plt.title("Métricas de teste por nível de privacidade")
+    # 4. VALIDATION SUMMARY TABLE
 
-    for i in range(len(heatmap_df)):
-        for j in range(len(metric_columns)):
-            plt.text(
-                j,
-                i,
-                f"{heatmap_df.iloc[i, j]:.3f}",
-                ha="center",
-                va="center",
-            )
+    summary_df = df[
+        [
+            "dataset",
+            "validation_acc",
+            "validation_precision",
+            "validation_f1",
+        ]
+    ].copy()
+
+    summary_df["dataset"] = summary_df["dataset"].map(dataset_labels)
+
+    summary_df = summary_df.rename(
+        columns={
+            "dataset": "Dataset",
+            "validation_acc": "Accuracy",
+            "validation_precision": "Precision",
+            "validation_f1": "F1",
+        }
+    )
+
+    fig, ax = plt.subplots(figsize=(12, 4))
+
+    ax.axis("off")
+
+    table = ax.table(
+        cellText=summary_df.round(3).values,
+        colLabels=summary_df.columns,
+        cellLoc="center",
+        loc="center",
+    )
+
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    table.scale(1, 1.8)
+
+    ax.set_title(
+        "Resumo das métricas de classificação — Validação",
+        pad=20,
+    )
+
+    plt.tight_layout()
+    plt.show()
+
+    # 5. TEST SUMMARY TABLE
+
+    summary_df = df[
+        [
+            "dataset",
+            "test_acc",
+            "test_precision",
+            "test_f1",
+            "generalization_gap"
+        ]
+    ].copy()
+
+    summary_df["dataset"] = summary_df["dataset"].map(dataset_labels)
+
+    summary_df = summary_df.rename(
+        columns={
+            "dataset": "Dataset",
+            "test_acc": "Accuracy",
+            "test_precision": "Precision",
+            "test_f1": "F1",
+        }
+    )
+
+    fig, ax = plt.subplots(figsize=(12, 4))
+
+    ax.axis("off")
+
+    table = ax.table(
+        cellText=summary_df.round(3).values,
+        colLabels=summary_df.columns,
+        cellLoc="center",
+        loc="center",
+    )
+
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    table.scale(1, 1.8)
+
+    ax.set_title(
+        "Resumo das métricas de classificação — Teste",
+        pad=20,
+    )
 
     plt.tight_layout()
     plt.show()

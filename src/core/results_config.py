@@ -29,33 +29,9 @@ class UtilityClassificationResult (UtilityResult):
     validation_precision: float | Any
     test_precision: float | Any
 
-    train_recall: float | Any
-    validation_recall: float | Any
-    test_recall: float | Any
-
     train_f1: float | Any
     validation_f1: float | Any
     test_f1: float | Any
-
-
-@dataclass
-class UtilityRegressionResult (UtilityResult):
-
-    train_mae: float
-    validation_mae: float
-    test_mae: float
-    
-    train_r2: float
-    validation_r2: float  
-    test_r2: float
-
-    train_mse: float
-    validation_mse: float
-    test_mse: float
-
-    train_mape: float
-    validation_mape: float
-    test_mape: float    
 
 
 
@@ -65,7 +41,8 @@ class ShadowModelMiaResult ():
     attack_acc: float | Any
     attack_f1: float | Any
     attack_precision: float | Any 
-    attack_recall: float | Any
-    member_acc: float | Any
-    non_member_acc: float | Any
+
+    member_acc_tpr: float | Any
+    non_member_acc_tnr: float | Any
+
     advantage: float | Any 
