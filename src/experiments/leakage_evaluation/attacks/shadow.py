@@ -137,20 +137,6 @@ def extract_prediction_features(
             y_true_encoded=_prediction_value(prediction, "y_test_encoded"),
         )
 
-    if task_type == "regression":
-
-        if member:
-            return build_membership_features(
-                task_type="regression",
-                y_true=_prediction_value(prediction, "y_train_true"),
-                y_pred=_prediction_value(prediction, "y_train_pred"),
-            )
-
-        return build_membership_features(
-            task_type="regression",
-            y_true=_prediction_value(prediction, "y_test_true"),
-            y_pred=_prediction_value(prediction, "y_test_pred"),
-        )
 
     raise ValueError(
         f"Unknown task type: {task_type}"
