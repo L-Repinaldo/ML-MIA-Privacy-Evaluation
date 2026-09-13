@@ -1,0 +1,63 @@
+{
+  "experiment_id": "20260912_215716",
+  "experiment_type": "classification_evaluation",
+  "artifact_schema_version": "1.0",
+  "created_at": "2026-09-12T21:57:16",
+  "dataset": {
+    "name": "enem",
+    "version": "enem_2025 - v-2026-09-08_00-56-16",
+    "sample_size": 1000000,
+    "random_state": 42
+  },
+  "split": {
+    "seed": 42,
+    "test_size": 0.5
+  },
+  "preprocessing": {
+    "categorical_columns": [
+      "TP_COR_RACA",
+      "TP_NACIONALIDADE",
+      "TP_ESTADO_CIVIL",
+      "TP_ST_CONCLUSAO",
+      "IN_TREINEIRO",
+      "Q001",
+      "Q002",
+      "Q003",
+      "Q004",
+      "Q007",
+      "Q012",
+      "Q013",
+      "Q018",
+      "Q021",
+      "Q022"
+    ],
+    "numerical_columns": [
+      "TP_FAIXA_ETARIA",
+      "TP_ANO_CONCLUIU"
+    ]
+  },
+  "tasks": {
+    "task_type": "classification",
+    "target": "TP_SEXO"
+  },
+  "models": [
+    {
+      "name": "xgboost",
+      "model_type": "xgboost_classifier",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "min_child_weight": 1,
+        "gamma": 0.0,
+        "reg_alpha": 0.0,
+        "reg_lambda": 5.0,
+        "tree_method": "hist",
+        "n_jobs": 4,
+        "verbosity": 0
+      }
+    }
+  ]
+}
