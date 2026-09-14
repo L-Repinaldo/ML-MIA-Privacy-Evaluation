@@ -357,7 +357,7 @@ pip install -r requirements.txt
 
 ## Execução Experimental
 
-0. É preciso carregar os dados gerados pelo sistema [Diferential-Privacy-Data-Pipeline-Experiment](#papel-na-arquitetura-do-projeto) e adicionar à pasta `src/data/datasets`.
+0. É preciso carregar os dados gerados pelo sistema [Differential-Privacy-Data-Pipeline-Experiment](#papel-na-arquitetura-do-projeto) e adicionar à pasta `src/data/datasets`.
 
 1. Configure o dataset, target, colunas e modelos em `notebooks/01_utility_evaluation.ipynb`.
 
