@@ -44,7 +44,7 @@ A execução experimental é conduzida por notebooks. Os módulos em `src/` conc
 
 O projeto completo é composto por dois sistemas independentes:
 
-1. **Diferential Privacy Data Pipeline Experiment** (https://github.com/L-Repinaldo/Diferential-Privacy-Data-Pipeline-Experiment)
+1. **Differential Privacy Data Pipeline Experiment** (https://github.com/L-Repinaldo/Diferential-Privacy-Data-Pipeline-Experiment)
    - Extrai dados provinientes dos dados do Enem.
    - Aplica mecanismos de Privacidade Diferencial.
    - Versiona datasets com diferentes valores de `epsilon`.
