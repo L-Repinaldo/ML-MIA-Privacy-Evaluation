@@ -208,3 +208,7 @@ __marimo__/
 
 test.py
 .vscode
+
+
+# Large experiment artifacts
+artifacts/evaluation/**/*.pkl
