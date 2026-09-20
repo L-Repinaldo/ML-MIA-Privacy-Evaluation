@@ -8,7 +8,7 @@ def plot_trade_off(utility_df, attack_df):
     # PREPARAÇÃO
 
     utility_numeric = [
-        "test_acc",
+        "test_balanced_acc",
     ]
 
     attack_numeric = [
@@ -45,19 +45,24 @@ def plot_trade_off(utility_df, attack_df):
     # LABELS
 
     dataset_order = [
-        "baseline",
-        "dp_eps_0.1",
-        "dp_eps_0.5",
-        "dp_eps_1.0",
-        "dp_eps_2.0",
+                "baseline",
+                "dp_eps_0.05",
+                "dp_eps_0.1",
+                "dp_eps_0.5",
+                "dp_eps_1.0",
+                "dp_eps_2.0",
+                "dp_eps_3.0",
     ]
+    
 
     dataset_labels = {
-        "baseline": "Baseline",
-        "dp_eps_0.1": "ε = 0.1",
-        "dp_eps_0.5": "ε = 0.5",
-        "dp_eps_1.0": "ε = 1.0",
-        "dp_eps_2.0": "ε = 2.0",
+            "baseline": "Baseline",
+            "dp_eps_0.05": "ε = 0.05",
+            "dp_eps_0.1": "ε = 0.1",
+            "dp_eps_0.5": "ε = 0.5",
+            "dp_eps_1.0": "ε = 1.0",
+            "dp_eps_2.0": "ε = 2.0",
+            "dp_eps_3.0": "ε = 3.0",
     }
 
     tradeoff_df["dataset"] = pd.Categorical(
@@ -72,7 +77,7 @@ def plot_trade_off(utility_df, attack_df):
 
     tradeoff_df["advantage_pct"] = tradeoff_df["advantage"] * 100
 
-    tradeoff_df["test_acc_pct"] = tradeoff_df["test_acc"] * 100
+    tradeoff_df["test_acc_pct"] = tradeoff_df["test_balanced_acc"] * 100
 
 
     # GRÁFICO — UTILITY × LEAKAGE

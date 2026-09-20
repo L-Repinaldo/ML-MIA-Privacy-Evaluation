@@ -10,6 +10,9 @@ def plot_classifications_results(df):
         "test_acc",
         "validation_acc",
         "train_acc",
+        "train_balanced_acc",
+        "validation_balanced_acc",
+        "test_balanced_acc",
         "train_precision",
         "validation_precision",
         "test_precision",
@@ -22,10 +25,12 @@ def plot_classifications_results(df):
 
     dataset_order = [
         "baseline",
+        "dp_eps_0.05",
         "dp_eps_0.1",
         "dp_eps_0.5",
         "dp_eps_1.0",
         "dp_eps_2.0",
+        "dp_eps_3.0",
     ]
 
     df["dataset"] = pd.Categorical(
@@ -38,10 +43,12 @@ def plot_classifications_results(df):
 
     dataset_labels = {
         "baseline": "Baseline",
+        "dp_eps_0.05": "ε = 0.05",
         "dp_eps_0.1": "ε = 0.1",
         "dp_eps_0.5": "ε = 0.5",
         "dp_eps_1.0": "ε = 1.0",
         "dp_eps_2.0": "ε = 2.0",
+        "dp_eps_3.0": "ε = 3.0",
     }
 
     x_labels = [
@@ -132,6 +139,7 @@ def plot_classifications_results(df):
         [
             "dataset",
             "train_acc",
+            "train_balanced_acc",
             "train_precision",
             "train_f1",
         ]
@@ -143,6 +151,7 @@ def plot_classifications_results(df):
         columns={
             "dataset": "Dataset",
             "train_acc": "Accuracy",
+            "train_balanced_acc": "Balanced Accuracy",
             "train_precision": "Precision",
             "train_f1": "F1",
         }
@@ -177,6 +186,7 @@ def plot_classifications_results(df):
         [
             "dataset",
             "validation_acc",
+            "validation_balanced_acc",
             "validation_precision",
             "validation_f1",
         ]
@@ -188,6 +198,7 @@ def plot_classifications_results(df):
         columns={
             "dataset": "Dataset",
             "validation_acc": "Accuracy",
+            "validation_balanced_acc": "Balanced Accuracy",
             "validation_precision": "Precision",
             "validation_f1": "F1",
         }
@@ -222,6 +233,7 @@ def plot_classifications_results(df):
         [
             "dataset",
             "test_acc",
+            "test_balanced_acc",
             "test_precision",
             "test_f1",
             "generalization_gap"
@@ -234,6 +246,7 @@ def plot_classifications_results(df):
         columns={
             "dataset": "Dataset",
             "test_acc": "Accuracy",
+            "test_balanced_acc": "Balanced Accuracy",
             "test_precision": "Precision",
             "test_f1": "F1",
         }

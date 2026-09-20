@@ -1,4 +1,3 @@
-
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
@@ -6,12 +5,19 @@ from sklearn.preprocessing import OneHotEncoder
 
 
 def build_preprocessor(df, preprocessing_config):
-
     preprocessing = preprocessing_config
+
+    print(f"Preprocessing configuration: {preprocessing}")
 
     categorical_columns = [
         column
         for column in preprocessing.categorical_columns
+        if column in df.columns
+    ]
+
+    ordinal_columns = [
+        column
+        for column in preprocessing.ordinal_columns
         if column in df.columns
     ]
 
@@ -21,7 +27,7 @@ def build_preprocessor(df, preprocessing_config):
         if column in df.columns
     ]
 
-    if not categorical_columns and not numerical_columns:
+    if not categorical_columns and not ordinal_columns and not numerical_columns:
         raise ValueError(
             "Nenhuma coluna configurada para preprocessamento foi encontrada."
         )
@@ -39,7 +45,18 @@ def build_preprocessor(df, preprocessing_config):
                 OneHotEncoder(
                     drop=preprocessing.one_hot_drop,
                     handle_unknown=preprocessing.handle_unknown,
-                    sparse_output=True,  
+                    sparse_output=True,
+                ),
+            ),
+        ]
+    )
+
+    ordinal_pipeline = Pipeline(
+        steps=[
+            (
+                "imputer",
+                SimpleImputer(
+                    strategy=preprocessing.impute_numeric,
                 ),
             ),
         ]
@@ -64,13 +81,18 @@ def build_preprocessor(df, preprocessing_config):
                 categorical_columns,
             ),
             (
+                "ordinal",
+                ordinal_pipeline,
+                ordinal_columns,
+            ),
+            (
                 "numerical",
                 numerical_pipeline,
                 numerical_columns,
             ),
         ],
         remainder="drop",
-        sparse_threshold=0.3,  
+        sparse_threshold=0.3,
     )
 
     return preprocessor

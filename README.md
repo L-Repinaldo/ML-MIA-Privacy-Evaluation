@@ -44,7 +44,7 @@ A execução experimental é conduzida por notebooks. Os módulos em `src/` conc
 
 O projeto completo é composto por dois sistemas independentes:
 
-1. **Diferential Privacy Data Pipeline Experiment** (https://github.com/L-Repinaldo/Diferential-Privacy-Data-Pipeline-Experiment)
+1. [**Differential Privacy Data Pipeline Experiment**](https://github.com/L-Repinaldo/Diferential-Privacy-Data-Pipeline-Experiment)
    - Extrai dados provinientes dos dados do Enem.
    - Aplica mecanismos de Privacidade Diferencial.
    - Versiona datasets com diferentes valores de `epsilon`.
@@ -118,7 +118,7 @@ Ordem de execução:
 │   ├── core/
 │   ├── data/
 │   ├── experiments/
-│   │   ├── lekage_evaluation/
+│   │   ├── leakage_evaluation/
 │   │   └── utility_evaluation_services/
 │   ├── plots/
 │   └── preprocessing/
@@ -231,9 +231,6 @@ Calculadas em `src/experiments/utility_evaluation_services/metrics.py`:
 - `train_precision`
 - `validation_precision`
 - `test_precision`
-- `train_recall`
-- `validation_recall`
-- `test_recall`
 - `train_f1`
 - `validation_f1`
 - `test_f1`
@@ -241,12 +238,11 @@ Calculadas em `src/experiments/utility_evaluation_services/metrics.py`:
 
 ### Vazamento
 
-Calculadas em `src/experiments/lekage_evaluation/metrics.py`:
+Calculadas em `src/experiments/leakage_evaluation/metrics.py`:
 
 - `attack_acc`
 - `attack_f1`
 - `attack_precision`
-- `attack_recall`
 - `member_acc`
 - `non_member_acc`
 - `advantage`
@@ -269,7 +265,7 @@ Artifact de utilidade
   -> artifact de ataque
 ```
 
-As features do ataque para classificação são montadas em `src/experiments/lekage_evaluation/feature_preparation.py`:
+As features do ataque para classificação são montadas em `src/experiments/leakage_evaluation/feature_preparation.py`:
 
 - probabilidades por classe
 - confiança
@@ -357,7 +353,7 @@ pip install -r requirements.txt
 
 ## Execução Experimental
 
-0. É preciso carregar os dados gerados pelo sistema [Diferential-Privacy-Data-Pipeline-Experiment](#papel-na-arquitetura-do-projeto) e adicionar à pasta `src/data/datasets`.
+0. É preciso carregar os dados gerados pelo sistema [Differential-Privacy-Data-Pipeline-Experiment](#papel-na-arquitetura-do-projeto) e adicionar à pasta `src/data/datasets`.
 
 1. Configure o dataset, target, colunas e modelos em `notebooks/01_utility_evaluation.ipynb`.
 

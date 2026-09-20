@@ -23,11 +23,13 @@ def plot_membership_attack_results(df):
         df[column] = pd.to_numeric(df[column], errors="coerce")
 
     dataset_order = [
-        "baseline",
-        "dp_eps_0.1",
-        "dp_eps_0.5",
-        "dp_eps_1.0",
-        "dp_eps_2.0",
+            "baseline",
+            "dp_eps_0.05",
+            "dp_eps_0.1",
+            "dp_eps_0.5",
+            "dp_eps_1.0",
+            "dp_eps_2.0",
+            "dp_eps_3.0",
     ]
 
     df["dataset"] = pd.Categorical(
@@ -39,11 +41,13 @@ def plot_membership_attack_results(df):
     df = df.sort_values("dataset")
 
     dataset_labels = {
-        "baseline": "Baseline",
-        "dp_eps_0.1": "ε = 0.1",
-        "dp_eps_0.5": "ε = 0.5",
-        "dp_eps_1.0": "ε = 1.0",
-        "dp_eps_2.0": "ε = 2.0",
+            "baseline": "Baseline",
+            "dp_eps_0.05": "ε = 0.05",
+            "dp_eps_0.1": "ε = 0.1",
+            "dp_eps_0.5": "ε = 0.5",
+            "dp_eps_1.0": "ε = 1.0",
+            "dp_eps_2.0": "ε = 2.0",
+            "dp_eps_3.0": "ε = 3.0",
     }
 
     x_labels = [
