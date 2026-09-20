@@ -1,11 +1,11 @@
 {
-  "experiment_id": "20260912_215716",
+  "experiment_id": "20260915_193122",
   "experiment_type": "classification_evaluation",
   "artifact_schema_version": "1.0",
-  "created_at": "2026-09-12T21:57:16",
+  "created_at": "2026-09-15T19:31:23",
   "dataset": {
     "name": "enem",
-    "version": "enem_2025 - v-2026-09-08_00-56-16",
+    "version": "enem_2025 - v-2026-09-15_00-20-22",
     "sample_size": 1000000,
     "random_state": 42
   },
@@ -15,30 +15,35 @@
   },
   "preprocessing": {
     "categorical_columns": [
+      "TP_SEXO",
       "TP_COR_RACA",
       "TP_NACIONALIDADE",
+      "SG_UF_PROVA",
       "TP_ESTADO_CIVIL",
       "TP_ST_CONCLUSAO",
-      "IN_TREINEIRO",
-      "Q001",
-      "Q002",
-      "Q003",
-      "Q004",
-      "Q007",
-      "Q012",
-      "Q013",
-      "Q018",
-      "Q021",
-      "Q022"
+      "TP_ENSINO",
+      "Q023"
     ],
     "numerical_columns": [
-      "TP_FAIXA_ETARIA",
-      "TP_ANO_CONCLUIU"
+      "Q005",
+      "IN_TREINEIRO",
+      "Q008",
+      "Q009",
+      "Q010",
+      "Q011",
+      "Q012",
+      "Q013",
+      "Q014",
+      "Q015",
+      "Q016",
+      "Q017",
+      "Q019",
+      "Q020"
     ]
   },
   "tasks": {
     "task_type": "classification",
-    "target": "TP_SEXO"
+    "target": "Q006"
   },
   "models": [
     {
