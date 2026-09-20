@@ -1,0 +1,734 @@
+{
+  "0.05": {
+    "dataset": "enem_2025",
+    "mechanism": "laplace",
+    "seed": 42,
+    "rows": 4810772,
+    "columns": 33,
+    "epsilons": [
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "attributes": {
+      "TP_FAIXA_ETARIA": {
+        "min": 1.0,
+        "max": 20.0,
+        "sensitivity": 19.0
+      },
+      "Q001": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q002": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q003": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q004": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q007": {
+        "min": 0.0,
+        "max": 16.0,
+        "sensitivity": 16.0
+      },
+      "Q008": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q009": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q010": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q011": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q012": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q013": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q014": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q015": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q016": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q017": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q018": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q019": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q020": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q021": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      },
+      "Q022": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      }
+    }
+  },
+  "0.1": {
+    "dataset": "enem_2025",
+    "mechanism": "laplace",
+    "seed": 42,
+    "rows": 4810772,
+    "columns": 33,
+    "epsilons": [
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "attributes": {
+      "TP_FAIXA_ETARIA": {
+        "min": 1.0,
+        "max": 20.0,
+        "sensitivity": 19.0
+      },
+      "Q001": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q002": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q003": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q004": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q007": {
+        "min": 0.0,
+        "max": 16.0,
+        "sensitivity": 16.0
+      },
+      "Q008": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q009": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q010": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q011": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q012": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q013": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q014": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q015": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q016": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q017": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q018": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q019": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q020": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q021": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      },
+      "Q022": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      }
+    }
+  },
+  "0.5": {
+    "dataset": "enem_2025",
+    "mechanism": "laplace",
+    "seed": 42,
+    "rows": 4810772,
+    "columns": 33,
+    "epsilons": [
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "attributes": {
+      "TP_FAIXA_ETARIA": {
+        "min": 1.0,
+        "max": 20.0,
+        "sensitivity": 19.0
+      },
+      "Q001": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q002": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q003": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q004": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q007": {
+        "min": 0.0,
+        "max": 16.0,
+        "sensitivity": 16.0
+      },
+      "Q008": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q009": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q010": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q011": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q012": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q013": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q014": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q015": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q016": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q017": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q018": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q019": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q020": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q021": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      },
+      "Q022": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      }
+    }
+  },
+  "1.0": {
+    "dataset": "enem_2025",
+    "mechanism": "laplace",
+    "seed": 42,
+    "rows": 4810772,
+    "columns": 33,
+    "epsilons": [
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "attributes": {
+      "TP_FAIXA_ETARIA": {
+        "min": 1.0,
+        "max": 20.0,
+        "sensitivity": 19.0
+      },
+      "Q001": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q002": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q003": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q004": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q007": {
+        "min": 0.0,
+        "max": 16.0,
+        "sensitivity": 16.0
+      },
+      "Q008": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q009": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q010": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q011": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q012": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q013": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q014": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q015": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q016": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q017": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q018": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q019": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q020": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q021": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      },
+      "Q022": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      }
+    }
+  },
+  "2.0": {
+    "dataset": "enem_2025",
+    "mechanism": "laplace",
+    "seed": 42,
+    "rows": 4810772,
+    "columns": 33,
+    "epsilons": [
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "attributes": {
+      "TP_FAIXA_ETARIA": {
+        "min": 1.0,
+        "max": 20.0,
+        "sensitivity": 19.0
+      },
+      "Q001": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q002": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q003": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q004": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q007": {
+        "min": 0.0,
+        "max": 16.0,
+        "sensitivity": 16.0
+      },
+      "Q008": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q009": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q010": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q011": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q012": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q013": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q014": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q015": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q016": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q017": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q018": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q019": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q020": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q021": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      },
+      "Q022": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      }
+    }
+  },
+  "3.0": {
+    "dataset": "enem_2025",
+    "mechanism": "laplace",
+    "seed": 42,
+    "rows": 4810772,
+    "columns": 33,
+    "epsilons": [
+      0.05,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "attributes": {
+      "TP_FAIXA_ETARIA": {
+        "min": 1.0,
+        "max": 20.0,
+        "sensitivity": 19.0
+      },
+      "Q001": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q002": {
+        "min": 0.0,
+        "max": 7.0,
+        "sensitivity": 7.0
+      },
+      "Q003": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q004": {
+        "min": 0.0,
+        "max": 5.0,
+        "sensitivity": 5.0
+      },
+      "Q007": {
+        "min": 0.0,
+        "max": 16.0,
+        "sensitivity": 16.0
+      },
+      "Q008": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q009": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q010": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q011": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q012": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q013": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q014": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q015": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q016": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q017": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q018": {
+        "min": 0.0,
+        "max": 3.0,
+        "sensitivity": 3.0
+      },
+      "Q019": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q020": {
+        "min": 0.0,
+        "max": 1.0,
+        "sensitivity": 1.0
+      },
+      "Q021": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      },
+      "Q022": {
+        "min": 0.0,
+        "max": 4.0,
+        "sensitivity": 4.0
+      }
+    }
+  }
+}
