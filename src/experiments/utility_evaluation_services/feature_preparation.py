@@ -6,6 +6,40 @@ from sklearn.preprocessing import LabelEncoder
 from src.preprocessing.preprocessor import build_preprocessor
 from src.core.prepared_features_config import PreparedFeatures
 
+import pandas as pd
+
+FEATURE_MAPPINGS = {
+    "Q001": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7},
+    "Q002": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7},
+    "Q003": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4},
+    "Q004": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4},
+
+    "Q007": {
+        "A": 0, "B": 1, "C": 2, "D": 3,
+        "E": 4, "F": 5, "G": 6, "H": 7,
+        "I": 8, "J": 9, "K": 10, "L": 11,
+        "M": 12, "N": 13, "O": 14, "P": 15, "Q": 16,
+    },
+
+    # Binárias
+    "Q008": {"A": 0, "B": 1},
+    "Q009": {"A": 0, "B": 1},
+    "Q010": {"A": 0, "B": 1},
+    "Q011": {"A": 0, "B": 1},
+    "Q012": {"A": 0, "B": 1},
+    "Q013": {"A": 0, "B": 1},
+    "Q014": {"A": 0, "B": 1},
+    "Q015": {"A": 0, "B": 1},
+    "Q016": {"A": 0, "B": 1},
+    "Q017": {"A": 0, "B": 1},
+    "Q019": {"A": 0, "B": 1},
+    "Q020": {"A": 0, "B": 1},
+
+    # Se Q021/Q022 realmente possuem A-E:
+    "Q021": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4},
+    "Q022": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4},
+}
+
 
 def prepare_features(
     name,
@@ -18,6 +52,15 @@ def prepare_features(
     y = df[task_config.target]
 
     del df
+
+    X = encode_features(
+        df=X,
+        mappings=FEATURE_MAPPINGS,
+        columns=(
+            preprocessing_config.ordinal_columns
+            + preprocessing_config.numerical_columns
+        ),
+    )
 
     preprocessor = build_preprocessor(
         df=X,
@@ -80,3 +123,59 @@ def prepare_features(
         y_test=y_test,
         target_encoder=target_encoder,
     )
+
+
+
+
+def encode_features(
+    df: pd.DataFrame,
+    mappings: dict[str, dict],
+    columns: list[str],
+) -> pd.DataFrame:
+    """
+    Converte categorias codificadas como strings para valores numéricos.
+
+    Colunas que já são numéricas são preservadas. Isso é necessário
+    para que os datasets submetidos à DP, que podem conter valores
+    fracionários após a aplicação do ruído de Laplace, não sejam
+    modificados novamente.
+
+    Parameters
+    ----------
+    df:
+        DataFrame contendo as features.
+
+    mappings:
+        Mapeamentos por coluna, por exemplo:
+        {
+            "Q001": {"A": 0, "B": 1, ...},
+            "Q003": {"A": 0, "B": 1, ...},
+        }
+
+    columns:
+        Colunas que devem ser convertidas para representação numérica.
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame com as colunas convertidas.
+    """
+    df = df.copy()
+
+    for column in columns:
+        if column not in df.columns:
+            continue
+
+        if pd.api.types.is_numeric_dtype(df[column]):
+            continue
+
+        mapping = mappings.get(column)
+
+        if mapping is None:
+            raise ValueError(
+                f"Nenhum mapeamento definido para a coluna '{column}'."
+            )
+
+        df[column] = df[column].map(mapping)
+
+    return df

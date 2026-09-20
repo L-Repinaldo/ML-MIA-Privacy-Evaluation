@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 
-from src.experiments.lekage_evaluation.attacks import shadow
+from src.experiments.leakage_evaluation.attacks import shadow
 
 from src.core.models_spec_config import ModelSpec
 

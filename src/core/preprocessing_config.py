@@ -7,6 +7,8 @@ class PreprocessingConfig:
 
     categorical_columns: list[str]
 
+    ordinal_columns: list[str]
+
     numerical_columns: list[str]
 
     drop_columns: list[str] = field(default_factory=list)

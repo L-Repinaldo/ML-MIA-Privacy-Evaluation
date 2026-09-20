@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 from src.core.prepared_features_config import PreparedFeatures
 
-from src.experiments.lekage_evaluation.feature_preparation import build_membership_features
+from src.experiments.leakage_evaluation.feature_preparation import build_membership_features
 
 
 def _partition_indices(

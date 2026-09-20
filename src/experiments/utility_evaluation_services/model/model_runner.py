@@ -2,6 +2,8 @@ from src.core.prediction_result_config import PredictionResult
 
 from src.experiments.utility_evaluation_services.model.build_model import model_factory
 
+from sklearn.utils.class_weight import compute_sample_weight
+
 from sklearn.base import ClassifierMixin
 
 
@@ -21,7 +23,12 @@ def execute_model( prepared_features, model_spec ):
 
     model = model_factory(model_spec, task_type)
 
-    model.fit(X_train, y_train)
+    sample_weight = compute_sample_weight(
+        class_weight="balanced",
+        y=y_train,
+    )
+
+    model.fit(X= X_train, y=y_train, sample_weight=sample_weight)
 
     y_train_pred = model.predict(X_train)
     y_validation_pred= model.predict(X_validation)

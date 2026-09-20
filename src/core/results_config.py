@@ -25,6 +25,10 @@ class UtilityClassificationResult (UtilityResult):
     validation_acc: float | Any
     train_acc: float | Any
 
+    test_balanced_acc: float | Any
+    validation_balanced_acc: float | Any
+    train_balanced_acc: float | Any
+
     train_precision: float | Any
     validation_precision: float | Any
     test_precision: float | Any

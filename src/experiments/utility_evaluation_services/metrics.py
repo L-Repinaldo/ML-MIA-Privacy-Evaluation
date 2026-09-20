@@ -1,6 +1,7 @@
 
 from sklearn.metrics import (
     accuracy_score, 
+    balanced_accuracy_score,
     precision_score, 
     f1_score,
     )
@@ -26,6 +27,10 @@ def compute_utility_metrics(prediction_result, task_type="classification"):
         validation_acc= accuracy_score(y_true= validation_true, y_pred= validation_pred)
         test_acc = accuracy_score(y_true= test_true, y_pred= test_pred)
 
+        train_balanced_acc= balanced_accuracy_score(y_true= train_true, y_pred= train_pred)
+        validation_balanced_acc= balanced_accuracy_score(y_true= validation_true, y_pred= validation_pred)
+        test_balanced_acc = balanced_accuracy_score(y_true= test_true, y_pred= test_pred)
+
         train_precision= precision_score(y_true= train_true, y_pred= train_pred, average= 'macro', zero_division=0)
         validation_precision= precision_score(y_true=validation_true, y_pred=validation_pred, average='macro', zero_division=0)
         test_precision = precision_score(y_true= test_true, y_pred=test_pred, average='macro', zero_division=0)
@@ -45,6 +50,10 @@ def compute_utility_metrics(prediction_result, task_type="classification"):
             train_acc= train_acc,
             validation_acc= validation_acc,
             test_acc= test_acc,
+
+            train_balanced_acc= train_balanced_acc,
+            validation_balanced_acc= validation_balanced_acc,
+            test_balanced_acc= test_balanced_acc,
 
             train_precision= train_precision,
             validation_precision= validation_precision,
