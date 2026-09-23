@@ -35,7 +35,6 @@ FEATURE_MAPPINGS = {
     "Q019": {"A": 0, "B": 1},
     "Q020": {"A": 0, "B": 1},
 
-    # Se Q021/Q022 realmente possuem A-E:
     "Q021": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4},
     "Q022": {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4},
 }
@@ -132,34 +131,7 @@ def encode_features(
     mappings: dict[str, dict],
     columns: list[str],
 ) -> pd.DataFrame:
-    """
-    Converte categorias codificadas como strings para valores numéricos.
 
-    Colunas que já são numéricas são preservadas. Isso é necessário
-    para que os datasets submetidos à DP, que podem conter valores
-    fracionários após a aplicação do ruído de Laplace, não sejam
-    modificados novamente.
-
-    Parameters
-    ----------
-    df:
-        DataFrame contendo as features.
-
-    mappings:
-        Mapeamentos por coluna, por exemplo:
-        {
-            "Q001": {"A": 0, "B": 1, ...},
-            "Q003": {"A": 0, "B": 1, ...},
-        }
-
-    columns:
-        Colunas que devem ser convertidas para representação numérica.
-
-    Returns
-    -------
-    pd.DataFrame
-        DataFrame com as colunas convertidas.
-    """
     df = df.copy()
 
     for column in columns:

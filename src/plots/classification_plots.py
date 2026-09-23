@@ -7,9 +7,6 @@ def plot_classifications_results(df):
     # PREPARAÇÃO
 
     for column in [
-        "test_acc",
-        "validation_acc",
-        "train_acc",
         "train_balanced_acc",
         "validation_balanced_acc",
         "test_balanced_acc",
@@ -62,21 +59,21 @@ def plot_classifications_results(df):
 
     plt.plot(
         x_labels,
-        df["train_acc"],
+        df["train_balanced_acc"],
         marker="o",
         label="Train",
     )
 
     plt.plot(
         x_labels,
-        df["validation_acc"],
+        df["validation_balanced_acc"],
         marker="o",
         label="Validation",
     )
 
     plt.plot(
         x_labels,
-        df["test_acc"],
+        df["test_balanced_acc"],
         marker="o",
         label="Test",
     )
@@ -138,7 +135,6 @@ def plot_classifications_results(df):
     summary_df = df[
         [
             "dataset",
-            "train_acc",
             "train_balanced_acc",
             "train_precision",
             "train_f1",
@@ -150,7 +146,6 @@ def plot_classifications_results(df):
     summary_df = summary_df.rename(
         columns={
             "dataset": "Dataset",
-            "train_acc": "Accuracy",
             "train_balanced_acc": "Balanced Accuracy",
             "train_precision": "Precision",
             "train_f1": "F1",
@@ -185,7 +180,6 @@ def plot_classifications_results(df):
     summary_df = df[
         [
             "dataset",
-            "validation_acc",
             "validation_balanced_acc",
             "validation_precision",
             "validation_f1",
@@ -197,7 +191,6 @@ def plot_classifications_results(df):
     summary_df = summary_df.rename(
         columns={
             "dataset": "Dataset",
-            "validation_acc": "Accuracy",
             "validation_balanced_acc": "Balanced Accuracy",
             "validation_precision": "Precision",
             "validation_f1": "F1",
@@ -232,7 +225,6 @@ def plot_classifications_results(df):
     summary_df = df[
         [
             "dataset",
-            "test_acc",
             "test_balanced_acc",
             "test_precision",
             "test_f1",
@@ -245,7 +237,6 @@ def plot_classifications_results(df):
     summary_df = summary_df.rename(
         columns={
             "dataset": "Dataset",
-            "test_acc": "Accuracy",
             "test_balanced_acc": "Balanced Accuracy",
             "test_precision": "Precision",
             "test_f1": "F1",

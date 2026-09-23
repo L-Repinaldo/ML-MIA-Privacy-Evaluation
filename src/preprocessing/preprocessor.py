@@ -7,8 +7,6 @@ from sklearn.preprocessing import OneHotEncoder
 def build_preprocessor(df, preprocessing_config):
     preprocessing = preprocessing_config
 
-    print(f"Preprocessing configuration: {preprocessing}")
-
     categorical_columns = [
         column
         for column in preprocessing.categorical_columns

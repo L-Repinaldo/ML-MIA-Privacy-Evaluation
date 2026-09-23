@@ -21,10 +21,6 @@ class UtilityResult:
 @dataclass
 class UtilityClassificationResult (UtilityResult):
 
-    test_acc: float | Any
-    validation_acc: float | Any
-    train_acc: float | Any
-
     test_balanced_acc: float | Any
     validation_balanced_acc: float | Any
     train_balanced_acc: float | Any
