@@ -29,6 +29,10 @@ class UtilityClassificationResult (UtilityResult):
     validation_precision: float | Any
     test_precision: float | Any
 
+    train_recall: float | Any
+    validation_recall: float | Any
+    test_recall: float | Any
+
     train_f1: float | Any
     validation_f1: float | Any
     test_f1: float | Any

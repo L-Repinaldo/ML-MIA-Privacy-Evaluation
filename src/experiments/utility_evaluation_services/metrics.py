@@ -2,6 +2,7 @@
 from sklearn.metrics import (
     balanced_accuracy_score,
     precision_score, 
+    recall_score,
     f1_score,
     )
 
@@ -30,6 +31,10 @@ def compute_utility_metrics(prediction_result, task_type="classification"):
         validation_precision= precision_score(y_true=validation_true, y_pred=validation_pred, average='macro', zero_division=0)
         test_precision = precision_score(y_true= test_true, y_pred=test_pred, average='macro', zero_division=0)
 
+        train_recall= recall_score(y_true= train_true, y_pred= train_pred, average= 'macro', zero_division=0)
+        validation_recall= recall_score(y_true=validation_true, y_pred=validation_pred, average='macro', zero_division=0)
+        test_recall= recall_score(y_true= test_true, y_pred=test_pred, average='macro', zero_division=0)
+
         train_f1= f1_score(y_true=train_true, y_pred=train_pred, average='macro', zero_division=0)
         validation_f1= f1_score(y_true= validation_true, y_pred= validation_pred, average='macro', zero_division=0)
         test_f1 = f1_score(y_true=test_true, y_pred=test_pred, average='macro', zero_division=0)
@@ -49,6 +54,10 @@ def compute_utility_metrics(prediction_result, task_type="classification"):
             train_precision= train_precision,
             validation_precision= validation_precision,
             test_precision= test_precision,
+
+            train_recall= train_recall,
+            validation_recall= validation_recall,
+            test_recall= test_recall,
 
             train_f1= train_f1,
             validation_f1= validation_f1,

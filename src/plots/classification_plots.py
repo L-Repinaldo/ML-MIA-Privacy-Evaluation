@@ -13,6 +13,9 @@ def plot_classifications_results(df):
         "train_precision",
         "validation_precision",
         "test_precision",
+        "train_recall",
+        "validation_recall",
+        "test_recall",
         "train_f1",
         "validation_f1",
         "test_f1",
@@ -87,56 +90,14 @@ def plot_classifications_results(df):
     plt.tight_layout()
     plt.show()
 
-    # 2. GENERALIZATION GAP TABLE
-
-    generalization_df = df[
-        [
-            "dataset",
-            "generalization_gap",
-        ]
-    ].copy()
-
-    generalization_df["dataset"] = generalization_df["dataset"].map(
-        dataset_labels
-    )
-
-    generalization_df = generalization_df.rename(
-        columns={
-            "dataset": "Dataset",
-            "generalization_gap": "Generalization Gap (p.p.)",
-        }
-    )
-
-    fig, ax = plt.subplots(figsize=(8, 3))
-
-    ax.axis("off")
-
-    table = ax.table(
-        cellText=generalization_df.round(3).values,
-        colLabels=generalization_df.columns,
-        cellLoc="center",
-        loc="center",
-    )
-
-    table.auto_set_font_size(False)
-    table.set_fontsize(10)
-    table.scale(1, 1.8)
-
-    ax.set_title(
-        "Generalization Gap por conjunto de dados",
-        pad=20,
-    )
-
-    plt.tight_layout()
-    plt.show()
-
-    # 3. TRAIN SUMMARY TABLE
+    # 2. TRAIN SUMMARY TABLE
 
     summary_df = df[
         [
             "dataset",
             "train_balanced_acc",
             "train_precision",
+            "train_recall",
             "train_f1",
         ]
     ].copy()
@@ -148,6 +109,7 @@ def plot_classifications_results(df):
             "dataset": "Dataset",
             "train_balanced_acc": "Balanced Accuracy",
             "train_precision": "Precision",
+            "train_recall": "Recall",
             "train_f1": "F1",
         }
     )
@@ -157,7 +119,7 @@ def plot_classifications_results(df):
     ax.axis("off")
 
     table = ax.table(
-        cellText=summary_df.round(3).values,
+        cellText=summary_df.round(4).values,
         colLabels=summary_df.columns,
         cellLoc="center",
         loc="center",
@@ -175,13 +137,14 @@ def plot_classifications_results(df):
     plt.tight_layout()
     plt.show()
 
-    # 4. VALIDATION SUMMARY TABLE
+    # 3. VALIDATION SUMMARY TABLE
 
     summary_df = df[
         [
             "dataset",
             "validation_balanced_acc",
             "validation_precision",
+            "validation_recall",
             "validation_f1",
         ]
     ].copy()
@@ -193,6 +156,7 @@ def plot_classifications_results(df):
             "dataset": "Dataset",
             "validation_balanced_acc": "Balanced Accuracy",
             "validation_precision": "Precision",
+            "validation_recall": "Recall",
             "validation_f1": "F1",
         }
     )
@@ -202,7 +166,7 @@ def plot_classifications_results(df):
     ax.axis("off")
 
     table = ax.table(
-        cellText=summary_df.round(3).values,
+        cellText=summary_df.round(4).values,
         colLabels=summary_df.columns,
         cellLoc="center",
         loc="center",
@@ -220,13 +184,14 @@ def plot_classifications_results(df):
     plt.tight_layout()
     plt.show()
 
-    # 5. TEST SUMMARY TABLE
+    # 4. TEST SUMMARY TABLE
 
     summary_df = df[
         [
             "dataset",
             "test_balanced_acc",
             "test_precision",
+            "test_recall",
             "test_f1",
             "generalization_gap"
         ]
@@ -239,6 +204,7 @@ def plot_classifications_results(df):
             "dataset": "Dataset",
             "test_balanced_acc": "Balanced Accuracy",
             "test_precision": "Precision",
+            "test_recall": "Recall",
             "test_f1": "F1",
         }
     )
@@ -248,7 +214,7 @@ def plot_classifications_results(df):
     ax.axis("off")
 
     table = ax.table(
-        cellText=summary_df.round(3).values,
+        cellText=summary_df.round(4).values,
         colLabels=summary_df.columns,
         cellLoc="center",
         loc="center",
