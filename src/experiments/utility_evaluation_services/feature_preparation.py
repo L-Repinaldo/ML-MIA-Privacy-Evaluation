@@ -43,6 +43,7 @@ FEATURE_MAPPINGS = {
 def prepare_features(
     name,
     df,
+    df_clean,
     task_config,
     split_plan,
     preprocessing_config,
@@ -83,7 +84,7 @@ def prepare_features(
         else None
     )
 
-    X_validation, X_test, y_validation, y_test = train_test_split(
+    X_validation, _, y_validation, _ = train_test_split(
         X_temp,
         y_temp,
         test_size=split_plan.test_size,
@@ -92,14 +93,57 @@ def prepare_features(
         stratify=stratify_temp,
     )
 
-    del X, y, X_temp, y_temp
+    # --- DADOS LIMPOS (Apenas para extrair o Teste correto) ---
+    X_c = df_clean.drop(columns=[task_config.target])
+    y_c = df_clean[task_config.target]
+
+    X_c = encode_features(
+        df=X_c,
+        mappings=FEATURE_MAPPINGS,
+        columns=(
+            preprocessing_config.ordinal_columns
+            + preprocessing_config.numerical_columns
+        ),
+    )
+
+    stratify_c = y_c if task_config.task_type == "classification" else None
+
+    # Primeiro split idêntico no dado limpo
+    _, X_temp_c, _, y_temp_c = train_test_split(
+        X_c,
+        y_c,
+        test_size=split_plan.test_size,
+        random_state=split_plan.seed,
+        shuffle=True,
+        stratify=stratify_c
+    )
+
+    stratify_temp_c = (
+        y_temp_c
+        if task_config.task_type == "classification"
+        else None
+    )
+
+    _, X_test_clean, _, y_test_clean = train_test_split(
+        X_temp_c,
+        y_temp_c,
+        test_size=split_plan.test_size,
+        random_state=split_plan.seed,
+        shuffle=True,
+        stratify=stratify_temp_c
+    )
+
+    # Limpeza de memória
+    del X, y, X_temp, y_temp, X_c, y_c, X_temp_c, y_temp_c
     gc.collect()
 
+    # O preprocessor APRENDE os padrões nos dados de treino (privatizados)
     preprocessor.fit(X_train)
 
+    # Aplicamos a transformação nos três conjuntos
     X_train = preprocessor.transform(X_train)
     X_validation = preprocessor.transform(X_validation)
-    X_test = preprocessor.transform(X_test)
+    X_test_clean = preprocessor.transform(X_test_clean) # <--- Teste limpo transformado
 
     target_encoder = None
 
@@ -108,14 +152,14 @@ def prepare_features(
 
         y_train = target_encoder.fit_transform(y_train)
         y_validation = target_encoder.transform(y_validation)
-        y_test = target_encoder.transform(y_test)
+        y_test = target_encoder.transform(y_test_clean)
 
     return PreparedFeatures(
         name=name,
         target=task_config.target,
         task_type=task_config.task_type,
         X_train=X_train,
-        X_test=X_test,
+        X_test=X_test_clean,
         X_validation=X_validation,
         y_train=y_train,
         y_validation=y_validation,
